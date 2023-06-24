@@ -37,7 +37,7 @@ export const HambugerMenu: FC = () => {
           aria-label="Menu"
           data-tour-id="step-1"
         >
-          <i className="bi bi-list text-white fs-navbar-toggler-3"></i>
+          <i className="bi bi-list text-white fs-navbar-toggler-1"></i>
         </button>
 
         <div
