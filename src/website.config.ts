@@ -36,8 +36,8 @@ export const websiteConfig: WebSiteConfig = {
   hamburgerMenuPosition: 'left',
   socialLinksMenuPosition: 'right',
   websiteSubTitle: 'Lorem ipsum dolor sit amet',
-  websiteTitle: "Au coeur de l'écoute",
-  websiteShortTitle: "Au coeur de l'écoute",
+  websiteTitle: 'Sandra acupuncture',
+  websiteShortTitle: 'Sandra acupuncture',
   websiteUrl: 'https://mon-site-web.com',
   legalNotice: {
     lastUpdate: '2023/06/21',
