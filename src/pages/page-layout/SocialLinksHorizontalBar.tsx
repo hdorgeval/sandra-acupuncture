@@ -5,8 +5,22 @@ import { websiteConfig } from '../../website.config';
 export const SocialLinksHorizontalBar: FC = () => {
   return (
     <div className="d-flex p-4 flex-row align-items-center">
-      {websiteConfig.links.facebook.show && (
+      {websiteConfig.links.linkedin.show && (
         <span className="fs-1">
+          <OpenExternalLink
+            className="nav-link"
+            link={websiteConfig.links.linkedin.url}
+            relationship="nofollow"
+            aria-label={websiteConfig.links.linkedin.label}
+            title={websiteConfig.links.linkedin.title}
+            analyticsEvent="open-my-linkedin"
+          >
+            <i className="bi bi-linkedin"></i>
+          </OpenExternalLink>
+        </span>
+      )}
+      {websiteConfig.links.facebook.show && (
+        <span className="fs-1 ms-3">
           <OpenExternalLink
             className="nav-link"
             link={websiteConfig.links.facebook.url}

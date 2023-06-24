@@ -10,6 +10,7 @@ export type MyAnalyticsEvent =
   | 'open-meditattion-france'
   | 'open-my-facebook'
   | 'open-my-instagram'
+  | 'open-my-linkedin'
   | 'open-my-whatsapp'
   | 'open-my-youtube'
   | 'open-podcast-sexualité-sacrée'

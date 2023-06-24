@@ -29,10 +29,11 @@ export interface Links {
   youtube: Link;
   email: Link;
   phone: Link;
+  linkedin: Link;
 }
 
 export const websiteConfig: WebSiteConfig = {
-  copyrightOwner: 'John Doe',
+  copyrightOwner: 'Sandra Giraudeau',
   hamburgerMenuPosition: 'left',
   socialLinksMenuPosition: 'right',
   websiteSubTitle: 'Lorem ipsum dolor sit amet',
@@ -46,13 +47,13 @@ export const websiteConfig: WebSiteConfig = {
   displaySocialLinksViaButton: true,
   links: {
     phone: {
-      url: '0614763770',
+      url: '0783649612',
       title: "M'appeler au téléphone",
       label: 'Phone',
       show: true,
     },
     email: {
-      url: 'john.doe@gmail.com',
+      url: 'sandramtc44@gmail.com',
       title: "M'envoyer un e-mail",
       label: 'Email',
       show: true,
@@ -67,10 +68,16 @@ export const websiteConfig: WebSiteConfig = {
       url: 'https://www.instagram.com/john-doe/?hl=fr',
       title: 'Me contacter sur Instagram',
       label: 'Instagram',
+      show: false,
+    },
+    linkedin: {
+      url: 'https://www.linkedin.com/in/sandra-giraudeau-42a771216/',
+      title: 'Me contacter sur Linkedin',
+      label: 'Linkedin',
       show: true,
     },
     facebook: {
-      url: 'https://www.facebook.com/john-doe',
+      url: 'https://www.facebook.com/energetiquetraditionnellechinoisesandragiraudeau/',
       title: 'Me contacter sur Facebook',
       label: 'Facebook',
       show: true,
