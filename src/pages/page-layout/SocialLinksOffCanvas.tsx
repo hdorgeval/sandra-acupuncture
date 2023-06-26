@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { OpenExternalLinkButton } from '../../components/OpenExternalLinkButton';
 import { SocialLinksHorizontalBar } from './SocialLinksHorizontalBar';
 
 export const SocialLinksOffCanvas: FC = () => {
@@ -21,7 +22,7 @@ export const SocialLinksOffCanvas: FC = () => {
         tabIndex={-1}
         id="offcanvasSocialLinks"
         aria-labelledby="offcanvasSocialLinksLabel"
-        style={{ minHeight: '40vh' }}
+        style={{ minHeight: '50vh' }}
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title ms-1" id="offcanvasSocialLinksLabel">
@@ -36,6 +37,16 @@ export const SocialLinksOffCanvas: FC = () => {
         </div>
         <div className="offcanvas-body small d-flex flex-column align-items-center pt-0">
           <SocialLinksHorizontalBar />
+          <OpenExternalLinkButton
+            className="btn btn-outline-light fw-bolder w-100 mt-4"
+            link="https://calendly.com/henri-d-orgeval/acupuncture"
+            title="Prendre un rendez-vous"
+            analyticsEvent="rdv-ou-contact"
+          >
+            <div className="d-flex flex-column align-items-center">
+              <span>Prendre un rendez-vous</span>
+            </div>
+          </OpenExternalLinkButton>
         </div>
       </div>
     </>
