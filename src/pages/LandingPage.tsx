@@ -18,8 +18,8 @@ export const LandingPage: FC = () => {
           className="d-flex flex-column justify-content-start align-items-center"
           style={{ height: '100vh', minHeight: '100vh' }}
         >
-          <div className="flex-grow-half"></div>
-          <div className="mt-4">
+          <div className="flex-grow-third"></div>
+          <div className="mt-0">
             <PageTitle className="font-mali">L'acupuncture</PageTitle>
             <PageTitle className="font-mali">au service de votre</PageTitle>
             <PageTitle className="font-mali">épanouissement physique</PageTitle>
@@ -38,15 +38,15 @@ export const LandingPage: FC = () => {
               <span>Prendre un rendez-vous</span>
             </div>
           </OpenExternalLinkButton>
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
-            <div className="card-body">
-              <Quote
-                sentence="Si tu écoutes ton corps quand il te chuchote, tu n'auras pas à l'entendre crier."
-                author="Sagesse Tibétaine"
-              />
-            </div>
-          </SemiTransparentTile>
         </div>
+        <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <div className="card-body">
+            <Quote
+              sentence="Si tu écoutes ton corps quand il te chuchote, tu n'auras pas à l'entendre crier."
+              author="Sagesse Tibétaine"
+            />
+          </div>
+        </SemiTransparentTile>
       </PublicPageLayoutWithFixedBackgroundImage>
     </>
   );
