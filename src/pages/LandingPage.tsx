@@ -1,11 +1,11 @@
 import { FC } from 'react';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
-import { useGuidedTour } from '../hooks/useGuidedTour';
+import { Quote } from '../components/Quote';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
+import { SemiTransparentTile } from './page-layout/SemiTransparentTile';
 export const LandingPage: FC = () => {
-  useGuidedTour();
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
@@ -14,8 +14,11 @@ export const LandingPage: FC = () => {
         backgroundPosition="44%"
         htmlTitle={`Accueil | ${websiteConfig.websiteTitle}`}
       >
-        <div className="h-100 d-flex flex-column justify-content-between align-items-center">
-          <div className="flex-grow-2"></div>
+        <div
+          className="d-flex flex-column justify-content-start align-items-center"
+          style={{ height: '100vh', minHeight: '100vh' }}
+        >
+          <div className="flex-grow-half"></div>
           <div className="mt-4">
             <PageTitle className="font-mali">L'acupuncture</PageTitle>
             <PageTitle className="font-mali">au service de votre</PageTitle>
@@ -35,6 +38,14 @@ export const LandingPage: FC = () => {
               <span>Prendre un rendez-vous</span>
             </div>
           </OpenExternalLinkButton>
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body">
+              <Quote
+                sentence="Si tu écoutes ton corps quand il te chuchote, tu n'auras pas à l'entendre crier."
+                author="Sagesse Tibétaine"
+              />
+            </div>
+          </SemiTransparentTile>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
     </>

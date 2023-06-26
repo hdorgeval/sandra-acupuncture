@@ -267,3 +267,11 @@
 .mb-7 {
   margin-bottom: 5rem !important;
 }
+
+.flex-grow-half {
+  flex-grow: 0.5 !important;
+}
+
+.flex-grow-third {
+  flex-grow: 0.3 !important;
+}
