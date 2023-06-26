@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { Quote } from '../components/Quote';
 import { websiteConfig } from '../website.config';
@@ -45,6 +46,24 @@ export const LandingPage: FC = () => {
               sentence="Si tu écoutes ton corps quand il te chuchote, tu n'auras pas à l'entendre crier."
               author="Sagesse Tibétaine"
             />
+          </div>
+        </SemiTransparentTile>
+        <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <div className="card-body">
+            <Quote
+              sentence="J'ai besoin de soulager des douleurs ou des migraines"
+              author="L'acupuncture peut m'aider"
+            />
+            <Link
+              to="/foobar"
+              className="text-decoration-none text-light"
+              title="En savoir plus sur comment l'acupuncture peut soulager mes douleurs"
+              aria-label="En savoir plus sur comment l'acupuncture peut soulager mes douleurs"
+            >
+              <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                En savoir plus
+              </span>
+            </Link>
           </div>
         </SemiTransparentTile>
       </PublicPageLayoutWithFixedBackgroundImage>
