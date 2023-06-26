@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useCalendar } from '../../hooks/useCalendar';
 import { websiteConfig } from '../../website.config';
 import { SocialLinksHorizontalBar } from './SocialLinksHorizontalBar';
-import { SocialLinksVerticalNavBar } from './SocialLinksVerticalNavBar';
+import { SocialLinksOffCanvas } from './SocialLinksOffCanvas';
 export const Footer: FC = () => {
   const { currentYear } = useCalendar();
 
@@ -11,7 +11,7 @@ export const Footer: FC = () => {
     <footer className="">
       <div className="d-flex flex-column align-items-center">
         {websiteConfig.displaySocialLinksInFooter && <SocialLinksHorizontalBar />}
-        {websiteConfig.displaySocialLinksViaButton && <SocialLinksVerticalNavBar />}
+        {websiteConfig.displaySocialLinksViaButton && <SocialLinksOffCanvas />}
 
         <span className="fs-7 fw-lighter mb-1">
           <i className="bi bi-c-circle me-2"></i>
