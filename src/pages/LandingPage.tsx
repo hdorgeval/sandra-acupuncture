@@ -11,7 +11,7 @@ export const LandingPage: FC = () => {
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/landing-page-background.jpg"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
-        backgroundPosition="33%"
+        backgroundPosition="44%"
         htmlTitle={`Accueil | ${websiteConfig.websiteTitle}`}
       >
         <div className="h-100 d-flex flex-column justify-content-between align-items-center">
