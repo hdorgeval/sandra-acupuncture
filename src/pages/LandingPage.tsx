@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { Quote } from '../components/Quote';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
@@ -22,51 +21,54 @@ export const LandingPage: FC = () => {
         >
           <div className="flex-grow-third"></div>
           <div className="mt-0">
-            <PageTitle className="font-mali">L'acupuncture</PageTitle>
-            <PageTitle className="font-mali">au service de votre</PageTitle>
-            <PageTitle className="font-mali">épanouissement physique</PageTitle>
-            <PageTitle className="font-mali">émotionnel</PageTitle>
-            <PageTitle className="font-mali"> et </PageTitle>
-            <PageTitle className="font-mali">spirituel</PageTitle>
+            <PageTitle className="font-mali">Envie de soulager votre corps ?</PageTitle>
+            <PageTitle className="font-mali">Envie de plus d'énergie ?</PageTitle>
+            <PageTitle className="font-mali">Envie de plus d'harmonie ?</PageTitle>
+            <PageTitle className="font-mali">Envie d'être écouté(e) ?</PageTitle>
           </div>
-
-          <OpenExternalLinkButton
-            className="btn btn-outline-light fw-bolder w-75 mt-4"
-            link="https://calendly.com/henri-d-orgeval/acupuncture"
-            title="Prendre un rendez-vous"
-            analyticsEvent="rdv-ou-contact"
-          >
-            <div className="d-flex flex-column align-items-center">
-              <span>Prendre un rendez-vous</span>
-            </div>
-          </OpenExternalLinkButton>
-        </div>
-        <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
-          <div className="card-body">
-            <Quote
-              sentence="Si tu écoutes ton corps quand il te chuchote, tu n'auras pas à l'entendre crier."
-              author="Sagesse Tibétaine"
-            />
-          </div>
-        </SemiTransparentTile>
-        <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
-          <div className="card-body">
-            <Quote
-              sentence="J'ai besoin de soulager des douleurs ou des migraines"
-              author="L'acupuncture peut m'aider"
-            />
-            <Link
-              to="/foobar"
-              className="text-decoration-none text-light"
-              title="En savoir plus sur comment l'acupuncture peut soulager mes douleurs"
-              aria-label="En savoir plus sur comment l'acupuncture peut soulager mes douleurs"
+          <div id="welcome" className="w-100">
+            <a
+              className="btn btn-outline-light fw-bolder w-75 mt-4 font-dancing-script fs-big-1"
+              href="#scrollspyHeading1"
             >
-              <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
-                En savoir plus
-              </span>
-            </Link>
+              Bienvenue !
+            </a>
           </div>
-        </SemiTransparentTile>
+        </div>
+        <div
+          data-bs-target="#welcome"
+          data-bs-spy="scroll"
+          data-bs-smooth-scroll="true"
+          tabIndex={0}
+        >
+          <h4 id="scrollspyHeading1" data-bs-smooth-scroll="true"></h4>
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body">
+              <Quote
+                sentence="J'ai besoin de soulager des douleurs ou des migraines"
+                author="L'acupuncture peut m'aider"
+              />
+              <Link
+                to="/foobar"
+                className="text-decoration-none text-light"
+                title="En savoir plus sur comment l'acupuncture peut soulager mes douleurs"
+                aria-label="En savoir plus sur comment l'acupuncture peut soulager mes douleurs"
+              >
+                <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                  En savoir plus
+                </span>
+              </Link>
+            </div>
+          </SemiTransparentTile>
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body">
+              <Quote
+                sentence="Si tu écoutes ton corps quand il te chuchote, tu n'auras pas à l'entendre crier."
+                author="Sagesse Tibétaine"
+              />
+            </div>
+          </SemiTransparentTile>
+        </div>
       </PublicPageLayoutWithFixedBackgroundImage>
     </>
   );

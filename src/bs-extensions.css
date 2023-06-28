@@ -26,12 +26,20 @@
   font-family: 'Marcellus', serif;
 }
 
+.font-dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
+
 .font-sans-serif {
   font-family: sans-serif, system-ui;
 }
 
 .font-mali {
   font-family: 'Mali', cursive;
+}
+
+.fs-big-1 {
+  font-size: calc(2.7rem + 1.5vw) !important;
 }
 
 .fs-7 {
