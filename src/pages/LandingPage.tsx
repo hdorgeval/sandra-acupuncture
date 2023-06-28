@@ -12,7 +12,8 @@ export const LandingPage: FC = () => {
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/landing-page-background.jpg"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
-        backgroundPosition="44%"
+        backgroundPositionX="74%"
+        backgroundPositionY="42%"
         htmlTitle={`Accueil | ${websiteConfig.websiteTitle}`}
       >
         <div
