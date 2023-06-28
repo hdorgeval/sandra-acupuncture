@@ -37,8 +37,8 @@ export const websiteConfig: WebSiteConfig = {
   hamburgerMenuPosition: 'left',
   socialLinksMenuPosition: 'right',
   websiteSubTitle: 'Lorem ipsum dolor sit amet',
-  websiteTitle: 'Sandra acupuncture',
-  websiteShortTitle: 'Sandra acupuncture',
+  websiteTitle: 'Sandra Giraudeau',
+  websiteShortTitle: 'Sandra Giraudeau',
   websiteUrl: 'https://mon-site-web.com',
   legalNotice: {
     lastUpdate: '2023/06/21',
