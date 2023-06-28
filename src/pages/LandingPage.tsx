@@ -19,12 +19,11 @@ export const LandingPage: FC = () => {
           className="d-flex flex-column justify-content-start align-items-center"
           style={{ height: '100vh', minHeight: '100vh' }}
         >
-          <div className="flex-grow-third"></div>
+          <div className="flex-grow-half"></div>
           <div className="mt-0">
             <PageTitle className="font-mali">Envie de soulager votre corps ?</PageTitle>
             <PageTitle className="font-mali">Envie de plus d'énergie ?</PageTitle>
-            <PageTitle className="font-mali">Envie de plus d'harmonie ?</PageTitle>
-            <PageTitle className="font-mali">Envie d'être écouté(e) ?</PageTitle>
+            <PageTitle className="font-mali">Envie de Médecine Traditionnelle Chinoise ?</PageTitle>
           </div>
           <div id="welcome" className="w-100">
             <a
