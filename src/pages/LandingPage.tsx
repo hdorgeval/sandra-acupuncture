@@ -25,22 +25,17 @@ export const LandingPage: FC = () => {
             <PageTitle className="font-mali">Envie de plus d'énergie ?</PageTitle>
             <PageTitle className="font-mali">Envie de Médecine Traditionnelle Chinoise ?</PageTitle>
           </div>
-          <div id="welcome" className="w-100">
+          <div id="home" className="w-100">
             <a
               className="btn btn-outline-light fw-bolder w-75 mt-4 font-dancing-script fs-big-1"
-              href="#scrollspyHeading1"
+              href="#bienvenue"
             >
               Bienvenue !
             </a>
           </div>
         </div>
-        <div
-          data-bs-target="#welcome"
-          data-bs-spy="scroll"
-          data-bs-smooth-scroll="true"
-          tabIndex={0}
-        >
-          <h4 id="scrollspyHeading1" data-bs-smooth-scroll="true"></h4>
+        <div data-bs-target="#home" data-bs-spy="scroll" data-bs-smooth-scroll="true" tabIndex={0}>
+          <h4 id="bienvenue" data-bs-smooth-scroll="true"></h4>
           <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
             <div className="card-body">
               <Quote
