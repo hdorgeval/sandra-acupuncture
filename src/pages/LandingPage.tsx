@@ -1,7 +1,9 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
+import portrait2 from '../assets/portrait2.png';
 import { Quote } from '../components/Quote';
 import { websiteConfig } from '../website.config';
+import { AnimatedBy } from './page-layout/AnimatedBy';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 import { SemiTransparentTile } from './page-layout/SemiTransparentTile';
@@ -21,9 +23,11 @@ export const LandingPage: FC = () => {
         >
           <div className="flex-grow-half"></div>
           <div className="mt-0">
-            <PageTitle className="font-mali">Envie de soulager votre corps ?</PageTitle>
-            <PageTitle className="font-mali">Envie de plus d'énergie ?</PageTitle>
-            <PageTitle className="font-mali">Envie de Médecine Traditionnelle Chinoise ?</PageTitle>
+            <PageTitle className="font-mali">Besoin de soulager votre corps ?</PageTitle>
+            <PageTitle className="font-mali">Besoin de plus d'énergie ?</PageTitle>
+            <PageTitle className="font-mali">
+              Besoin de Médecine Traditionnelle Chinoise ?
+            </PageTitle>
           </div>
           <div id="home" className="w-100">
             <a
@@ -37,6 +41,31 @@ export const LandingPage: FC = () => {
         <div data-bs-target="#home" data-bs-spy="scroll" data-bs-smooth-scroll="true" tabIndex={0}>
           <h4 id="bienvenue" data-bs-smooth-scroll="true"></h4>
           <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body font-dancing-script fs-3">
+              <AnimatedBy>
+                <AnimatedBy.Img src={portrait2} />
+                <AnimatedBy.FigCaption>Je m'appelle Sandra Gireadeau</AnimatedBy.FigCaption>
+                <AnimatedBy.Description>
+                  Je vous reçois dans mon cabinet situé au sud-ouest de Nantes. Praticienne en
+                  médecine énérgétique chinoise, je suis à votre écoute pour vous apporter le
+                  soulagement et l'harmonie dont vous avez besoin par les techniques d'acupression
+                  et par des massages Natui et tantrique.
+                </AnimatedBy.Description>
+              </AnimatedBy>
+
+              <Link
+                to="/foobar"
+                className="text-decoration-none text-light"
+                title="En savoir plus sur comment l'acupuncture peut soulager mes douleurs"
+                aria-label="En savoir plus sur comment l'acupuncture peut soulager mes douleurs"
+              >
+                <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1 font-playfair">
+                  En savoir plus
+                </span>
+              </Link>
+            </div>
+          </SemiTransparentTile>
+          {/* <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
             <div className="card-body">
               <Quote
                 sentence="J'ai besoin de soulager des douleurs ou des migraines"
@@ -53,7 +82,7 @@ export const LandingPage: FC = () => {
                 </span>
               </Link>
             </div>
-          </SemiTransparentTile>
+          </SemiTransparentTile> */}
           <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
             <div className="card-body">
               <Quote
