@@ -44,7 +44,7 @@ export const LandingPage: FC = () => {
             <div className="card-body font-dancing-script fs-3">
               <AnimatedBy>
                 <AnimatedBy.Img src={portrait2} />
-                <AnimatedBy.FigCaption>Je m'appelle Sandra Gireadeau</AnimatedBy.FigCaption>
+                <AnimatedBy.FigCaption>Je m'appelle Sandra Giraudeau</AnimatedBy.FigCaption>
                 <AnimatedBy.Description>
                   Je vous reçois dans mon cabinet situé au sud-ouest de Nantes. Praticienne en
                   médecine énérgétique chinoise, je suis à votre écoute pour vous apporter le
