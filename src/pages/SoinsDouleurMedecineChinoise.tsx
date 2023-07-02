@@ -18,8 +18,8 @@ export const SoinsDouleurMedecineChinoise: FC = () => {
           <div className="mt-7">
             <PageTitle>Soulagement de la douleur</PageTitle>
           </div>
-          <div className="" style={{ minHeight: '10vh' }}></div>
-          <SemiTransparentTile className="card text-start text-light fs-2 font-dancing-script px-4 py-4">
+          <div className="" style={{ minHeight: '7vh' }}></div>
+          <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
             <p className="">
               La médecine énergétique chinoise est souvent utilisée pour soulager divers types de
               douleurs, comme les maux de dos, les douleurs musculaires, les migraines, les
