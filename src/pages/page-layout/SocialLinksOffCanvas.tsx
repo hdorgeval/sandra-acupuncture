@@ -23,7 +23,7 @@ export const SocialLinksOffCanvas: FC = () => {
         tabIndex={-1}
         id="offcanvasSocialLinks"
         aria-labelledby="offcanvasSocialLinksLabel"
-        style={{ minHeight: '50vh' }}
+        style={{ minHeight: '60vh' }}
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title ms-1" id="offcanvasSocialLinksLabel">
@@ -40,7 +40,7 @@ export const SocialLinksOffCanvas: FC = () => {
           <SocialLinksHorizontalBar />
           {websiteConfig.links.rdv.show && (
             <OpenExternalLinkButton
-              className="btn btn-outline-light fw-bolder w-75 mt-4 text-nowrap"
+              className="btn btn-outline-light fw-bolder w-75 mt-0 text-nowrap"
               link={websiteConfig.links.rdv.url}
               title={websiteConfig.links.rdv.title}
               analyticsEvent="rdv-ou-contact"
