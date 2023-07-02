@@ -114,7 +114,7 @@ export const LandingPage: FC = () => {
                 answerClassname="text-white"
               />
               <Link
-                to="/foobar"
+                to="/soins-oncologie-medecine-chinoise"
                 className="text-decoration-none text-light"
                 title="En savoir plus sur comment l'acupression peut soulager les effets secondaires des traitements contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit"
                 aria-label="En savoir plus sur comment l'acupression peut soulager les effets secondaires des traitements contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit"
