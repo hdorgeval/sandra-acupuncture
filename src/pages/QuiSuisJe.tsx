@@ -46,7 +46,7 @@ export const QuiSuisJe: FC = () => {
               l'élasticité de la peau et à révéler votre éclat naturel.
             </p>
             <p>
-              Je propose Le massage Tuina, une pratique thérapeutique traditionnelle chinoise. En
+              Je propose le massage Tuina, une pratique thérapeutique traditionnelle chinoise. En
               utilisant des mouvements spécifiques et une pression adaptée le long des méridiens, le
               massage Tuina favorise la circulation de l'énergie, soulage les tensions musculaires,
               améliore la mobilité articulaire et procure une profonde détente.
