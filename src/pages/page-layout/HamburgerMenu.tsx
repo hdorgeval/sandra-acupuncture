@@ -50,7 +50,7 @@ export const HambugerMenu: FC = () => {
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
-              {websiteConfig.websiteTitle}
+              {websiteConfig.websiteShortTitle}
             </h5>
             <button
               id="hamburger-close-button"
