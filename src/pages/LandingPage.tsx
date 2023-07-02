@@ -94,7 +94,7 @@ export const LandingPage: FC = () => {
                 answerClassname="text-white"
               />
               <Link
-                to="/foobar"
+                to="/soins-urogenitale-medecine-chinoise"
                 className="text-decoration-none text-light"
                 title="En savoir plus sur comment l'acupression peut soulager les troubles uro-génitaux"
                 aria-label="En savoir plus sur comment l'acupression peut soulager les troubles uro-génitaux"

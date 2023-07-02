@@ -5,6 +5,7 @@ import { LandingPage } from './pages/LandingPage';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
 import { SoinsDouleurMedecineChinoise } from './pages/SoinsDouleurMedecineChinoise';
+import { SoinsUroGenitaleMedecineChinoise } from './pages/SoinsUroGenitaleMedecineChinoise';
 import { Temoignages } from './pages/Temoignages';
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: '/soins-douleur-medecine-chinoise',
     element: <SoinsDouleurMedecineChinoise />,
+  },
+  {
+    path: '/soins-urogenitale-medecine-chinoise',
+    element: <SoinsUroGenitaleMedecineChinoise />,
   },
 ]);
 
