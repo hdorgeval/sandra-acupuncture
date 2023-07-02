@@ -53,10 +53,12 @@ export const LandingPage: FC = () => {
               </AnimatedBy>
 
               <Link
-                to="/foobar"
+                to="/qui-suis-je"
                 className="text-decoration-none text-light"
-                title="En savoir plus sur comment l'acupression peut soulager mes douleurs"
-                aria-label="En savoir plus sur comment l'acupression peut soulager mes douleurs"
+                title="En savoir plus sur le monde de la médecine énergétique chinoise, de
+              l'acupression, de l'aculifting, du massage Tuina et du massage tantrique"
+                aria-label="En savoir plus sur le monde de la médecine énergétique chinoise, de
+              l'acupression, de l'aculifting, du massage Tuina et du massage tantrique"
               >
                 <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1 font-playfair">
                   En savoir plus
