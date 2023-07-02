@@ -31,6 +31,7 @@ export interface Links {
   email: Link;
   phone: Link;
   linkedin: Link;
+  rdv: Link;
 }
 
 export const websiteConfig: WebSiteConfig = {
@@ -88,6 +89,12 @@ export const websiteConfig: WebSiteConfig = {
       url: 'https://wa.me/0123456789',
       title: 'Me contacter sur WhatsApp',
       label: 'WhatsApp',
+      show: true,
+    },
+    rdv: {
+      url: 'https://calendly.com/henri-d-orgeval/acupuncture',
+      title: 'Me contacter ou prendre un rendez-vous',
+      label: 'Prendre un rendez-vous',
       show: true,
     },
   },

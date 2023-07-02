@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { OpenExternalLinkButton } from '../../components/OpenExternalLinkButton';
+import { websiteConfig } from '../../website.config';
 import { SocialLinksHorizontalBar } from './SocialLinksHorizontalBar';
 
 export const SocialLinksOffCanvas: FC = () => {
@@ -37,16 +38,18 @@ export const SocialLinksOffCanvas: FC = () => {
         </div>
         <div className="offcanvas-body small d-flex flex-column align-items-center pt-0">
           <SocialLinksHorizontalBar />
-          <OpenExternalLinkButton
-            className="btn btn-outline-light fw-bolder w-75 mt-4"
-            link="https://calendly.com/henri-d-orgeval/acupuncture"
-            title="Prendre un rendez-vous"
-            analyticsEvent="rdv-ou-contact"
-          >
-            <div className="d-flex flex-column align-items-center">
-              <span>Prendre un rendez-vous</span>
-            </div>
-          </OpenExternalLinkButton>
+          {websiteConfig.links.rdv.show && (
+            <OpenExternalLinkButton
+              className="btn btn-outline-light fw-bolder w-75 mt-4 text-nowrap"
+              link={websiteConfig.links.rdv.url}
+              title={websiteConfig.links.rdv.title}
+              analyticsEvent="rdv-ou-contact"
+            >
+              <div className="d-flex flex-column align-items-center">
+                <span className="">{websiteConfig.links.rdv.label}</span>
+              </div>
+            </OpenExternalLinkButton>
+          )}
         </div>
       </div>
     </>
