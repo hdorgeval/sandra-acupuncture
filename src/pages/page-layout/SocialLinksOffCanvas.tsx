@@ -38,7 +38,7 @@ export const SocialLinksOffCanvas: FC = () => {
         <div className="offcanvas-body small d-flex flex-column align-items-center pt-0">
           <SocialLinksHorizontalBar />
           <OpenExternalLinkButton
-            className="btn btn-outline-light fw-bolder w-100 mt-4"
+            className="btn btn-outline-light fw-bolder w-75 mt-4"
             link="https://calendly.com/henri-d-orgeval/acupuncture"
             title="Prendre un rendez-vous"
             analyticsEvent="rdv-ou-contact"
