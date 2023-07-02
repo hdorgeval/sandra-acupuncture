@@ -4,6 +4,7 @@ import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
+import { SoinsDouleurMedecineChinoise } from './pages/SoinsDouleurMedecineChinoise';
 import { Temoignages } from './pages/Temoignages';
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/temoignages',
     element: <Temoignages />,
+  },
+  {
+    path: '/soins-douleur-medecine-chinoise',
+    element: <SoinsDouleurMedecineChinoise />,
   },
 ]);
 
