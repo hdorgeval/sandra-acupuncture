@@ -10,14 +10,15 @@ export const SoinsDouleurMedecineChinoise: FC = () => {
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/soins-douleur-medecine-chinoise-background.webp"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
-        backgroundPosition="33%"
+        backgroundPositionX="60%"
+        backgroundPositionY="33%"
         htmlTitle={`Qui-suis je? | ${websiteConfig.websiteTitle}`}
       >
         <div className="d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
             <PageTitle>Soulagement de la douleur</PageTitle>
           </div>
-          <div className="" style={{ minHeight: '30vh' }}></div>
+          <div className="" style={{ minHeight: '10vh' }}></div>
           <SemiTransparentTile className="card text-start text-light fs-2 font-dancing-script px-4 py-4">
             <p className="">
               La médecine énergétique chinoise est souvent utilisée pour soulager divers types de
