@@ -2,6 +2,7 @@ import introJs from 'intro.js';
 import { useCallback, useEffect, useState } from 'react';
 import { Location, useLocation } from 'react-router';
 import useLocalStorageState from 'use-local-storage-state';
+import { websiteConfig } from '../website.config';
 import { useAnalytics } from './useAnalytics';
 
 export interface AppStep {
@@ -58,7 +59,7 @@ export const useGuidedTour = () => {
     } as introJs.Options),
   );
   const [doneSteps, setDoneSteps] = useLocalStorageState<string[]>(
-    'marie-anne-sevin.com.guided-tour.done-steps',
+    `${websiteConfig.websiteUrl}.guided-tour.done-steps`,
     {
       defaultValue: [],
     },
@@ -124,6 +125,9 @@ export const useGuidedTour = () => {
 
   const buildRemainingSteps = useCallback(
     (steps: AppStep[]) => {
+      if (websiteConfig.displayGuidedTour === false) {
+        return [];
+      }
       const stepsToRun: ExtendedIntojsStep[] = steps
         .filter((s) => !isStepDone(s))
         .filter((s) => isStepOnRightLocation(s))
