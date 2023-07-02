@@ -47,14 +47,14 @@ export const MentionsLegales: FC = () => {
               ARTICLE 1 - l'éditeur
             </h3>
             <p className="mt-3">
-              L'édition du Site est assurée par A.R.T.S SARL unipersonnelle au capital de 3000
-              euros, immatriculée au Registre du Commerce et des Sociétés de Trappes sous le numéro
-              899171433 dont le siège social est situé au 46 AV DES FRERES LUMIERE 78190 TRAPPES.
+              L'édition du Site est assurée par XXX au capital de XXX euros, immatriculée au
+              Registre du Commerce et des Sociétés de la ville de XXXX sous le numéro XXX dont le
+              siège social est situé au XXX.
             </p>
-            <p>Numéro de téléphone : 0683479774</p>
-            <p>Adresse e-mail : arts78.mas@gmail.com.</p>
-            <p>N° de TVA intracommunautaire : FR86899171433 </p>
-            <p>Le Directeur de la publication est Marie-Anne Sévin ci-après l'"Editeur".</p>
+            <p>Numéro de téléphone : {`${websiteConfig.links.phone.url}`}</p>
+            <p>Adresse e-mail : {`${websiteConfig.links.email.url}`}.</p>
+            <p>N° de TVA intracommunautaire : FRXXXXXXX </p>
+            <p>Le Directeur de la publication est Sandra Giraudeau ci-après l'"Editeur".</p>
             <h3 className="fs-5 text-emphasize pt-2 fw-bolder border-bottom border-bottom-1 pb-1 text-uppercase">
               ARTICLE 2 - l'hébergeur
             </h3>
