@@ -109,7 +109,7 @@ export const HambugerMenu: FC = () => {
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className=" w-100 border-bottom border-secondary fs-5 text-secondary">
+                <div className=" w-100 border-bottom border-secondary fs-5 text-dark">
                   Particuliers
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
@@ -122,7 +122,7 @@ export const HambugerMenu: FC = () => {
               </li>
 
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 text-secondary d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Mon espace client</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
@@ -133,7 +133,7 @@ export const HambugerMenu: FC = () => {
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 text-secondary d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Crédits photos</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
@@ -143,7 +143,7 @@ export const HambugerMenu: FC = () => {
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 text-secondary d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Confiance numérique</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
