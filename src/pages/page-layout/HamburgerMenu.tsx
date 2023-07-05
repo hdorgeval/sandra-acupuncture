@@ -13,13 +13,10 @@ export const HambugerMenu: FC = () => {
   const isOnHomePage = useMemo(() => {
     return location.pathname === '/';
   }, [location.pathname]);
-  const backgroundImageUrl = '/images/landing-page-background.jpg';
-  const computedBackgroundPositionX = -76;
-  const computedBackgroundPositionY = -10;
   return (
     <nav className="navbar navbar-dark sticky-top position-absolute top-0 end-0 w-100">
       <div
-        className={`container-fluid pe-0 me-1 ps-0 d-flex flex-row ${
+        className={`container-fluid pe-0 me-1 d-flex flex-row ${
           websiteConfig.hamburgerMenuPosition === 'left' ? 'flex-row-reverse' : ''
         }`}
       >
@@ -50,16 +47,6 @@ export const HambugerMenu: FC = () => {
           tabIndex={-1}
           id="offcanvasDarkNavbar"
           aria-labelledby="offcanvasDarkNavbarLabel"
-          style={{
-            backgroundImage: `url("${backgroundImageUrl}")`,
-            height: '100vh',
-            backgroundPositionX: computedBackgroundPositionX,
-            backgroundPositionY: computedBackgroundPositionY,
-            backgroundSize: 'cover',
-            position: 'relative',
-            overflow: 'hidden',
-            backgroundRepeat: 'no-repeat',
-          }}
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
