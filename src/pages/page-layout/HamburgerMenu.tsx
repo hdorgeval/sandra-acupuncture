@@ -13,41 +13,57 @@ export const HambugerMenu: FC = () => {
   const isOnHomePage = useMemo(() => {
     return location.pathname === '/';
   }, [location.pathname]);
+  const backgroundImageUrl = '/images/landing-page-background.jpg';
+  const computedBackgroundPositionX = 1;
+  const computedBackgroundPositionY = -10;
   return (
-    <nav className="navbar navbar-dark sticky-top position-absolute top-0 end-0 w-100">
-      <div
-        className={`container-fluid pe-0 me-1 d-flex flex-row ${
-          websiteConfig.hamburgerMenuPosition === 'left' ? 'flex-row-reverse' : ''
-        }`}
-      >
-        {isOnHomePage ? (
-          <div className="flex-grow-1"></div>
-        ) : (
-          <Link to="/" className="navbar-brand text-reset" aria-label="Accueil" title="Accueil">
-            <i className="bi bi-house-up text-white fs-navbar-toggler-3"></i>
-          </Link>
-        )}
-        <button
-          className="navbar-toggler pt-1-half border border-0"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasDarkNavbar"
-          aria-controls="offcanvasDarkNavbar"
-          title="Menu"
-          aria-label="Menu"
-          data-tour-id="step-1"
-        >
-          <i className="bi bi-list text-white fs-navbar-toggler-1"></i>
-        </button>
-
+    <>
+      <nav className="navbar navbar-dark sticky-top position-absolute top-0 end-0 w-100">
         <div
-          className={`offcanvas text-bg-dark ${
-            websiteConfig.hamburgerMenuPosition === 'left' ? 'offcanvas-start' : 'offcanvas-end'
+          className={`container-fluid pe-0 me-1 d-flex flex-row ${
+            websiteConfig.hamburgerMenuPosition === 'left' ? 'flex-row-reverse' : ''
           }`}
-          tabIndex={-1}
-          id="offcanvasDarkNavbar"
-          aria-labelledby="offcanvasDarkNavbarLabel"
         >
+          {isOnHomePage ? (
+            <div className="flex-grow-1"></div>
+          ) : (
+            <Link to="/" className="navbar-brand text-reset" aria-label="Accueil" title="Accueil">
+              <i className="bi bi-house-up text-white fs-navbar-toggler-3"></i>
+            </Link>
+          )}
+          <button
+            className="navbar-toggler pt-1-half border border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            title="Menu"
+            aria-label="Menu"
+            data-tour-id="step-1"
+          >
+            <i className="bi bi-list text-white fs-navbar-toggler-1"></i>
+          </button>
+        </div>
+      </nav>
+      <div
+        className={`offcanvas position-absolute text-bg-dark ${
+          websiteConfig.hamburgerMenuPosition === 'left' ? 'offcanvas-start' : 'offcanvas-end'
+        }`}
+        tabIndex={-1}
+        id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel"
+        style={{
+          backgroundImage: `url("${backgroundImageUrl}")`,
+          height: '100vh',
+          backgroundPositionX: computedBackgroundPositionX,
+          backgroundPositionY: computedBackgroundPositionY,
+          backgroundSize: 'cover',
+          position: 'relative',
+          overflow: 'hidden',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        <div className="container h-100 overflow-y-scroll">
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
               {websiteConfig.websiteShortTitle}
@@ -142,7 +158,7 @@ export const HambugerMenu: FC = () => {
           </div>
         </div>
       </div>
-    </nav>
+    </>
   );
 };
 
