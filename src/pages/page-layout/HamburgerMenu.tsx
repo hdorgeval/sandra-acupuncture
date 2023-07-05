@@ -65,7 +65,7 @@ export const HambugerMenu: FC = () => {
       >
         <div className="container h-100 overflow-y-scroll">
           <div className="offcanvas-header">
-            <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
+            <h5 className="offcanvas-title font-weight-700" id="offcanvasDarkNavbarLabel">
               {websiteConfig.websiteShortTitle}
             </h5>
             <button
@@ -109,7 +109,7 @@ export const HambugerMenu: FC = () => {
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className=" w-100 border-bottom border-secondary fs-5 text-dark">
+                <div className=" w-100 border-bottom border-secondary fs-5 font-weight-700 text-dark">
                   Particuliers
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
@@ -122,7 +122,7 @@ export const HambugerMenu: FC = () => {
               </li>
 
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Mon espace client</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
@@ -133,7 +133,7 @@ export const HambugerMenu: FC = () => {
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Crédits photos</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
@@ -143,7 +143,7 @@ export const HambugerMenu: FC = () => {
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Confiance numérique</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">

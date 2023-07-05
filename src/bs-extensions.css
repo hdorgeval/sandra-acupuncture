@@ -50,6 +50,10 @@
   font-size: 0.75rem !important;
 }
 
+.font-weight-700 {
+  font-weight: 700 !important;
+}
+
 .bi-rotate-180::before {
   transform: rotate(180deg);
   -webkit-transform: rotate(-180deg);
