@@ -11,6 +11,7 @@ export interface WebSiteConfig {
   displaySocialLinksInFooter: boolean;
   displaySocialLinksViaButton: boolean;
   displayGuidedTour: boolean;
+  displayAccountButtons: boolean;
 }
 
 export interface LegalNotice {
@@ -49,6 +50,7 @@ export const websiteConfig: WebSiteConfig = {
   displayGuidedTour: false,
   displaySocialLinksInFooter: true,
   displaySocialLinksViaButton: true,
+  displayAccountButtons: false,
   links: {
     phone: {
       url: '0783649612',
@@ -66,7 +68,7 @@ export const websiteConfig: WebSiteConfig = {
       url: 'https://www.youtube.com/channel/0123456789',
       title: 'Voir mes vidéos sur Youtube',
       label: 'Youtube',
-      show: true,
+      show: false,
     },
     instagram: {
       url: 'https://www.instagram.com/john-doe/?hl=fr',

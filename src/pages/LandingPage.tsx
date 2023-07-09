@@ -26,8 +26,11 @@ export const LandingPage: FC = () => {
           <div className="mt-0">
             <PageTitle className="font-mali">Soulager votre corps</PageTitle>
             <PageTitle className="font-mali">Avoir plus d'énergie</PageTitle>
-            <PageTitle className="font-mali">Avec la Médecine Traditionnelle Chinoise</PageTitle>
+            <PageTitle className="font-mali mt-4">
+              Avec la Médecine Traditionnelle Chinoise
+            </PageTitle>
           </div>
+          <div className="flex-grow-third"></div>
           <div id="home" className="w-100">
             <a
               className="btn btn-outline-light fw-bolder w-75 mt-4 font-dancing-script fs-big-1"
