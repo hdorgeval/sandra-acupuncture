@@ -1,6 +1,6 @@
 import { FC, useMemo } from 'react';
 
-export type Letter = 'A' | 'B' | 'C' | 'D' | 'J' | 'S' | 'V';
+export type Letter = 'A' | 'B' | 'C' | 'D' | 'I' | 'J' | 'S' | 'V';
 export type BsFontSizeClassName = 'fs-3';
 
 export interface OneLetterPillOwnProps {
@@ -13,6 +13,7 @@ const bgColorMapping: Record<Letter, string> = {
   B: 'bg-danger',
   C: 'bg-info',
   D: 'bg-primary',
+  I: 'bg-info',
   J: 'bg-success',
   S: 'bg-warning',
   V: 'bg-success',
@@ -54,6 +55,14 @@ function computePaddingForLetterAndFontSize(letter: Letter, fontSize: BsFontSize
           throw new Error(`'${fontSize}' for letter '${letter}' is not yet implemented`);
       }
 
+    case 'I':
+      switch (fontSize) {
+        case 'fs-3':
+          return 'p-2 px-3-v';
+
+        default:
+          throw new Error(`'${fontSize}' for letter '${letter}' is not yet implemented`);
+      }
     case 'S':
       switch (fontSize) {
         case 'fs-3':
