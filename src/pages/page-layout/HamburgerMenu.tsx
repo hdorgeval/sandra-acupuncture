@@ -41,7 +41,7 @@ export const HambugerMenu: FC = () => {
             aria-label="Menu"
             data-tour-id="step-1"
           >
-            <i className="bi bi-list text-white fs-navbar-toggler-1"></i>
+            <i className="bi bi-list text-white fs-navbar-toggler-3"></i>
           </button>
         </div>
       </nav>
@@ -120,25 +120,27 @@ export const HambugerMenu: FC = () => {
                   </Link>
                 </div>
               </li>
+              {websiteConfig.displayAccountButtons && (
+                <li className="nav-item w-100 text-start mt-3">
+                  <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
+                    <span>Mon espace client</span>
+                  </div>
+                  <div className="d-flex p-1 flex-row flex-wrap align-items-center">
+                    <AccountFullNameBadge />
+                    <CreateAccountBadge />
+                    <LoginAccountBadge />
+                    <LogoutAccountBadge />
+                  </div>
+                </li>
+              )}
 
               <li className="nav-item w-100 text-start mt-3">
                 <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
-                  <span>Mon espace client</span>
-                </div>
-                <div className="d-flex p-1 flex-row flex-wrap align-items-center">
-                  <AccountFullNameBadge />
-                  <CreateAccountBadge />
-                  <LoginAccountBadge />
-                  <LogoutAccountBadge />
-                </div>
-              </li>
-              <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
-                  <span>Crédits photos</span>
+                  <span>Crédits</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
-                    John Doe
+                    web design: Henri d'Orgeval
                   </span>
                 </div>
               </li>
