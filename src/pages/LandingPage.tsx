@@ -1,8 +1,11 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import portrait2 from '../assets/portrait2.png';
+import { FiveStarRating } from '../components/FiveStarRating';
+import { OneLetterPill } from '../components/OneLetterPill';
 import { Question } from '../components/Question';
 import { Quote } from '../components/Quote';
+import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
 import { AnimatedBy } from './page-layout/AnimatedBy';
 import { PageTitle } from './page-layout/PageTitle';
@@ -126,6 +129,28 @@ export const LandingPage: FC = () => {
                   En savoir plus
                 </span>
               </Link>
+            </div>
+          </SemiTransparentTile>
+
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body d-flex flex-row align-items-start">
+              <OneLetterPill>I</OneLetterPill>
+              <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
+                <div className="card-title fs-5">isabelle Jossot</div>
+                <div>
+                  <FiveStarRating />
+                </div>
+                <ReadMoreReadLess
+                  height={'25vh'}
+                  readMoreText={'Lire plus'}
+                  readLessText={'Lire moins'}
+                >
+                  Je tiens à remercier Sandra tant pour son écoute que pour son professionnalisme.
+                  Je l'ai consulter en acupuncture pour une problématique récurrente qui enfin, est
+                  en passe d'être réglée définitivement. Et j'ai pu également expérimenter les
+                  massages qu'elle propose... que de la douceur.... du pur bonheur ! Un grand Merci
+                </ReadMoreReadLess>
+              </div>
             </div>
           </SemiTransparentTile>
 

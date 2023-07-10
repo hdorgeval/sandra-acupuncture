@@ -58,7 +58,7 @@ function computePaddingForLetterAndFontSize(letter: Letter, fontSize: BsFontSize
     case 'I':
       switch (fontSize) {
         case 'fs-3':
-          return 'p-2 px-3-v';
+          return 'p-2 px-3-35';
 
         default:
           throw new Error(`'${fontSize}' for letter '${letter}' is not yet implemented`);
