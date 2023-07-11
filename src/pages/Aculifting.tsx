@@ -138,6 +138,9 @@ export const Aculifting: FC = () => {
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="">75€</span>
                     <span className="">Forfait 4 séances: 260€</span>
+                    <span className="text-nowrap fs-7 fw-normal">
+                      Moyens de paiement: chèque ou espèces
+                    </span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -158,10 +161,10 @@ export const Aculifting: FC = () => {
                   </div>
                 </div>
               </TransparentListGroupItem>
-              <TransparentListGroupItem className="py-3 text-light">
+              <TransparentListGroupItem className="py-3 text-light fw-bolder">
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
-                  <div className="d-flex flex-column justify-content-between ">
+                  <div className="d-flex flex-column justify-content-between">
                     <p className="">Une séance d'aculifting dure environ une heure trente.</p>
                     <p>
                       Le traitement débute par la pose de fines aiguilles à usage unique et

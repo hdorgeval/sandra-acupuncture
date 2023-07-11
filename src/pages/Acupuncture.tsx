@@ -172,6 +172,9 @@ export const Acupuncture: FC = () => {
                     <span className="fw-bolder">Adulte: 70€ </span>
                     <span className="fw-bolder">Enfant mineur: 50€</span>
                     <span className="">Remise de 10% à partir de la deuxième séance</span>
+                    <span className="text-nowrap fs-7 fw-normal">
+                      Moyens de paiement: chèque ou espèces
+                    </span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -195,7 +198,7 @@ export const Acupuncture: FC = () => {
               <TransparentListGroupItem className="py-3 text-light fw-bolder">
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
-                  <div className="d-flex flex-column justify-content-between ">
+                  <div className="d-flex flex-column justify-content-between">
                     <p className="">
                       Une séance énergetique traditionnelle chinoise d'acupuncture dure environ une
                       heure trente.
