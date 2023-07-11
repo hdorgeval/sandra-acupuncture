@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
+import { Aculifting } from './pages/Aculifting';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
 import { MentionsLegales } from './pages/MentionsLegales';
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: '/soins-oncologie-medecine-chinoise',
     element: <SoinsOncologieMedecineChinoise />,
+  },
+  {
+    path: '/aculifting',
+    element: <Aculifting />,
   },
 ]);
 
