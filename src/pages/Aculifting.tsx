@@ -90,7 +90,7 @@ export const Aculifting: FC = () => {
               <h5 className="card-title mb-0 fw-bolder">Déroulement et tarifs</h5>
             </div>
             <ul className="list-group list-group-flush mt-0 pt-0">
-              <TransparentListGroupItem className="pt-2 pb-1">
+              <TransparentListGroupItem className="pt-2 pb-1 text-light fw-bolder">
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
@@ -99,7 +99,7 @@ export const Aculifting: FC = () => {
                 </div>
               </TransparentListGroupItem>
 
-              <TransparentListGroupItem className="mt-0 pt-3">
+              <TransparentListGroupItem className="mt-0 pt-3 text-light fw-bolder">
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-geo-alt fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle">
@@ -132,7 +132,7 @@ export const Aculifting: FC = () => {
                   </div>
                 </div>
               </TransparentListGroupItem>
-              <TransparentListGroupItem className="pt-1 pb-0">
+              <TransparentListGroupItem className="pt-1 pb-0 text-light fw-bolder">
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
@@ -141,7 +141,7 @@ export const Aculifting: FC = () => {
                   </div>
                 </div>
               </TransparentListGroupItem>
-              <TransparentListGroupItem className="py-3">
+              <TransparentListGroupItem className="py-3 text-light fw-bolder">
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-calendar-event fs-2 me-4"></i>
                   <div className="d-flex flex-column card-subtitle">
@@ -158,7 +158,7 @@ export const Aculifting: FC = () => {
                   </div>
                 </div>
               </TransparentListGroupItem>
-              <TransparentListGroupItem className="py-3">
+              <TransparentListGroupItem className="py-3 text-light">
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
