@@ -76,7 +76,7 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Vous avez des douleurs ou des migraines recurrentes ?"
-                answer="Vous étes au bon endroit : L'énergétique traditionnelle chinoise peut vous aider"
+                answer="Vous étes au bon endroit : l'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
@@ -96,7 +96,7 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Règles douloureuses, troubles de la ménopause ?"
-                answer="Vous étes au bon endroit : L'énergétique traditionnelle chinoise peut vous aider"
+                answer="Vous étes au bon endroit : l'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
@@ -116,7 +116,7 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Vous voulez soulager les effets secondaires de votre traitement contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit ?"
-                answer="Vous étes au bon endroit : L'énergétique traditionnelle chinoise peut vous aider"
+                answer="Vous étes au bon endroit : l'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
