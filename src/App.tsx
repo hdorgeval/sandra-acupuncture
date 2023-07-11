@@ -4,6 +4,7 @@ import { Aculifting } from './pages/Aculifting';
 import { Acupuncture } from './pages/Acupuncture';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
+import { MassageTuina } from './pages/MassageTuina';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
 import { SoinsDouleurMedecineChinoise } from './pages/SoinsDouleurMedecineChinoise';
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: '/acupuncture',
     element: <Acupuncture />,
+  },
+  {
+    path: '/massage-tuina',
+    element: <MassageTuina />,
   },
 ]);
 

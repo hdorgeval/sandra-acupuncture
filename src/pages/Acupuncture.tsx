@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
@@ -205,11 +206,24 @@ export const Acupuncture: FC = () => {
                     </p>
                     <p>
                       Le traitement débute par la pose de fines aiguilles à usage unique et
-                      stériles, laissées en place 20 minutes et se termine par XXX
+                      stériles, laissées en place 20 minutes.
                     </p>
                     <p>
                       Le traitement n'est pas douloureux. La sensation liée à la piqûre de
                       l'aiguille peut être considérée comme négligeable.
+                    </p>
+                    <p>
+                      La séance se termine ensuite par un massage TuiNa :{' '}
+                      <Link
+                        to="/massage-tuina"
+                        className="text-decoration-none text-light"
+                        title="En savoir plus sur le massage TuiNa"
+                        aria-label="En savoir plus sur le massage TuiNa"
+                      >
+                        <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                          En savoir plus
+                        </span>
+                      </Link>
                     </p>
                   </div>
                 </div>
