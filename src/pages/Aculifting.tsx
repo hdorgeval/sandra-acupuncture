@@ -10,7 +10,7 @@ export const Aculifting: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/aculifting.webp"
+        backgroundImageUrl="/images/aculifting-background.jpg"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
         backgroundPositionX="60%"
         backgroundPositionY="33%"
