@@ -113,6 +113,11 @@ export const HambugerMenu: FC = () => {
                   Particuliers
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
+                  <Link to="/acupuncture">
+                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                      Acupuncture
+                    </span>
+                  </Link>
                   <Link to="/aculifting">
                     <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
                       Aculifting
