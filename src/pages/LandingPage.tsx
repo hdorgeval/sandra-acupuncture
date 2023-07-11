@@ -30,7 +30,7 @@ export const LandingPage: FC = () => {
             <PageTitle className="font-mali">Besoin de soulager votre corps</PageTitle>
             <PageTitle className="font-mali">Besoin d'avoir plus d'énergie</PageTitle>
             <PageTitle className="font-mali mt-4">
-              Avec la Médecine Traditionnelle Chinoise
+              Avec l'Énergétique Traditionnelle Chinoise
             </PageTitle>
           </div>
           <div className="flex-grow-third"></div>
@@ -52,19 +52,19 @@ export const LandingPage: FC = () => {
                 <AnimatedBy.FigCaption>Je m'appelle Sandra Giraudeau</AnimatedBy.FigCaption>
                 <AnimatedBy.Description>
                   Je vous reçois dans mon cabinet situé au sud-ouest de Nantes du lundi au samedi de
-                  9h à 19h. Praticienne en médecine énérgétique chinoise, je suis à votre écoute
-                  pour vous apporter le soulagement et l'harmonie dont vous avez besoin par les
-                  techniques d'acupression et par des massages TuiNa et tantrique.
+                  9h à 19h. Praticienne en énergétique traditionnelle chinoise, je suis à votre
+                  écoute pour vous apporter le soulagement et l'harmonie dont vous avez besoin par
+                  les techniques d'acupuncture et par des massages TuiNa et tantrique.
                 </AnimatedBy.Description>
               </AnimatedBy>
 
               <Link
                 to="/qui-suis-je"
                 className="text-decoration-none text-light"
-                title="En savoir plus sur le monde de la médecine énergétique chinoise, de
-              l'acupression, de l'aculifting, du massage Tuina et du massage tantrique"
-                aria-label="En savoir plus sur le monde de la médecine énergétique chinoise, de
-              l'acupression, de l'aculifting, du massage Tuina et du massage tantrique"
+                title="En savoir plus sur le monde de l'énergétique traditionnelle chinoise, de
+              l'acupuncture, de l'aculifting, du massage Tuina et du massage tantrique"
+                aria-label="En savoir plus sur le monde de l'énergétique traditionnelle chinoise, de
+              l'acupuncture, de l'aculifting, du massage Tuina et du massage tantrique"
               >
                 <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1 font-playfair">
                   En savoir plus
@@ -76,14 +76,14 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Vous avez des douleurs ou des migraines recurrentes ?"
-                answer="Vous étes au bon endroit : l'acupression peut vous aider"
+                answer="Vous étes au bon endroit : L'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
                 to="/soins-douleur-medecine-chinoise"
                 className="text-decoration-none text-light"
-                title="En savoir plus sur comment l'acupression peut soulager mes douleurs ou mes migraines"
-                aria-label="En savoir plus sur comment l'acupression peut soulager mes douleurs ou mes migraines"
+                title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut soulager mes douleurs ou mes migraines"
+                aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut soulager mes douleurs ou mes migraines"
               >
                 <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
                   En savoir plus
@@ -96,14 +96,14 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Règles douloureuses, troubles de la ménopause ?"
-                answer="Vous étes au bon endroit : l'acupression peut vous aider"
+                answer="Vous étes au bon endroit : L'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
                 to="/soins-urogenitale-medecine-chinoise"
                 className="text-decoration-none text-light"
-                title="En savoir plus sur comment l'acupression peut soulager les troubles uro-génitaux"
-                aria-label="En savoir plus sur comment l'acupression peut soulager les troubles uro-génitaux"
+                title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut soulager les troubles uro-génitaux"
+                aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut soulager les troubles uro-génitaux"
               >
                 <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
                   En savoir plus
@@ -116,14 +116,14 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Vous voulez soulager les effets secondaires de votre traitement contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit ?"
-                answer="Vous étes au bon endroit : l'acupression peut vous aider"
+                answer="Vous étes au bon endroit : L'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
                 to="/soins-oncologie-medecine-chinoise"
                 className="text-decoration-none text-light"
-                title="En savoir plus sur comment l'acupression peut soulager les effets secondaires des traitements contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit"
-                aria-label="En savoir plus sur comment l'acupression peut soulager les effets secondaires des traitements contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit"
+                title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut soulager les effets secondaires des traitements contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit"
+                aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut soulager les effets secondaires des traitements contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit"
               >
                 <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
                   En savoir plus
