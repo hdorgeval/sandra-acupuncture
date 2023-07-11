@@ -27,8 +27,8 @@ export const LandingPage: FC = () => {
         >
           <div className="flex-grow-half"></div>
           <div className="mt-0">
-            <PageTitle className="font-mali">Soulager votre corps</PageTitle>
-            <PageTitle className="font-mali">Avoir plus d'énergie</PageTitle>
+            <PageTitle className="font-mali">Besoin de soulager votre corps</PageTitle>
+            <PageTitle className="font-mali">Besoin d'avoir plus d'énergie</PageTitle>
             <PageTitle className="font-mali mt-4">
               Avec la Médecine Traditionnelle Chinoise
             </PageTitle>
@@ -136,12 +136,12 @@ export const LandingPage: FC = () => {
             <div className="card-body d-flex flex-row align-items-start">
               <OneLetterPill>I</OneLetterPill>
               <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
-                <div className="card-title fs-5">isabelle Jossot</div>
+                <div className="card-title fs-5">Isabelle Jossot</div>
                 <div>
                   <FiveStarRating />
                 </div>
                 <ReadMoreReadLess
-                  height={'25vh'}
+                  height={'17vh'}
                   readMoreText={'Lire plus'}
                   readLessText={'Lire moins'}
                 >
@@ -149,6 +149,48 @@ export const LandingPage: FC = () => {
                   Je l'ai consulter en acupuncture pour une problématique récurrente qui enfin, est
                   en passe d'être réglée définitivement. Et j'ai pu également expérimenter les
                   massages qu'elle propose... que de la douceur.... du pur bonheur ! Un grand Merci
+                </ReadMoreReadLess>
+              </div>
+            </div>
+          </SemiTransparentTile>
+
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body d-flex flex-row align-items-start">
+              <OneLetterPill>S</OneLetterPill>
+              <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
+                <div className="card-title fs-5">Sophie Violeau</div>
+                <div>
+                  <FiveStarRating />
+                </div>
+                <ReadMoreReadLess
+                  height={'17vh'}
+                  readMoreText={'Lire plus'}
+                  readLessText={'Lire moins'}
+                >
+                  J'ai effectué 2 séances d'acupuncture avec Sandra afin de régler des problèmes
+                  liés à la pré-ménopause. Elle a su me rassurer et m'a mise en confiance Elle a
+                  réalisé les soins tout en douceur. Ceux-ci ont été efficace et m'ont réellement
+                  soulagé Merci pour tout Sandra
+                </ReadMoreReadLess>
+              </div>
+            </div>
+          </SemiTransparentTile>
+
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body d-flex flex-row align-items-start">
+              <OneLetterPill>L</OneLetterPill>
+              <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
+                <div className="card-title fs-5">Lolote Foucher</div>
+                <div>
+                  <FiveStarRating />
+                </div>
+                <ReadMoreReadLess
+                  height={'17vh'}
+                  readMoreText={'Lire plus'}
+                  readLessText={'Lire moins'}
+                >
+                  J'ai pu essayé le massage qui est extraordinaire au niveau des sensations...plein
+                  d'émotions Un lâcher prise d'une heure et demi !!!
                 </ReadMoreReadLess>
               </div>
             </div>
