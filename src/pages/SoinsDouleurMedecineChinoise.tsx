@@ -21,38 +21,38 @@ export const SoinsDouleurMedecineChinoise: FC = () => {
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
             <p className="">
-              La médecine énergétique chinoise est souvent utilisée pour soulager divers types de
-              douleurs, comme les maux de dos, les douleurs musculaires, les migraines, les
-              entorses, les sciatiques et les douleurs articulaires. Elle stimule la libération
-              d'endorphines, les analgésiques naturels du corps.
+              L'énergétique traditionnelle chinoise est souvent utilisée pour soulager divers types
+              de douleurs, comme les maux de dos, les douleurs musculaires, les migraines, les
+              entorses, les sciatiques et les douleurs articulaires.
+            </p>
+            <p>
+              Elle stimule la libération de certaines hormones comme les endorphines, les
+              analgésiques naturels du corps.
             </p>
             <p className="">
-              En appliquant une pression sur des points spécifiques, l'acupression peut activer les
-              mécanismes naturels de soulagement de la douleur du corps. Cette stimulation aide à
-              débloquer les tensions et à favoriser la circulation sanguine, ce qui peut réduire la
-              douleur.
+              L'ocytocine, la sérotonine, les endorphines et bien d'autres hormones sont libérées
+              grâce aux bienfaits de l'énergétique traditionnelle chinoise.
+            </p>
+            <p>
+              Tous les mécanismes naturels de soulagement de la douleur du corps sont ainsi activés.
+              Cette stimulation aide à débloquer les tensions et à favoriser la circulation sanguine
+              et lymphatique ce qui réduit la douleur.
             </p>
 
             <p className="">
-              L'acupression peut stimuler la libération d'endorphines, qui sont des substances
-              chimiques naturelles produites par le corps et agissant comme des analgésiques
-              naturels. Les endorphines aident à réduire la douleur et peuvent induire une sensation
-              de bien-être et de soulagement.
+              Les tensions, les spasmes musculaires sont nettement atténués grâce à la détente
+              musculaire qui s'installe dans le corps.
             </p>
             <p className="">
-              L'acupression peut aider à réduire l'inflammation dans les tissus en améliorant la
-              circulation sanguine et lymphatique. Une inflammation réduite peut soulager la douleur
-              associée à des affections telles que l'arthrite, les entorses, les tendinites, etc.
-            </p>
-            <p className="">
-              L'acupression favorise la détente musculaire en réduisant les tensions et les spasmes
-              musculaires. Cela peut être particulièrement bénéfique pour soulager les douleurs
-              musculaires, les tensions du dos, les migraines d'origine musculaire, etc.
+              En résumé, une sensation de bien-être et de soulagement s'opère dans le corps.
             </p>
             <p>
               Certains points d'acupuncture sont connus pour leur efficacité dans le soulagement de
-              douleurs spécifiques. Par exemple, le point "Hegu" entre le pouce et l'index peut être
-              pressé pour soulager les maux de tête et les douleurs faciales.
+              douleurs spécifiques.
+            </p>
+            <p>
+              Par exemple, le point "Hegu" entre le pouce et l'index peut être pressé pour soulager
+              les maux de tête et les douleurs faciales.
             </p>
 
             <p className="mb-0 pb-0">
