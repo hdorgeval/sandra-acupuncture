@@ -9,13 +9,13 @@ export const Temoignages: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/background-temoignages.webp"
+        backgroundImageUrl="/images/temoignages-background.jpg"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(79, 79, 93, 0.1), rgba(79, 79, 93, 0.7) 90% 100%)"
         backgroundPosition="33%"
         htmlTitle={`Témoignages | ${websiteConfig.websiteTitle}`}
       >
         <div>
-          <div className="mt-5">
+          <div className="mt-6">
             <PageTitle>Témoignages</PageTitle>
           </div>
 
