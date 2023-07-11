@@ -115,7 +115,7 @@ export const LandingPage: FC = () => {
           <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
             <div className="card-body">
               <Question
-                sentence="Vous voulez soulager les effets secondaires de votre traitement contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit."
+                sentence="Vous voulez soulager les effets secondaires de votre traitement contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit ?"
                 answer="Vous étes au bon endroit : l'acupression peut vous aider"
                 answerClassname="text-white"
               />
@@ -124,6 +124,26 @@ export const LandingPage: FC = () => {
                 className="text-decoration-none text-light"
                 title="En savoir plus sur comment l'acupression peut soulager les effets secondaires des traitements contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit"
                 aria-label="En savoir plus sur comment l'acupression peut soulager les effets secondaires des traitements contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit"
+              >
+                <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                  En savoir plus
+                </span>
+              </Link>
+            </div>
+          </SemiTransparentTile>
+
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body">
+              <Question
+                sentence="Vous voulez redonner de l'éclat à votre visage ?"
+                answer="Vous étes au bon endroit : l'aculifting vous permet de rajeunir naturellement votre peau"
+                answerClassname="text-white"
+              />
+              <Link
+                to="/aculifting"
+                className="text-decoration-none text-light"
+                title="En savoir plus sur comment l'aculifting peut vous aider à rajeunir naturellement votre peau en lui donnant plus d'éclat et plus de fermeté."
+                aria-label="En savoir plus sur comment l'aculifting peut vous aider à rajeunir naturellement votre peau en lui donnant plus d'éclat et plus de fermeté."
               >
                 <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
                   En savoir plus
