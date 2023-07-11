@@ -43,7 +43,7 @@ export const websiteConfig: WebSiteConfig = {
   socialLinksMenuPosition: 'right',
   websiteSubTitle: 'Lorem ipsum dolor sit amet',
   websiteTitle:
-    'Sandra Giraudeau - médecine énergétique traditionnelle chinoise, massage Natui, massage tantrique ',
+    'Sandra Giraudeau - Énergétique Traditionnelle Chinoise, massage Natui, massage tantrique',
   websiteShortTitle: 'Sandra Giraudeau',
   websiteUrl: 'https://mon-site-web.com',
   legalNotice: {

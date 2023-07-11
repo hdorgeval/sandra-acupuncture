@@ -20,36 +20,38 @@ export const QuiSuisJe: FC = () => {
           <div className="" style={{ minHeight: '30vh' }}></div>
           <SemiTransparentTile className="card text-start text-light fs-2 font-dancing-script px-4 py-4">
             <p className="">Bonjour !</p>
-            <p className="">Je m'appelle Sandra Giraudeau.</p>
+            <p className="">Je suis Sandra Giraudeau.</p>
             <p className="">
-              Je vous propose une approche holistique de la santé et du bien-être avec la médecine
-              énergétique chinoise, l'acupression, l'aculifting, le massage Tuina et le massage
+              Je vous propose une approche holistique de la santé et du bien-être avec l'
+              énergétique traditionnelle chinoise, l' aculifting, le massage Tuina, et le massage
               tantrique.
             </p>
             <p className="">
-              Passionnée par l'art ancestral de la médecine énergétique chinoise, j'ai consacré des
-              années d'études et de pratique pour maîtriser ces différentes techniques
+              Passionnée par l'art ancestral de l' énergétique traditionnelle chinoise, j'ai
+              consacré des années d'études et de pratique pour maîtriser ces différentes techniques
               thérapeutiques. Avec une solide formation et une riche expérience, je vous propose un
               accompagnement personnalisé vers une harmonie totale du corps, de l'esprit et de
               l'âme.
             </p>
             <p className="">
-              Grâce à la médecine énergétique chinoise, j'utilise des principes millénaires pour
-              évaluer l'équilibre énergétique de votre corps. En combinant la théorie des méridiens,
-              des points d'acupuncture et des techniques d'acupression, je cherche à rétablir
-              l'harmonie des flux d'énergie pour favoriser la guérison et la vitalité.
+              Grâce à l' énergétique traditionnelle chinoise, j'utilise des principes millénaires
+              pour évaluer l'équilibre énergétique de votre corps. En combinant la théorie des
+              méridiens, des points d'acupuncture, la théorie des cinq éléments, du yin du yang...
+              je cherche à rétablir l'harmonie des flux d'énergie pour favoriser la guérison et la
+              vitalité.
             </p>
             <p>
-              Avec l'aculifting, je vous propose une approche naturelle pour rajeunir votre visage
-              et améliorer votre apparence. Grâce à des techniques spécifiques d'acupression et de
-              stimulation des points faciaux, l'aculifting vise à réduire les rides, à améliorer
-              l'élasticité de la peau et à révéler votre éclat naturel.
+              Avec l'aculifting, je vous propose une approche naturelle pour améliorer votre
+              apparence. Grâce à des techniques spécifiques des points faciaux, l'aculifting vise à
+              réduire les rides, à améliorer l'élasticité de la peau, à faire circuler l'énergie et
+              à révéler votre éclat naturel.
             </p>
             <p>
-              Je propose le massage Tuina, une pratique thérapeutique traditionnelle chinoise. En
-              utilisant des mouvements spécifiques et une pression adaptée le long des méridiens, le
-              massage Tuina favorise la circulation de l'énergie, soulage les tensions musculaires,
-              améliore la mobilité articulaire et procure une profonde détente.
+              Je propose le massage Tuina, un des piliers de l' énergétique traditionnelle chinoise.
+              En utilisant des mouvements spécifiques et une pression adaptée le long des méridiens,
+              le massage Tuina favorise la circulation de l'énergie, soulage les tensions
+              musculaires, améliore la mobilité articulaire et procure une profonde détente. Je le
+              pratique lors des séances d'énergétique traditionnelle chinoise.
             </p>
             <p>
               J'offre également des séances de massage tantrique, une approche sensuelle et
@@ -66,8 +68,8 @@ export const QuiSuisJe: FC = () => {
               et transformative.
             </p>
             <p>
-              Je vous invite à plongez dans le monde de la médecine énergétique chinoise, de
-              l'acupression, de l'aculifting, du massage Tuina et du massage tantrique.
+              Je vous invite à vous rencontrer dans le monde de l' énergétique chinoise, de
+              l'aculifting, du massage Tuina et du massage tantrique.
             </p>
             <p className="mb-0 pb-0">
               Rétablissez l'harmonie dans votre être tout entier et embrassez une vie épanouissante

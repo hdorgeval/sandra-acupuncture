@@ -56,10 +56,11 @@ export const SoinsDouleurMedecineChinoise: FC = () => {
             </p>
 
             <p className="mb-0 pb-0">
-              Il est important de noter que l'acupression peut offrir un soulagement temporaire de
-              la douleur, mais elle ne traite pas la cause sous-jacente de la douleur. Si vous avez
-              des douleurs chroniques ou graves, il est recommandé de consulter un professionnel de
-              la santé pour obtenir un diagnostic approprié et un plan de traitement complet.
+              Il est important de noter que l'énergétique traditionnelle chinoise peut offrir un
+              soulagement temporaire de la douleur, mais elle ne traite pas la cause sous-jacente de
+              la douleur. Si vous avez des douleurs chroniques ou graves, il est recommandé de
+              consulter un professionnel de la santé pour obtenir un diagnostic approprié et un plan
+              de traitement complet.
             </p>
           </SemiTransparentTile>
         </div>
