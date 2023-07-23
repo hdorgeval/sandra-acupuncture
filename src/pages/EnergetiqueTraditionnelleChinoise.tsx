@@ -22,7 +22,7 @@ export const EnergetiqueTraditionnelleChinoise: FC = () => {
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
             <p className="">
-              L'Energétique traditionnelle chinoise est une pratique millénaire. Elle repose sur la
+              L'Énergétique traditionnelle chinoise est une pratique millénaire. Elle repose sur la
               connaissance du réseau énergétique parcourant tout le corps, connu sous le nom de Qi
               (ou Chi), qui circule le long de canaux spécifiques appelés méridiens. Son approche
               prend en compte l'individu dans sa globalité.
