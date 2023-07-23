@@ -6,7 +6,7 @@ import { useOffCanvasBackdropRemover } from '../../hooks/useOffCanvasBackdropRem
 import { useTitle } from '../../hooks/useTitle';
 import { Footer } from './Footer';
 import { HambugerMenu } from './HamburgerMenu';
-export interface PageLyoutOwnProps {
+export interface PageLayoutOwnProps {
   backgroundImageUrl: string;
   backgroundOverlay?: string;
   backgroundPosition?: string;
@@ -17,7 +17,7 @@ export interface PageLyoutOwnProps {
   htmlTitle: string;
 }
 
-export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLyoutOwnProps> = ({
+export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLayoutOwnProps> = ({
   backgroundImageUrl,
   backgroundOverlay,
   backgroundPosition,
