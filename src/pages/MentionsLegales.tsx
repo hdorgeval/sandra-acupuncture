@@ -1,28 +1,22 @@
 import { FC } from 'react';
-import { usePublicPage } from '../contexts/userContext';
 import { useDate } from '../hooks/useCalendar';
-import { useMetaDescription } from '../hooks/useMetaDescription';
-import { useTitle } from '../hooks/useTitle';
 import { websiteConfig } from '../website.config';
-import { Footer } from './page-layout/Footer';
-import { HambugerMenu } from './page-layout/HamburgerMenu';
 import { PageSubTitle } from './page-layout/PageSubTitle';
 import { PageTitle } from './page-layout/PageTitle';
+import { PublicPageLayoutWithFixedBackgroundGradient } from './page-layout/PublicPageLayoutWithFixedBackgroundGradient';
 
 // content provided through :
 //  https://www.legalplace.fr/contrats/mentions-legales/creer/
 //  https://www.netlify.com/trust-center/
 
 export const MentionsLegales: FC = () => {
-  usePublicPage();
-  useTitle(`Mentions légales | ${websiteConfig.websiteTitle}`);
-  useMetaDescription(`Mentions légales | ${websiteConfig.websiteTitle}`);
   const dateInfos = useDate(websiteConfig.legalNotice.lastUpdate);
   return (
     <>
-      <HambugerMenu />
-      <div className="position-relative" style={{ height: '100vh', minHeight: '0' }}>
-        <div className="container h-100 d-flex flex-column justify-content-between align-items-center overflow-y-scroll">
+      <PublicPageLayoutWithFixedBackgroundGradient
+        htmlTitle={`Mentions légales | ${websiteConfig.websiteTitle}`}
+      >
+        <div className="d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
             <PageTitle>Mentions légales</PageTitle>
           </div>
@@ -31,7 +25,7 @@ export const MentionsLegales: FC = () => {
               <PageSubTitle className="fs-6">{`En vigueur au ${dateInfos.longDate}`}</PageSubTitle>
             )}
           </div>
-          <div className="fs-6 fw-bolder mt-4 mx-4 text-start text-body-secondary">
+          <div className="fs-6 mt-4 mx-4 text-start text-light">
             <p>
               Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin
               2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., il est porté à la
@@ -46,14 +40,9 @@ export const MentionsLegales: FC = () => {
             <h3 className="fs-5 text-emphasize pt-2 fw-bolder border-bottom border-bottom-1 pb-1 text-uppercase">
               ARTICLE 1 - l'éditeur
             </h3>
-            <p className="mt-3">
-              L'édition du Site est assurée par XXX au capital de XXX euros, immatriculée au
-              Registre du Commerce et des Sociétés de la ville de XXXX sous le numéro XXX dont le
-              siège social est situé au XXX.
-            </p>
+            <p className="mt-3">L'édition du Site est assurée par Sandra Giraudeau.</p>
             <p>Numéro de téléphone : {`${websiteConfig.links.phone.url}`}</p>
             <p>Adresse e-mail : {`${websiteConfig.links.email.url}`}.</p>
-            <p>N° de TVA intracommunautaire : FRXXXXXXX </p>
             <p>Le Directeur de la publication est Sandra Giraudeau ci-après l'"Editeur".</p>
             <h3 className="fs-5 text-emphasize pt-2 fw-bolder border-bottom border-bottom-1 pb-1 text-uppercase">
               ARTICLE 2 - l'hébergeur
@@ -91,10 +80,8 @@ export const MentionsLegales: FC = () => {
               propriété intellectuelle et le Code civil.
             </p>
           </div>
-          <div className="p-2 flex-grow-1 bd-highlight"></div>
-          <Footer />
         </div>
-      </div>
+      </PublicPageLayoutWithFixedBackgroundGradient>
     </>
   );
 };
