@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
 import { Aculifting } from './pages/Aculifting';
 import { Acupuncture } from './pages/Acupuncture';
+import { EnergetiqueTraditionnelleChinoise } from './pages/EnergetiqueTraditionnelleChinoise';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
 import { MassageTuina } from './pages/MassageTuina';
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: '/temoignages',
     element: <Temoignages />,
+  },
+  {
+    path: '/energetique-traditionnelle-chinoise',
+    element: <EnergetiqueTraditionnelleChinoise />,
   },
   {
     path: '/soins-douleur-medecine-chinoise',

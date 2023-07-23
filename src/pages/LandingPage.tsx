@@ -84,7 +84,7 @@ export const LandingPage: FC = () => {
                 answerClassname="text-white"
               />
               <Link
-                to="/acupuncture"
+                to="/energetique-traditionnelle-chinoise"
                 className="text-decoration-none text-light"
                 title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
                 aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
