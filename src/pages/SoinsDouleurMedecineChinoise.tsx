@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
@@ -62,6 +63,13 @@ export const SoinsDouleurMedecineChinoise: FC = () => {
               consulter un professionnel de la santé pour obtenir un diagnostic approprié et un plan
               de traitement complet.
             </p>
+            <div className="d-flex flex-column align-items-center pt-4">
+              <Link to="/acupuncture">
+                <span className="badge rounded-pill text-bg-dark border border-secondary m-1">
+                  Déroulement et tarifs
+                </span>
+              </Link>
+            </div>
           </SemiTransparentTile>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>

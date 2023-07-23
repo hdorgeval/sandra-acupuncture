@@ -72,6 +72,30 @@ export const LandingPage: FC = () => {
               </Link>
             </div>
           </SemiTransparentTile>
+
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body">
+              <Question
+                sentence="L'OMS (Organisation Mondiale de la Santé) reconnaît l'énergétique traditionnelle
+                chinoise comme une approche de traitement efficace pour un large éventail de
+                problèmes de santé."
+                answer="L'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements
+                médicaux traditionnels."
+                answerClassname="text-white"
+              />
+              <Link
+                to="/acupuncture"
+                className="text-decoration-none text-light"
+                title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
+                aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
+              >
+                <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                  En savoir plus
+                </span>
+              </Link>
+            </div>
+          </SemiTransparentTile>
+
           <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
             <div className="card-body">
               <Question

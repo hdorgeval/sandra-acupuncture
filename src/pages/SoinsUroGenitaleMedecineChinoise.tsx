@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
@@ -68,6 +69,13 @@ export const SoinsUroGenitaleMedecineChinoise: FC = () => {
               L'énergétique traditionnelle chinoise peut être utilisée en complément d'autres
               approches médicales ou thérapeutiques pour améliorer votre bien-être général.
             </p>
+            <div className="d-flex flex-column align-items-center pt-4">
+              <Link to="/acupuncture">
+                <span className="badge rounded-pill text-bg-dark border border-secondary m-1">
+                  Déroulement et tarifs
+                </span>
+              </Link>
+            </div>
           </SemiTransparentTile>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
