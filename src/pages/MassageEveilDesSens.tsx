@@ -17,7 +17,7 @@ export const MassageEveilDesSens: FC = () => {
         backgroundPositionY="33%"
         htmlTitle={`Massage éveil des sens | ${websiteConfig.websiteTitle}`}
       >
-        <div className="d-flex flex-column justify-content-start align-items-center">
+        <div className="w-100 d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
             <PageTitle>Massage éveil des sens</PageTitle>
           </div>
@@ -75,7 +75,7 @@ export const MassageEveilDesSens: FC = () => {
               </p>
             </ReadMoreReadLess>
           </SemiTransparentTile>
-          <SemiTransparentTile className="card text-start text-light font-monserrat mt-4">
+          <SemiTransparentTile className="w-100 card text-start text-light font-monserrat mt-4">
             <div className="card-body">
               <h5 className="card-title mb-0 fw-bolder">Déroulement et tarifs</h5>
             </div>
@@ -128,7 +128,7 @@ export const MassageEveilDesSens: FC = () => {
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="">150€</span>
                     <span className="">180€ avec massage du Lingam</span>
-                    <span className="text-nowrap fs-7 fw-normal">
+                    <span className="fs-7 fw-normal">
                       Moyens de paiement: chèque, espèces ou virement
                     </span>
                   </div>
