@@ -12,6 +12,7 @@ export type MyAnalyticsEvent =
   | 'open-my-whatsapp'
   | 'open-my-youtube'
   | 'open-waze'
+  | 'open-charte-ethique'
   | 'rdv-aculifting'
   | 'rdv-entretien-prealable'
   | 'rdv-masage-eveil-des-sens'

@@ -156,6 +156,30 @@ export const MassageEveilDesSens: FC = () => {
 
               <TransparentListGroupItem className="py-3 text-light fw-bolder">
                 <div className="d-flex flex-row card-subtitle align-items-center">
+                  <i className="bi bi-shield-check fs-3 me-4"></i>
+                  <div className="d-flex flex-column justify-content-between ">
+                    <p className="">
+                      Je m'engage à ce que la séance de massage se déroule selon la charte
+                      ci-dessous:
+                    </p>
+                    <OpenExternalLinkButton
+                      className="btn btn-outline-light fw-bolder w-100 mt-1"
+                      link="https://association-massage-tantrique.com/charte-ethique-professionnelle/"
+                      title="Charte éthique professionnelle de l'Association Massage Tantrique"
+                      analyticsEvent="open-charte-ethique"
+                    >
+                      <div className="d-flex flex-column align-items-center">
+                        <span className="">
+                          Charte éthique professionnelle de l'Association Massage Tantrique
+                        </span>
+                      </div>
+                    </OpenExternalLinkButton>
+                  </div>
+                </div>
+              </TransparentListGroupItem>
+
+              <TransparentListGroupItem className="py-3 text-light fw-bolder">
+                <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between">
                     <p className="">Une séance de message éveil des sens dure environ 2h30.</p>
