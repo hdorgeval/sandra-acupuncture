@@ -183,13 +183,15 @@ export const MassageEveilDesSens: FC = () => {
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between">
                     <p className="">Une séance de message éveil des sens dure environ 2h30.</p>
-                    <p>Le massage en lui-même dure 1h30</p>
+                    <p>Le massage en lui-même dure 1h30.</p>
                     <p>
                       Je vous accueille et vous propose un temps d'échange pour répondre à vos
                       attentes et besoins spécifiques sur d'éventuelles préoccupations. Cela
                       contribue à établir une relation de confiance pour recevoir le massage dans le
-                      respect du cadre posé. Le massage sera suivi d'un temps d'intégration pour
-                      revenir à vous en douceur.
+                      respect du cadre posé.
+                    </p>
+                    <p>
+                      Le massage sera suivi d'un temps d'intégration pour revenir à vous en douceur.
                     </p>
                     <p>
                       Pour des raisons évidentes d'hygiène, et pour le confort de la personne massée
