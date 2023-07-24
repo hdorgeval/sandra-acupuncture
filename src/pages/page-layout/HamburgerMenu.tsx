@@ -123,6 +123,11 @@ export const HambugerMenu: FC = () => {
                       Aculifting
                     </span>
                   </Link>
+                  <Link to="/massage-eveil-des-sens">
+                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                      Massage éveil des sens
+                    </span>
+                  </Link>
                 </div>
               </li>
               {websiteConfig.displayAccountButtons && (

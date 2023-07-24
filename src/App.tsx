@@ -5,6 +5,7 @@ import { Acupuncture } from './pages/Acupuncture';
 import { EnergetiqueTraditionnelleChinoise } from './pages/EnergetiqueTraditionnelleChinoise';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
+import { MassageEveilDesSens } from './pages/MassageEveilDesSens';
 import { MassageTuina } from './pages/MassageTuina';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
   {
     path: '/massage-tuina',
     element: <MassageTuina />,
+  },
+  {
+    path: '/massage-eveil-des-sens',
+    element: <MassageEveilDesSens />,
   },
 ]);
 

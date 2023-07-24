@@ -14,6 +14,7 @@ export type MyAnalyticsEvent =
   | 'open-waze'
   | 'rdv-aculifting'
   | 'rdv-entretien-prealable'
+  | 'rdv-masage-eveil-des-sens'
   | 'rdv-ou-contact';
 
 export type CommandType = 'js' | 'config' | 'event';

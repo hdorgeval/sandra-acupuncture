@@ -97,7 +97,7 @@ export const websiteConfig: WebSiteConfig = {
       show: true,
     },
     rdv: {
-      url: 'https://calendly.com/henri-d-orgeval/acupuncture',
+      url: 'https://calendly.com/henri-d-orgeval/contact-et-reservation',
       title: 'Me contacter ou prendre un rendez-vous',
       label: 'Prendre un rendez-vous',
       show: true,
