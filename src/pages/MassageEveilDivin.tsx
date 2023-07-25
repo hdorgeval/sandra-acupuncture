@@ -7,7 +7,7 @@ import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 import { SemiTransparentTile } from './page-layout/SemiTransparentTile';
 import { TransparentListGroupItem } from './page-layout/TransparentListGroupItem';
-export const MassageEveilDesSens: FC = () => {
+export const MassageEveilDivin: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
@@ -15,11 +15,11 @@ export const MassageEveilDesSens: FC = () => {
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
         backgroundPositionX="60%"
         backgroundPositionY="33%"
-        htmlTitle={`Massage éveil des sens | ${websiteConfig.websiteTitle}`}
+        htmlTitle={`Massage éveil divin | ${websiteConfig.websiteTitle}`}
       >
         <div className="w-100 d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
-            <PageTitle>Massage éveil des sens</PageTitle>
+            <PageTitle>Massage éveil divin</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
@@ -28,40 +28,21 @@ export const MassageEveilDesSens: FC = () => {
               readMoreText={'Lire plus'}
               readLessText={'Lire moins'}
             >
-              <p className="">Le massage éveil des sens est un massage sur table.</p>
-              <p>Le toucher est très doux, très lent, et enveloppant.</p>
-              <p>Le corps est honoré dans son entièreté.</p>
-              <p>
-                Tout comme en énergétique traditionnelle chinoise, le massage tantrique permet de
-                faire circuler l'énergie pour redonner vitalité et harmonie dans les corps physique,
-                émotionnel, et mental.
+              <p className="">
+                Le massage d'éveil divin s'inspire des rituels du massage cachemirien.
               </p>
               <p>
-                Dans nos sociétés occidentales, nous sommes habitués à faire, nous ne savons pas
-                prendre le temps.
+                Installé sur futon, vous vivrez l'expérience de votre voyage intérieur par le
+                toucher délicat, lent et enveloppant de mes mains.
               </p>
               <p>
-                Notre mental aime bien se nourrir de nos actions, de nos pensées. Ce toucher lent va
-                vous permettre de lâcher prise que ce soit au niveau de votre mental et dans votre
-                corps. C'est ainsi que vous vous reconnecterez à votre corps, à votre essence
-                profonde dans toutes les di-mensions physiques, émotionnelles, spirituelles.
+                Dans cet espace sacré, vous pourrez ainsi vous abandonnez à une relaxation profonde
+                qui sera la voie d'accès à la dimension divine de votre corps.
               </p>
               <p>
-                Vous pourrez alors accueillir tout ce qui se passe à l'intérieur de votre corps : de
-                nouveaux ressentis, des émotions, du plaisir.
-              </p>
-              <p>
-                Vous profiterez de cet espace enveloppant, réparateur qui vous nourrira votre être
-                tout entier.
-              </p>
-              <p>
-                Plus spécifiquement pour la femme, la massage tantrique aide à réparer des
-                traumatismes lié à différentes mémoires, à se reconnecter à son corps, à l'aimer tel
-                qu'il est, à s'ouvrir à sa sensualité.
-              </p>
-              <p>
-                Et pour l'homme, le massage va l'aider à s'ouvrir à son féminin, à ressentir
-                l'énergie dans tout son corps pour vivre une sexualité différente, sans performance.
+                Le massage du Lingam (pour les hommes) et de la Yoni (pour les femmes) est abordé
+                pour un temps dédié. Ce massage vous apportera une véritable transformation dans
+                tout votre être.
               </p>
               <p>
                 IL EST CRUCIAL POUR MOI DE RAPPELER QUE CETTE PRESTATION N'A AUCUN CARACTERE SEXUEL.
@@ -84,7 +65,7 @@ export const MassageEveilDesSens: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
-                    <span className="text-nowrap fs-7">2h30</span>
+                    <span className="text-nowrap fs-7">2h30 ou 3h</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -126,8 +107,8 @@ export const MassageEveilDesSens: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
-                    <span className="">150€</span>
-                    <span className="">180€ avec massage du Lingam</span>
+                    <span className="">180€ la séance de 2h30</span>
+                    <span className="">210€ la séance de 3h</span>
                     <span className="fs-7 fw-normal">
                       Moyens de paiement: chèque, espèces ou virement
                     </span>
@@ -182,8 +163,9 @@ export const MassageEveilDesSens: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between">
-                    <p className="">Une séance de message éveil des sens dure environ 2h30.</p>
-                    <p>Le massage en lui-même dure 1h30.</p>
+                    <p className="">Une séance de message éveil divin dure environ 2h30.</p>
+                    <p>Le massage en lui-même dure alors 1h30.</p>
+                    <p>Quand la séance est de 3h, le massage en lui-même dure 2h.</p>
                     <p>
                       Je vous accueille et vous propose un temps d'échange pour répondre à vos
                       attentes et besoins spécifiques sur d'éventuelles préoccupations. Cela
@@ -220,4 +202,4 @@ export const MassageEveilDesSens: FC = () => {
   );
 };
 
-MassageEveilDesSens.displayName = 'MassageEveilDesSens';
+MassageEveilDivin.displayName = 'MassageEveilDivin';

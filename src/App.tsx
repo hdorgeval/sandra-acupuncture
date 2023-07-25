@@ -13,6 +13,7 @@ import { SoinsDouleurMedecineChinoise } from './pages/SoinsDouleurMedecineChinoi
 import { SoinsOncologieMedecineChinoise } from './pages/SoinsOncologieMedecineChinoise';
 import { SoinsUroGenitaleMedecineChinoise } from './pages/SoinsUroGenitaleMedecineChinoise';
 import { Temoignages } from './pages/Temoignages';
+import { MassageEveilDivin } from './pages/MassageEveilDivin';
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
   {
     path: '/massage-eveil-des-sens',
     element: <MassageEveilDesSens />,
+  },
+  {
+    path: '/massage-eveil-divin',
+    element: <MassageEveilDivin />,
   },
 ]);
 
