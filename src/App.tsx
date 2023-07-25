@@ -6,6 +6,8 @@ import { EnergetiqueTraditionnelleChinoise } from './pages/EnergetiqueTraditionn
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
 import { MassageEveilDesSens } from './pages/MassageEveilDesSens';
+import { MassageEveilDivin } from './pages/MassageEveilDivin';
+import { MassageTantrique } from './pages/MassageTantrique';
 import { MassageTuina } from './pages/MassageTuina';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
@@ -13,7 +15,6 @@ import { SoinsDouleurMedecineChinoise } from './pages/SoinsDouleurMedecineChinoi
 import { SoinsOncologieMedecineChinoise } from './pages/SoinsOncologieMedecineChinoise';
 import { SoinsUroGenitaleMedecineChinoise } from './pages/SoinsUroGenitaleMedecineChinoise';
 import { Temoignages } from './pages/Temoignages';
-import { MassageEveilDivin } from './pages/MassageEveilDivin';
 
 const router = createBrowserRouter([
   {
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
   {
     path: '/massage-eveil-divin',
     element: <MassageEveilDivin />,
+  },
+  {
+    path: '/massage-tantrique',
+    element: <MassageTantrique />,
   },
 ]);
 

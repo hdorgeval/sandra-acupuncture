@@ -32,6 +32,7 @@ export const LandingPage: FC = () => {
             <PageTitle className="font-mali mt-4">
               Avec l'Énergétique Traditionnelle Chinoise
             </PageTitle>
+            <PageTitle className="font-mali mt-4">Avec le Massage Tantrique</PageTitle>
           </div>
           <div className="flex-grow-third"></div>
           <div id="home" className="w-100">
@@ -168,6 +169,26 @@ export const LandingPage: FC = () => {
                 className="text-decoration-none text-light"
                 title="En savoir plus sur comment l'aculifting peut vous aider à rajeunir naturellement votre peau en lui donnant plus d'éclat et plus de fermeté."
                 aria-label="En savoir plus sur comment l'aculifting peut vous aider à rajeunir naturellement votre peau en lui donnant plus d'éclat et plus de fermeté."
+              >
+                <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                  En savoir plus
+                </span>
+              </Link>
+            </div>
+          </SemiTransparentTile>
+
+          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+            <div className="card-body">
+              <Question
+                sentence="Vous voulez cheminer vers votre divin intérieur ?"
+                answer="Vous étes au bon endroit : le massage tantrique est une voie d'exploration méditative"
+                answerClassname="text-white"
+              />
+              <Link
+                to="/massage-tantrique"
+                className="text-decoration-none text-light"
+                title="En savoir plus sur le massage tantrique"
+                aria-label="En savoir plus sur le massage tantrique"
               >
                 <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
                   En savoir plus

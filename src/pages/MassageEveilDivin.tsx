@@ -29,7 +29,7 @@ export const MassageEveilDivin: FC = () => {
               readLessText={'Lire moins'}
             >
               <p className="">
-                Le massage d'éveil divin s'inspire des rituels du massage cachemirien.
+                Le massage éveil divin s'inspire des rituels du massage cachemirien.
               </p>
               <p>
                 Installé sur futon, vous vivrez l'expérience de votre voyage intérieur par le
