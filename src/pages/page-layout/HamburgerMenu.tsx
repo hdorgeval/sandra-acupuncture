@@ -71,7 +71,7 @@ export const HambugerMenu: FC = () => {
             <button
               id="hamburger-close-button"
               type="button"
-              className="btn-close btn-close-white"
+              className="btn-close fw-bolder fs-2"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
