@@ -87,7 +87,7 @@ export const HambugerMenu: FC = () => {
                     title="Accueil"
                     aria-label="Accueil"
                   >
-                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                       Accueil
                     </span>
                   </Link>
@@ -97,12 +97,12 @@ export const HambugerMenu: FC = () => {
                     title="Qui suis-je ?"
                     aria-label="Qui suis-je ?"
                   >
-                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                       Qui suis-je ?
                     </span>
                   </Link>
                   <Link to="/temoignages" className="text-decoration-none text-light">
-                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                       Témoignages
                     </span>
                   </Link>
@@ -114,22 +114,22 @@ export const HambugerMenu: FC = () => {
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/acupuncture">
-                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                       Acupuncture
                     </span>
                   </Link>
                   <Link to="/aculifting">
-                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                       Aculifting
                     </span>
                   </Link>
                   <Link to="/massage-eveil-des-sens">
-                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                       Massage éveil des sens
                     </span>
                   </Link>
                   <Link to="/massage-eveil-divin">
-                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                       Massage éveil divin
                     </span>
                   </Link>
@@ -154,7 +154,7 @@ export const HambugerMenu: FC = () => {
                   <span>Crédits</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
-                  <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                  <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                     web design: Henri d'Orgeval
                   </span>
                 </div>
@@ -165,7 +165,7 @@ export const HambugerMenu: FC = () => {
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/mentions-legales">
-                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
                       Mentions légales
                     </span>
                   </Link>
