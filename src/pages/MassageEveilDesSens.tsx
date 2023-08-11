@@ -1,5 +1,7 @@
 import { FC } from 'react';
+import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
+import { PhoneNumber } from '../components/PhoneNumber';
 import { Quote } from '../components/Quote';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
@@ -143,13 +145,27 @@ export const MassageEveilDesSens: FC = () => {
                     <OpenExternalLinkButton
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
                       link={websiteConfig.links.rdv.url}
-                      title="Prendre rendez-vous pour l'entretien préalable"
+                      title="Prendre rendez-vous pour l'entretien téléphonique"
                       analyticsEvent="rdv-masage-eveil-des-sens"
                     >
                       <div className="d-flex flex-column align-items-center">
-                        <span className="">Prendre rendez-vous pour l'entretien préalable</span>
+                        <span className="">Prendre rendez-vous pour l'entretien téléphonique</span>
                       </div>
                     </OpenExternalLinkButton>
+                    <span className="mt-4">Ou bien appelez-moi directement :</span>
+                    <CallablePhoneNumberButton
+                      className="btn btn-outline-light fw-bolder w-100 mt-1"
+                      phoneNumber={websiteConfig.links.phone.url}
+                      title="Appeler pour l'entretien téléphonique"
+                      analyticsEvent="tel-masage-eveil-des-sens"
+                    >
+                      <div className="d-flex flex-column align-items-center">
+                        <span className="">
+                          Sandra Giraudeau{' '}
+                          <PhoneNumber phoneNumber={websiteConfig.links.phone.url} />
+                        </span>
+                      </div>
+                    </CallablePhoneNumberButton>
                   </div>
                 </div>
               </TransparentListGroupItem>
