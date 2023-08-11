@@ -157,7 +157,7 @@ export const MassageEveilDesSens: FC = () => {
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
                       phoneNumber={websiteConfig.links.phone.url}
                       title="Appeler pour l'entretien téléphonique"
-                      analyticsEvent="tel-masage-eveil-des-sens"
+                      analyticsEvent="tel-massage-eveil-des-sens"
                     >
                       <div className="d-flex flex-column align-items-center">
                         <span className="">
