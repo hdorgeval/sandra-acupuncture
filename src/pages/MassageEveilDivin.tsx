@@ -124,11 +124,11 @@ export const MassageEveilDivin: FC = () => {
                     <OpenExternalLinkButton
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
                       link={websiteConfig.links.rdv.url}
-                      title="Prendre rendez-vous pour l'entretien préalable"
-                      analyticsEvent="rdv-masage-eveil-des-sens"
+                      title="Prendre rendez-vous pour l'entretien téléphonique"
+                      analyticsEvent="rdv-masage-eveil-divin"
                     >
                       <div className="d-flex flex-column align-items-center">
-                        <span className="">Prendre rendez-vous pour l'entretien préalable</span>
+                        <span className="">Prendre rendez-vous pour l'entretien téléphonique</span>
                       </div>
                     </OpenExternalLinkButton>
                   </div>
