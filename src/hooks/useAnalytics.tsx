@@ -4,6 +4,7 @@ export type MyAnalyticsEvent =
   | 'appel-telephone'
   | 'envoie-mail'
   | 'has-completed-guided-tour'
+  | 'open-charte-ethique'
   | 'open-external-link'
   | 'open-google-maps'
   | 'open-my-facebook'
@@ -12,15 +13,16 @@ export type MyAnalyticsEvent =
   | 'open-my-whatsapp'
   | 'open-my-youtube'
   | 'open-waze'
-  | 'open-charte-ethique'
   | 'rdv-aculifting'
+  | 'rdv-acupuncture'
   | 'rdv-entretien-prealable'
   | 'rdv-masage-eveil-des-sens'
   | 'rdv-masage-eveil-divin'
   | 'rdv-ou-contact'
+  | 'tel-aculifting'
+  | 'tel-acupuncture'
   | 'tel-massage-eveil-des-sens'
-  | 'tel-massage-eveil-divin'
-  | 'tel-aculifting';
+  | 'tel-massage-eveil-divin';
 
 export type CommandType = 'js' | 'config' | 'event';
 declare global {

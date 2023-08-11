@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
+import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
+import { PhoneNumber } from '../components/PhoneNumber';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
@@ -244,12 +246,26 @@ export const Acupuncture: FC = () => {
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
                       link={websiteConfig.links.rdv.url}
                       title={websiteConfig.links.rdv.title}
-                      analyticsEvent="rdv-aculifting"
+                      analyticsEvent="rdv-acupuncture"
                     >
                       <div className="d-flex flex-column align-items-center">
                         <span className="">{websiteConfig.links.rdv.label}</span>
                       </div>
                     </OpenExternalLinkButton>
+                    <span className="mt-4">Ou bien appelez-moi directement :</span>
+                    <CallablePhoneNumberButton
+                      className="btn btn-outline-light fw-bolder w-100 mt-1"
+                      phoneNumber={websiteConfig.links.phone.url}
+                      title="Appeler pour prendre un rdv, ou poser vos questions"
+                      analyticsEvent="tel-acupuncture"
+                    >
+                      <div className="d-flex flex-column align-items-center">
+                        <span className="">
+                          Sandra Giraudeau{' '}
+                          <PhoneNumber phoneNumber={websiteConfig.links.phone.url} />
+                        </span>
+                      </div>
+                    </CallablePhoneNumberButton>
                   </div>
                 </div>
               </TransparentListGroupItem>
