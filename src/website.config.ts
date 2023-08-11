@@ -99,7 +99,7 @@ export const websiteConfig: WebSiteConfig = {
     rdv: {
       url: 'https://calendly.com/sandra-giraudeau/contact-et-reservation',
       title: 'Me contacter ou prendre un rendez-vous',
-      label: 'Réserver un créneau horaire pour communiquer ensemble',
+      label: 'Réserver un créneau horaire pour poser vos questions',
       show: true,
     },
     googleMaps: {
