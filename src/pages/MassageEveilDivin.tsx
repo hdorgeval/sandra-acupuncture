@@ -1,5 +1,7 @@
 import { FC } from 'react';
+import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
+import { PhoneNumber } from '../components/PhoneNumber';
 import { Quote } from '../components/Quote';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
@@ -131,6 +133,20 @@ export const MassageEveilDivin: FC = () => {
                         <span className="">Prendre rendez-vous pour l'entretien téléphonique</span>
                       </div>
                     </OpenExternalLinkButton>
+                    <span className="mt-4">Ou bien appelez-moi directement :</span>
+                    <CallablePhoneNumberButton
+                      className="btn btn-outline-light fw-bolder w-100 mt-1"
+                      phoneNumber={websiteConfig.links.phone.url}
+                      title="Appeler pour l'entretien téléphonique"
+                      analyticsEvent="tel-massage-eveil-divin"
+                    >
+                      <div className="d-flex flex-column align-items-center">
+                        <span className="">
+                          Sandra Giraudeau{' '}
+                          <PhoneNumber phoneNumber={websiteConfig.links.phone.url} />
+                        </span>
+                      </div>
+                    </CallablePhoneNumberButton>
                   </div>
                 </div>
               </TransparentListGroupItem>
