@@ -41,11 +41,11 @@ export const websiteConfig: WebSiteConfig = {
   copyrightOwner: 'Sandra Giraudeau',
   hamburgerMenuPosition: 'left',
   socialLinksMenuPosition: 'right',
-  websiteSubTitle: 'Lorem ipsum dolor sit amet',
+  websiteSubTitle: '',
   websiteTitle:
     'Sandra Giraudeau - Énergétique Traditionnelle Chinoise, massage Natui, massage tantrique',
   websiteShortTitle: 'Sandra Giraudeau',
-  websiteUrl: 'https://mon-site-web.com',
+  websiteUrl: 'https://sandra-giraudeau.com',
   legalNotice: {
     lastUpdate: '2023/06/21',
   },
@@ -97,9 +97,9 @@ export const websiteConfig: WebSiteConfig = {
       show: true,
     },
     rdv: {
-      url: 'https://calendly.com/henri-d-orgeval/contact-et-reservation',
+      url: 'https://calendly.com/sandra-giraudeau/contact-et-reservation',
       title: 'Me contacter ou prendre un rendez-vous',
-      label: 'Prendre un rendez-vous',
+      label: 'Réserver un créneau horaire pour communiquer ensemble',
       show: true,
     },
     googleMaps: {

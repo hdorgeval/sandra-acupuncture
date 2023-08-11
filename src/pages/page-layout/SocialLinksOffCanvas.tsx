@@ -46,7 +46,7 @@ export const SocialLinksOffCanvas: FC = () => {
               analyticsEvent="rdv-ou-contact"
             >
               <div className="d-flex flex-column align-items-center">
-                <span className="">{websiteConfig.links.rdv.label}</span>
+                <span className="text-wrap">{websiteConfig.links.rdv.label}</span>
               </div>
             </OpenExternalLinkButton>
           )}
