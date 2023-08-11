@@ -19,7 +19,8 @@ export type MyAnalyticsEvent =
   | 'rdv-masage-eveil-divin'
   | 'rdv-ou-contact'
   | 'tel-massage-eveil-des-sens'
-  | 'tel-massage-eveil-divin';
+  | 'tel-massage-eveil-divin'
+  | 'tel-aculifting';
 
 export type CommandType = 'js' | 'config' | 'event';
 declare global {

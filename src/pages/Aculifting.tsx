@@ -1,5 +1,7 @@
 import { FC } from 'react';
+import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
+import { PhoneNumber } from '../components/PhoneNumber';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
@@ -158,6 +160,20 @@ export const Aculifting: FC = () => {
                         <span className="">{websiteConfig.links.rdv.label}</span>
                       </div>
                     </OpenExternalLinkButton>
+                    <span className="mt-4">Ou bien appelez-moi directement :</span>
+                    <CallablePhoneNumberButton
+                      className="btn btn-outline-light fw-bolder w-100 mt-1"
+                      phoneNumber={websiteConfig.links.phone.url}
+                      title="Appeler pour prendre un rdv, ou poser vos questions"
+                      analyticsEvent="tel-aculifting"
+                    >
+                      <div className="d-flex flex-column align-items-center">
+                        <span className="">
+                          Sandra Giraudeau{' '}
+                          <PhoneNumber phoneNumber={websiteConfig.links.phone.url} />
+                        </span>
+                      </div>
+                    </CallablePhoneNumberButton>
                   </div>
                 </div>
               </TransparentListGroupItem>
