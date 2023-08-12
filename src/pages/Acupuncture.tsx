@@ -73,8 +73,9 @@ export const Acupuncture: FC = () => {
                 analgésiques et anti-inflammatoires.
               </p>
               <p>
-                Les maux de dos, les douleurs musculaires et articulaires, les tendinites,
-                épicondilytes, les sciatiques, les maux de tête sont ainsi traités.
+                Les maux de dos, les douleurs musculaires et articulaires, les tendinites, les
+                épicondylites, les bursites, les capsulites, les sciatiques, les cervicalgies, les
+                maux de tête sont ainsi traités.
               </p>
               <p>
                 <span className="text-info">La réduction du stress et de l'anxiété :</span> En
@@ -118,13 +119,13 @@ export const Acupuncture: FC = () => {
                 Il nous protège des invasions externes de type vent, froid, humidité et chaleur. Les
                 méridiens de la rate, du rein et du poumon sont efficaces pour activer la production
                 des cellules du système immunitaire aidant ainsi à prévenir les maladies et à
-                favoriser la santé globale.
+                favoriser la santé globale en cas de sinusite, bronchite, asthme.
               </p>
               <p>
                 <span className="text-info">La régulation des déséquilibres hormonaux :</span>{' '}
                 L'énergétique traditionnelle chinoise est souvent utilisée pour traiter les
                 déséquilibres hormonaux chez les femmes, tels que les troubles menstruels, les
-                symptômes de la ménopause et les troubles de la fertilité.
+                symptômes de la ménopause, l'endométriose et les troubles de la fertilité.
               </p>
               <p>
                 <span className="text-info">L'amélioration de la digestion :</span> En agissant sur
@@ -134,31 +135,38 @@ export const Acupuncture: FC = () => {
               </p>
               <p>
                 Les ballonnements, les reflux acides, les nausées et les douleurs abdominales sont
-                ainsi soulagés.
+                ainsi soulagés tout comme la diarrhée, la constipation, la digestion difficile. Les
+                problèmes de poids sont aussi abordés.
               </p>
               <p>
                 <span className="text-info">L'augmentation de l'énergie :</span> En rééquilibrant
                 les flux d'énergie du corps, l'énergétique traditionnelle chinoise stimule et
-                revitaliser le système énergétique, améliorant ainsi les niveaux d'énergie et
+                revitalise le système énergétique, améliorant ainsi les niveaux d'énergie et
                 réduisant la fatigue.
               </p>
               <p>
                 <span className="text-info">Le soutien aux soins de la peau :</span> L'énergétique
                 traditionnelle chinoise est souvent utilisée en esthétique pour aider à améliorer la
                 santé de la peau, en favorisant l'éclat naturel, en réduisant les rides et en
-                atténuant les problèmes cutanés tels que l'acné et l'eczéma.
+                agissant sur les problèmes cutanés tels que l'acné, l'eczéma, le psoriasis.
               </p>
               <p>
                 <span className="text-info">La gestion des dépendances :</span> L'énergétique
                 traditionnelle chinoise peut être utilisée dans la gestion des dépendances, en
                 aidant à réduire les symptômes de sevrage et à soutenir le processus de
-                désintoxication.
+                désintoxication à l'alcool, le tabac, la drogue.
               </p>
               <p>
                 <span className="text-info">La cancérologie :</span> L'énergétique traditionnelle
                 chinoise est un traitement d'appoint dans tous les cancers, préparation avant les
                 examens, avant la chimiothérapie, la chirurgie, la radiothérapie, aide à la
                 récupération après les traitements.
+              </p>
+              <p>
+                Les traitements de l'énergétique traditionnelle chinoise pour les enfants sont
+                généralement adaptés à leur âge et à leur constitution. L'ensemble du tableau de
+                santé de l'enfant, y compris les symptômes, l'état émotionnel, les habitudes
+                alimentaires et le mode de vie seront pris en compte pour répondre à ses besoins.
               </p>
               <p>
                 L'énergétique traditionnelle chinoise ne remplace pas les traitements médicaux
@@ -230,7 +238,7 @@ export const Acupuncture: FC = () => {
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="fw-bolder">Adulte: 70€ </span>
-                    <span className="fw-bolder">Enfant mineur: 50€</span>
+                    <span className="fw-bolder">Enfant mineur: 60€</span>
                     <span className="">Remise de 10% à partir de la deuxième séance</span>
                     <span className="text-nowrap fs-7 fw-normal">
                       Moyens de paiement: chèque ou espèces
@@ -278,17 +286,12 @@ export const Acupuncture: FC = () => {
                       heure trente.
                     </p>
                     <p>
-                      La séance commence par un questionnaire pour mieux comprendre votre situation
-                      et personnaliser le traitement en conséquence.
+                      Elle débute par un échange avec la personne pour obtenir des informations sur
+                      ses symptômes physiques, son état émotionnel, ses habitudes de vie et tout
+                      autre élément pertinent pour sa santé. Cela permet d'avoir une vue d'ensemble
+                      sur son état énergétique.
                     </p>
-                    <p>
-                      Le traitement débute par la pose de fines aiguilles à usage unique et
-                      stériles, laissées en place 20 minutes.
-                    </p>
-                    <p>
-                      Le traitement n'est pas douloureux. La sensation liée à la piqûre de
-                      l'aiguille peut être considérée comme négligeable.
-                    </p>
+                    <p>Un principe de traitement pourra alors être établi.</p>
                     <p>
                       La séance se termine ensuite par un massage TuiNa :{' '}
                       <Link
@@ -301,6 +304,10 @@ export const Acupuncture: FC = () => {
                           En savoir plus
                         </span>
                       </Link>
+                    </p>
+                    <p>
+                      Renseignez vous auprès de votre mutuelle pour le remboursement de votre
+                      séance.
                     </p>
                   </div>
                 </div>

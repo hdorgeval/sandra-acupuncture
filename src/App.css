@@ -12,6 +12,10 @@
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .introjs-tooltip {
   border-width: 1px !important;
   border-style: solid !important;

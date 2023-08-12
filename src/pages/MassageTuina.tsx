@@ -28,14 +28,10 @@ export const MassageTuina: FC = () => {
               Le Tuina permet de stimuler la circulation sanguine, d'assouplir les muscles et les
               articulations.
             </p>
-            <p>
+            <p className="mb-0 pb-0">
               Le massage TuiNa est une expérience relaxante qui peut aider à soulager les tensions
               accumulées dans le corps, à réduire la fatigue et à favoriser un état de calme et de
               tranquillité.
-            </p>
-            <p className="mb-0 pb-0">
-              Il est important de noter que les résultats du massage TuiNa peuvent varier en
-              fonction des besoins individuels et de l'état de santé de chaque personne.
             </p>
           </SemiTransparentTile>
         </div>
