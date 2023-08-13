@@ -36,14 +36,17 @@ export const MassageTantrique: FC = () => {
               la libération de l'être.
             </p>
             <p>
-              Les outils utilisés dans le tantra sont le yoga, la méditation, la danse, les
-              massages...
+              Les principaux outils utilisés dans le tantra sont les massages, la respiration, le
+              yoga, la méditation, la danse.
             </p>
             <p>
-              C'est le corps qui est à l'honneur dans le tantra, il va nous permettre d'aller à
-              notre propre rencontre, notre nature divine. Dans nos sociétés modernes, nous
-              accordons beaucoup d'importance à notre habitation, notre voiture… mais nous oublions
-              très souvent d'entretenir notre véhicule terrestre : notre corps.
+              C'est le corps qui est à l'honneur dans le tantra, il va vous permettre d'aller à
+              votre propre rencontre, votre nature divine.
+            </p>
+            <p>
+              Dans nos sociétés modernes, nous accordons beaucoup d'importance à notre habitation,
+              notre voiture… mais nous oublions très souvent d'entretenir notre véhicule terrestre :
+              notre corps.
             </p>
             <p>Et malheureusement, nous nous occupons de lui lorsqu'il est fatigué, malmené.</p>
             <p>Prendre soin de lui, c'est le respecter, l'aimer, l'honorer.</p>
@@ -58,7 +61,7 @@ export const MassageTantrique: FC = () => {
               reconnecter à notre essence.
             </p>
             <p className="">Le tantra ne se raconte pas, il se vit.</p>
-            <p className="mb-0 pb-0">Je propose deux types de massages tantriques :</p>
+            <p className="mb-0 pb-0">Je propose différents types de massages tantriques :</p>
 
             <div className="d-flex flex-column align-items-center pt-4">
               <Link to="/massage-eveil-des-sens">
