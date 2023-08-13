@@ -9,7 +9,7 @@ export const SoinsUroGenitaleMedecineChinoise: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/soins-urogenitale-medecine-chinoise-background.webp"
+        backgroundImageUrl="/images/soins-urogenitale-medecine-chinoise-background.jpg"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
         backgroundPositionX="27%"
         backgroundPositionY="33%"
