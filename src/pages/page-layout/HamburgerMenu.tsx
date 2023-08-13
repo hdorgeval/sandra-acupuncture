@@ -130,7 +130,7 @@ export const HambugerMenu: FC = () => {
                   </Link>
                   <Link to="/massage-eveil-divin">
                     <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
-                      Massage éveil divin
+                      Massage Éveil Divin
                     </span>
                   </Link>
                 </div>

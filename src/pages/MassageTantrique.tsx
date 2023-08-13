@@ -71,7 +71,7 @@ export const MassageTantrique: FC = () => {
               </Link>
               <Link to="/massage-eveil-divin">
                 <span className="badge rounded-pill text-bg-dark border border-secondary m-1">
-                  Le massage éveil divin
+                  Le massage Éveil Divin
                 </span>
               </Link>
             </div>

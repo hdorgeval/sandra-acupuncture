@@ -17,11 +17,11 @@ export const MassageEveilDivin: FC = () => {
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
         backgroundPositionX="60%"
         backgroundPositionY="33%"
-        htmlTitle={`Massage éveil divin | ${websiteConfig.websiteTitle}`}
+        htmlTitle={`Massage Éveil Divin | ${websiteConfig.websiteTitle}`}
       >
         <div className="w-100 d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
-            <PageTitle>Massage éveil divin</PageTitle>
+            <PageTitle>Massage Éveil Divin</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
@@ -31,7 +31,7 @@ export const MassageEveilDivin: FC = () => {
               readLessText={'Lire moins'}
             >
               <p className="">
-                Le massage éveil divin s'inspire des rituels du massage cachemirien.
+                Le massage Éveil Divin s'inspire des rituels du massage cachemirien.
               </p>
               <p>
                 Installé sur futon, vous vivrez l'expérience de votre voyage intérieur par le
@@ -179,7 +179,7 @@ export const MassageEveilDivin: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between">
-                    <p className="">Une séance de message éveil divin dure environ 2h30.</p>
+                    <p className="">Une séance de message Éveil Divin dure environ 2h30.</p>
                     <p>Le massage en lui-même dure alors 1h30.</p>
                     <p>Quand la séance est de 3h, le massage en lui-même dure 2h.</p>
                     <p>
