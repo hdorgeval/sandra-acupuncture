@@ -167,7 +167,7 @@ export const MassageEveilDivin: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between">
-                    <p className="">Une séance de message Éveil Divin dure environ 2h30.</p>
+                    <p className="">Une séance de massage Éveil Divin dure environ 2h30.</p>
                     <p>Le massage en lui-même dure alors 1h30.</p>
                     <p>Quand la séance est de 3h, le massage en lui-même dure 2h.</p>
                     <p>

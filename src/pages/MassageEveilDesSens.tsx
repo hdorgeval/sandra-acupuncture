@@ -39,41 +39,40 @@ export const MassageEveilDesSens: FC = () => {
                 émotionnel, et mental.
               </p>
               <p>
-                Dans nos sociétés occidentales, nous sommes habitués à faire, nous ne savons pas
+                Dans nos sociétés occidentales, nous sommes habitués à faire, nous ne savons plus
                 prendre le temps.
               </p>
               <p>
                 Notre mental aime bien se nourrir de nos actions, de nos pensées. Ce toucher lent va
-                vous permettre de lâcher prise que ce soit au niveau de votre mental et dans votre
-                corps. C'est ainsi que vous vous reconnecterez à votre corps, à votre essence
-                profonde dans toutes les di-mensions physiques, émotionnelles, spirituelles.
+                vous permettre de lâcher prise que ce soit au niveau de votre esprit et de votre
+                corps. C'est ainsi que vous vous reconnecterez à votre essence profonde dans toutes
+                ses dimensions.
               </p>
               <p>
                 Vous pourrez alors accueillir tout ce qui se passe à l'intérieur de votre corps : de
-                nouveaux ressentis, des émotions, du plaisir.
+                nouvelles sensations, des émotions, du plaisir.
               </p>
               <p>
-                Vous profiterez de cet espace enveloppant, réparateur qui vous nourrira votre être
-                tout entier.
+                Vous profiterez de cet espace enveloppant, réparateur qui nourrira votre être tout
+                entier.
               </p>
               <p>
-                Plus spécifiquement pour la femme, la massage tantrique aide à réparer des
-                traumatismes lié à différentes mémoires, à se reconnecter à son corps, à l'aimer tel
-                qu'il est, à s'ouvrir à sa sensualité.
+                Plus spécifiquement pour la femme, le massage tantrique aide à réparer des
+                traumatismes liés à différentes mémoires, à se reconnecter à son corps, à l'aimer
+                tel qu'il est, à s'ouvrir à sa sensualité.
               </p>
               <p>
                 Et pour l'homme, le massage va l'aider à s'ouvrir à son féminin, à ressentir
                 l'énergie dans tout son corps pour vivre une sexualité différente, sans performance.
               </p>
               <p>
-                IL EST CRUCIAL POUR MOI DE RAPPELER QUE CETTE PRESTATION N'A AUCUN CARACTERE SEXUEL.
-                La masseuse est habillée et en aucun cas la personne qui masse n'est touchée. Le
-                massage n'a pas pour but d'exciter mais de guérir et de se reconnecter à son corps.
+                Il est crucial pour moi de rappeler que cette prestation n'a aucun caractère sexuel.
+                Le massage n'a pas pour but d'exciter mais de guérir et de se reconnecter à son
+                corps.
               </p>
               <p className="mb-0 pb-0">
                 Je masse dans le respect de votre corps et votre consentement est très important. Je
                 m'adapte et respecte vos limites si vous avez besoin de garder vos sous-vêtements.
-                Merci de vous abstenir si vous êtes aucunement dans cette démarche.
               </p>
             </ReadMoreReadLess>
           </SemiTransparentTile>
@@ -196,7 +195,7 @@ export const MassageEveilDesSens: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between">
-                    <p className="">Une séance de message Éveil des Sens dure environ 2h30.</p>
+                    <p className="">Une séance de massage Éveil des Sens dure environ 2h30.</p>
                     <p>Le massage en lui-même dure 1h30.</p>
                     <p>
                       Je vous accueille et vous propose un temps d'échange pour répondre à vos
