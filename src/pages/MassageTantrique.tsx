@@ -66,7 +66,7 @@ export const MassageTantrique: FC = () => {
             <div className="d-flex flex-column align-items-center pt-4">
               <Link to="/massage-eveil-des-sens">
                 <span className="badge rounded-pill text-bg-dark border border-secondary m-1">
-                  Le massage éveil des sens
+                  Le massage Éveil des Sens
                 </span>
               </Link>
               <Link to="/massage-eveil-divin">

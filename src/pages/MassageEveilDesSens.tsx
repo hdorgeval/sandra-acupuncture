@@ -17,11 +17,11 @@ export const MassageEveilDesSens: FC = () => {
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
         backgroundPositionX="60%"
         backgroundPositionY="33%"
-        htmlTitle={`Massage éveil des sens | ${websiteConfig.websiteTitle}`}
+        htmlTitle={`Massage Éveil des Sens | ${websiteConfig.websiteTitle}`}
       >
         <div className="w-100 d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
-            <PageTitle>Massage éveil des sens</PageTitle>
+            <PageTitle>Massage Éveil des Sens</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
@@ -30,7 +30,7 @@ export const MassageEveilDesSens: FC = () => {
               readMoreText={'Lire plus'}
               readLessText={'Lire moins'}
             >
-              <p className="">Le massage éveil des sens est un massage sur table.</p>
+              <p className="">Le massage Éveil des Sens est un massage sur table.</p>
               <p>Le toucher est très doux, très lent, et enveloppant.</p>
               <p>Le corps est honoré dans son entièreté.</p>
               <p>
@@ -196,7 +196,7 @@ export const MassageEveilDesSens: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between">
-                    <p className="">Une séance de message éveil des sens dure environ 2h30.</p>
+                    <p className="">Une séance de message Éveil des Sens dure environ 2h30.</p>
                     <p>Le massage en lui-même dure 1h30.</p>
                     <p>
                       Je vous accueille et vous propose un temps d'échange pour répondre à vos
