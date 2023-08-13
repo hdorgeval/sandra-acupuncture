@@ -13,9 +13,9 @@ export const MassageEveilDivin: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/massage-background.jpg"
+        backgroundImageUrl="/images/massage-eveil-divin-background.png"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
-        backgroundPositionX="60%"
+        backgroundPositionX="70%"
         backgroundPositionY="33%"
         htmlTitle={`Massage Éveil Divin | ${websiteConfig.websiteTitle}`}
       >
