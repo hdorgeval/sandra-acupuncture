@@ -130,9 +130,7 @@ export const MassageEveilDesSens: FC = () => {
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="">150€</span>
                     <span className="">180€ avec massage du Lingam</span>
-                    <span className="fs-7 fw-normal">
-                      Moyens de paiement: chèque, espèces ou virement
-                    </span>
+                    <span className="fs-7 fw-normal">Moyens de paiement: chèque ou espèces</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -208,14 +206,6 @@ export const MassageEveilDesSens: FC = () => {
                     </p>
                     <p>
                       Le massage sera suivi d'un temps d'intégration pour revenir à vous en douceur.
-                    </p>
-                    <p>
-                      Pour des raisons évidentes d'hygiène, et pour le confort de la personne massée
-                      comme de la masseuse,{' '}
-                      <span className="fw-bolder">
-                        il est nécessaire de prendre une douche avant les massages
-                      </span>
-                      .
                     </p>
                   </div>
                 </div>

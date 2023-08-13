@@ -41,20 +41,10 @@ export const MassageEveilDivin: FC = () => {
                 Dans cet espace sacré, vous pourrez ainsi vous abandonnez à une relaxation profonde
                 qui sera la voie d'accès à la dimension divine de votre corps.
               </p>
-              <p>
+              <p className="mb-0 pb-0">
                 Le massage du Lingam (pour les hommes) et de la Yoni (pour les femmes) est abordé
                 pour un temps dédié. Ce massage vous apportera une véritable transformation dans
                 tout votre être.
-              </p>
-              <p>
-                IL EST CRUCIAL POUR MOI DE RAPPELER QUE CETTE PRESTATION N'A AUCUN CARACTERE SEXUEL.
-                La masseuse est habillée et en aucun cas la personne qui masse n'est touchée. Le
-                massage n'a pas pour but d'exciter mais de guérir et de se reconnecter à son corps.
-              </p>
-              <p className="mb-0 pb-0">
-                Je masse dans le respect de votre corps et votre consentement est très important. Je
-                m'adapte et respecte vos limites si vous avez besoin de garder vos sous-vêtements.
-                Merci de vous abstenir si vous êtes aucunement dans cette démarche.
               </p>
             </ReadMoreReadLess>
           </SemiTransparentTile>
@@ -111,9 +101,7 @@ export const MassageEveilDivin: FC = () => {
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="">180€ la séance de 2h30</span>
                     <span className="">210€ la séance de 3h</span>
-                    <span className="fs-7 fw-normal">
-                      Moyens de paiement: chèque, espèces ou virement
-                    </span>
+                    <span className="fs-7 fw-normal">Moyens de paiement: chèque ou espèces</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -190,14 +178,6 @@ export const MassageEveilDivin: FC = () => {
                     </p>
                     <p>
                       Le massage sera suivi d'un temps d'intégration pour revenir à vous en douceur.
-                    </p>
-                    <p>
-                      Pour des raisons évidentes d'hygiène, et pour le confort de la personne massée
-                      comme de la masseuse,{' '}
-                      <span className="fw-bolder">
-                        il est nécessaire de prendre une douche avant les massages
-                      </span>
-                      .
                     </p>
                   </div>
                 </div>
