@@ -133,6 +133,11 @@ export const HambugerMenu: FC = () => {
                       Massage Éveil Divin
                     </span>
                   </Link>
+                  <Link to="/massage-eveil-des-sens-quatre-mains">
+                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                      Massage Éveil des Sens 4 mains
+                    </span>
+                  </Link>
                 </div>
               </li>
               {websiteConfig.displayAccountButtons && (
