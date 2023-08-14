@@ -5,6 +5,7 @@ import { Acupuncture } from './pages/Acupuncture';
 import { EnergetiqueTraditionnelleChinoise } from './pages/EnergetiqueTraditionnelleChinoise';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
+import { MassageCouple } from './pages/MassageCouple';
 import { MassageEveilDesSens } from './pages/MassageEveilDesSens';
 import { MassageEveilDesSensQuatreMains } from './pages/MassageEveilDesSensQuatreMains';
 import { MassageEveilDivin } from './pages/MassageEveilDivin';
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
   {
     path: '/massage-eveil-des-sens-quatre-mains',
     element: <MassageEveilDesSensQuatreMains />,
+  },
+  {
+    path: '/massage-couple',
+    element: <MassageCouple />,
   },
   {
     path: '/massage-eveil-divin',
