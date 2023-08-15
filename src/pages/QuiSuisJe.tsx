@@ -9,7 +9,7 @@ export const QuiSuisJe: FC = () => {
     <>
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/qui-suis-je-background.webp"
-        backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
+        backgroundOverlay="linear-gradient(rgba(0, 0, 0, 0.1), rgb(127, 58, 35, 0.61))"
         backgroundPosition="33%"
         htmlTitle={`Qui-suis je? | ${websiteConfig.websiteTitle}`}
       >
@@ -18,7 +18,10 @@ export const QuiSuisJe: FC = () => {
             <PageTitle>Qui suis-je ?</PageTitle>
           </div>
           <div className="" style={{ minHeight: '45vh' }}></div>
-          <SemiTransparentTile className="card text-start text-light fs-2 font-dancing-script px-4 py-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(8, 49, 14, 0.6), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light fs-2 font-dancing-script px-4 py-4"
+          >
             <p className="">Bonjour !</p>
             <p className="">Je suis Sandra Giraudeau.</p>
             <p className="">

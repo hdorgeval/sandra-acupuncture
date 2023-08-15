@@ -23,7 +23,10 @@ export const Aculifting: FC = () => {
             <PageTitle>Aculifting</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
-          <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light fs-2 font-monserrat px-4 py-4"
+          >
             <ReadMoreReadLess
               height={'21vh'}
               readMoreText={'Lire plus'}
@@ -87,7 +90,10 @@ export const Aculifting: FC = () => {
               </p>
             </ReadMoreReadLess>
           </SemiTransparentTile>
-          <SemiTransparentTile className="card text-start text-light font-monserrat mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-monserrat mt-4"
+          >
             <div className="card-body">
               <h5 className="card-title mb-0 fw-bolder">Déroulement et tarifs</h5>
             </div>

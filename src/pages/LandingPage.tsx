@@ -16,7 +16,7 @@ export const LandingPage: FC = () => {
     <>
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/landing-page-background.jpg"
-        backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
+        backgroundOverlay="linear-gradient(rgb(0, 0, 0, 0.38), rgb(148, 114, 30, 0.29));"
         backgroundPositionX="74%"
         backgroundPositionY="42%"
         htmlTitle={`Accueil | ${websiteConfig.websiteTitle}`}
@@ -46,7 +46,10 @@ export const LandingPage: FC = () => {
         </div>
         <div tabIndex={0} style={{ scrollBehavior: 'smooth' }}>
           <h4 id="bienvenue" className="pb-5"></h4>
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body font-dancing-script fs-3">
               <AnimatedBy>
                 <AnimatedBy.Img src={portrait2} />
@@ -74,7 +77,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body">
               <Question
                 sentence="L'OMS (Organisation Mondiale de la Santé) reconnaît l'énergétique traditionnelle
@@ -97,7 +103,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body">
               <Question
                 sentence="Vous avez des douleurs ou des migraines recurrentes ?"
@@ -117,7 +126,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body">
               <Question
                 sentence="Règles douloureuses, troubles de la ménopause ?"
@@ -137,7 +149,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body">
               <Question
                 sentence="Vous voulez soulager les effets secondaires de votre traitement contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit ?"
@@ -157,7 +172,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body">
               <Question
                 sentence="Vous voulez redonner de l'éclat à votre visage ?"
@@ -177,7 +195,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body">
               <Question
                 sentence="Vous voulez cheminer vers votre divin intérieur ?"
@@ -197,7 +218,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body d-flex flex-row align-items-start">
               <OneLetterPill>I</OneLetterPill>
               <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
@@ -219,7 +243,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body d-flex flex-row align-items-start">
               <OneLetterPill>S</OneLetterPill>
               <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
@@ -241,7 +268,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body d-flex flex-row align-items-start">
               <OneLetterPill>L</OneLetterPill>
               <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
@@ -261,7 +291,10 @@ export const LandingPage: FC = () => {
             </div>
           </SemiTransparentTile>
 
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body">
               <Quote
                 sentence="Si tu écoutes ton corps quand il te chuchote, tu n'auras pas à l'entendre crier."

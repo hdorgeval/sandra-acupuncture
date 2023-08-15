@@ -10,7 +10,7 @@ export const MassageTantrique: FC = () => {
     <>
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/massage-background.jpg"
-        backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
+        backgroundOverlay="linear-gradient(to bottom,rgba(79, 79, 93, 0.40),rgba(0, 0, 0, 0.1))"
         backgroundPositionX="60%"
         backgroundPositionY="33%"
         htmlTitle={`Massage tantrique | ${websiteConfig.websiteTitle}`}
@@ -20,7 +20,10 @@ export const MassageTantrique: FC = () => {
             <PageTitle>Massage tantrique</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
-          <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light fs-2 font-monserrat px-4 py-4"
+          >
             <p className="">Tout d'abord, qu'est ce que le TANTRA ?</p>
             <p>
               Le tantra s'est développé en Inde et particulièrement dans la région du Cachemire au

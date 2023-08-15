@@ -14,7 +14,7 @@ export const MassageEveilDesSens: FC = () => {
     <>
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/massage-background.jpg"
-        backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
+        backgroundOverlay="linear-gradient(to bottom,rgba(79, 79, 93, 0.40),rgba(0, 0, 0, 0.1))"
         backgroundPositionX="60%"
         backgroundPositionY="33%"
         htmlTitle={`Massage Éveil des Sens | ${websiteConfig.websiteTitle}`}
@@ -24,7 +24,10 @@ export const MassageEveilDesSens: FC = () => {
             <PageTitle>Massage Éveil des Sens</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
-          <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light fs-2 font-monserrat px-4 py-4"
+          >
             <ReadMoreReadLess
               height={'21vh'}
               readMoreText={'Lire plus'}
@@ -76,7 +79,10 @@ export const MassageEveilDesSens: FC = () => {
               </p>
             </ReadMoreReadLess>
           </SemiTransparentTile>
-          <SemiTransparentTile className="w-100 card text-start text-light font-monserrat mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
+            className="w-100 card text-start text-light font-monserrat mt-4"
+          >
             <div className="card-body">
               <h5 className="card-title mb-0 fw-bolder">Déroulement et tarifs</h5>
             </div>
@@ -211,7 +217,10 @@ export const MassageEveilDesSens: FC = () => {
               </TransparentListGroupItem>
             </ul>
           </SemiTransparentTile>
-          <SemiTransparentTile className="card text-start text-light font-playfair mt-4">
+          <SemiTransparentTile
+            background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
+            className="card text-start text-light font-playfair mt-4"
+          >
             <div className="card-body">
               <Quote
                 sentence="Votre corps est un temple, prenez en grand soin et souvenez vous que vous êtes la divinité qui y vit."
