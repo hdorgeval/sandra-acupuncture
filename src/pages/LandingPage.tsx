@@ -47,7 +47,7 @@ export const LandingPage: FC = () => {
         <div tabIndex={0} style={{ scrollBehavior: 'smooth' }}>
           <h4 id="bienvenue" className="pb-5"></h4>
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body font-dancing-script fs-3">
@@ -78,7 +78,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body">
@@ -104,7 +104,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body">
@@ -127,7 +127,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body">
@@ -150,7 +150,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body">
@@ -173,7 +173,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body">
@@ -196,7 +196,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body">
@@ -219,7 +219,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body d-flex flex-row align-items-start">
@@ -244,7 +244,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body d-flex flex-row align-items-start">
@@ -269,7 +269,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body d-flex flex-row align-items-start">
@@ -292,7 +292,7 @@ export const LandingPage: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(5, 34, 79, 0.8), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(42, 161, 198, 0.8), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body">

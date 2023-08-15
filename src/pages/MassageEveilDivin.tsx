@@ -25,7 +25,7 @@ export const MassageEveilDivin: FC = () => {
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile
-            background="linear-gradient(rgb(78, 7, 218, 0.6), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(214, 95, 14, 0.6), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light fs-2 font-monserrat px-4 py-4"
           >
             <ReadMoreReadLess
@@ -52,7 +52,7 @@ export const MassageEveilDivin: FC = () => {
             </ReadMoreReadLess>
           </SemiTransparentTile>
           <SemiTransparentTile
-            background="linear-gradient(rgb(78, 7, 218, 0.6), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(214, 95, 14, 0.6), rgba(79, 79, 93, 0.3))"
             className="w-100 card text-start text-light font-monserrat mt-4"
           >
             <div className="card-body">
@@ -191,7 +191,7 @@ export const MassageEveilDivin: FC = () => {
             </ul>
           </SemiTransparentTile>
           <SemiTransparentTile
-            background="linear-gradient(rgb(78, 7, 218, 0.6), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(214, 95, 14, 0.6), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light font-playfair mt-4"
           >
             <div className="card-body">
