@@ -41,7 +41,7 @@ export const MassageCouple: FC = () => {
                 votre couple.
               </p>
               <p className="mb-0 pb-0">
-                Transportée par le toucher doux et sensuel de nos mains, la connexion avec votre
+                Transportés par le toucher doux et sensuel de nos mains, la connexion avec votre
                 partenaire vous fera voyager dans un espace divin.
               </p>
             </ReadMoreReadLess>
