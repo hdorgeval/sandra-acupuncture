@@ -144,8 +144,8 @@ export const Aculifting: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
-                    <span className="">75€</span>
-                    <span className="">Forfait 4 séances: 260€</span>
+                    <span className="">80€</span>
+                    <span className="">Forfait 4 séances: 280€</span>
                     <span className="text-nowrap fs-7 fw-normal">
                       Moyens de paiement: chèque ou espèces
                     </span>
