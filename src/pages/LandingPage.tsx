@@ -110,7 +110,7 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Vous avez des douleurs ou des migraines recurrentes ?"
-                answer="Vous étes au bon endroit : l'énergétique traditionnelle chinoise peut vous aider"
+                answer="L'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
@@ -133,7 +133,7 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Règles douloureuses, troubles de la ménopause ?"
-                answer="Vous étes au bon endroit : l'énergétique traditionnelle chinoise peut vous aider"
+                answer="L'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
@@ -156,7 +156,7 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Vous voulez soulager les effets secondaires de votre traitement contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit ?"
-                answer="Vous étes au bon endroit : l'énergétique traditionnelle chinoise peut vous aider"
+                answer="L'énergétique traditionnelle chinoise peut vous aider"
                 answerClassname="text-white"
               />
               <Link
@@ -179,7 +179,7 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Vous voulez redonner de l'éclat à votre visage ?"
-                answer="Vous étes au bon endroit : l'aculifting vous permet de rajeunir naturellement votre peau"
+                answer="L'aculifting vous permet de rajeunir naturellement votre peau"
                 answerClassname="text-white"
               />
               <Link
@@ -202,7 +202,7 @@ export const LandingPage: FC = () => {
             <div className="card-body">
               <Question
                 sentence="Vous voulez cheminer vers votre divin intérieur ?"
-                answer="Vous étes au bon endroit : le massage tantrique est une voie d'exploration méditative"
+                answer="Le massage tantrique est une voie d'exploration méditative"
                 answerClassname="text-white"
               />
               <Link
