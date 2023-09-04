@@ -32,6 +32,7 @@ export const HambugerMenu: FC = () => {
             </Link>
           )}
           <button
+            id="burger-menu-toggler"
             className="navbar-toggler pt-1-half border border-0"
             type="button"
             data-bs-toggle="offcanvas"

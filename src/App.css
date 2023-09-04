@@ -16,6 +16,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media only screen and (min-width: 576px) {
+  button#burger-menu-toggler i {
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  }
+}
+
 .introjs-tooltip {
   border-width: 1px !important;
   border-style: solid !important;
