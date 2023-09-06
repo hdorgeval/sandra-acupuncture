@@ -10,11 +10,14 @@ export const QuiSuisJe: FC = () => {
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/qui-suis-je-background.webp"
         backgroundOverlay="linear-gradient(rgba(0, 0, 0, 0.1), rgb(127, 58, 35, 0.61))"
-        backgroundPosition="33%"
+        backgroundPositionX="50%"
+        backgroundPositionY="0%"
+        backgroundColor="#a1b411"
+        backgroundSize="contain"
         htmlTitle={`Qui-suis je? | ${websiteConfig.websiteTitle}`}
       >
         <div className="d-flex flex-column justify-content-start align-items-center">
-          <div className="mt-7">
+          <div className="mt-4">
             <PageTitle>Qui suis-je ?</PageTitle>
           </div>
           <div className="" style={{ minHeight: '45vh' }}></div>

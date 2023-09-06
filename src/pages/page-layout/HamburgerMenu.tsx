@@ -18,7 +18,7 @@ export const HambugerMenu: FC = () => {
   const computedBackgroundPositionY = -10;
   return (
     <>
-      <nav className="navbar navbar-dark sticky-top position-absolute top-0 end-0 w-100">
+      <nav className="navbar .navbar-nav-scroll navbar-dark position-fixed top-0 end-0 w-100 z-index-3">
         <div
           className={`container-fluid pe-0 me-1 d-flex flex-row ${
             websiteConfig.hamburgerMenuPosition === 'left' ? 'flex-row-reverse' : ''

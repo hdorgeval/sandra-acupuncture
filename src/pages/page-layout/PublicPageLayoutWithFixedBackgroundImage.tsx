@@ -8,6 +8,7 @@ import { Footer } from './Footer';
 import { HambugerMenu } from './HamburgerMenu';
 export interface PageLayoutOwnProps {
   backgroundImageUrl: string;
+  backgroundColor?: string;
   backgroundOverlay?: string;
   backgroundPosition?: string;
   backgroundPositionX?: string;
@@ -19,6 +20,7 @@ export interface PageLayoutOwnProps {
 
 export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLayoutOwnProps> = ({
   backgroundImageUrl,
+  backgroundColor,
   backgroundOverlay,
   backgroundPosition,
   backgroundPositionX,
@@ -61,6 +63,7 @@ export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLayoutOwnProps> = 
         className=""
         style={{
           backgroundImage: `url("${backgroundImageUrl}")`,
+          backgroundColor: backgroundColor,
           height: '100vh',
           backgroundPositionX: computedBackgroundPositionX,
           backgroundPositionY: computedBackgroundPositionY,
