@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
 import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { PhoneNumber } from '../components/PhoneNumber';
@@ -9,7 +8,7 @@ import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 import { SemiTransparentTile } from './page-layout/SemiTransparentTile';
 import { TransparentListGroupItem } from './page-layout/TransparentListGroupItem';
-export const Acupuncture: FC = () => {
+export const AculiftingDetails: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
@@ -17,11 +16,11 @@ export const Acupuncture: FC = () => {
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(79, 79, 93, 0.6))"
         backgroundPositionX="65%"
         backgroundPositionY="33%"
-        htmlTitle={`Acupuncture | ${websiteConfig.websiteTitle}`}
+        htmlTitle={`Aculifting | ${websiteConfig.websiteTitle}`}
       >
         <div className="d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
-            <PageTitle>Acupuncture</PageTitle>
+            <PageTitle>Aculifting</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile
@@ -34,61 +33,60 @@ export const Acupuncture: FC = () => {
               readLessText={'Lire moins'}
             >
               <p className="">
-                L'Energétique traditionnelle chinoise est une pratique millénaire. Elle repose sur
-                la connaissance du réseau énergétique parcourant tout le corps, connu sous le nom de
-                Qi (ou Chi), qui circule le long de canaux spécifiques appelés méridiens. Son
-                approche prend en compte l'individu dans sa globalité.
+                L'aculifting, également connu sous le nom d'acupuncture esthétique ou acupuncture
+                faciale, est une technique qui vise à rajeunir et à revitaliser le visage en
+                utilisant des principes de l'acupuncture traditionnelle chinoise. Il s'agit d'une
+                approche naturelle et non chirurgicale pour améliorer l'apparence et favoriser la
+                santé de la peau du visage.
               </p>
-
               <p className="">
-                Les domaines d'application de l'énergétique traditionnelle chinoise incluent :
+                L'aculifting consiste à stimuler des points d'acupuncture spécifiques du visage à
+                l'aide de fines aiguilles ou parfois par la pression des doigts (acupression) pour
+                favoriser la circulation sanguine, stimuler la production de collagène et
+                d'élastine, ainsi que pour équilibrer l'énergie vitale du corps.
               </p>
 
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>Le soulagement de la douleur
+              <p className="">Les avantages potentiels de l'aculifting incluent :</p>
+              <p className="">
+                <span className="text-info">Raffermissement de la peau :</span> L'aculifting peut
+                aider à tonifier et à raffermir la peau en stimulant les fibroblastes, qui sont les
+                cellules responsables de la production de collagène et d'élastine, essentiels à la
+                fermeté et à l'élasticité de la peau.
+              </p>
+              <p className="">
+                <span className="text-info">Réduction des rides et des ridules :</span> En stimulant
+                les points d'acupuncture spécifiques du visage, l'aculifting peut aider à atténuer
+                les rides et les ridules en améliorant la régénération cellulaire et la circulation
+                sanguine, ce qui peut favoriser une apparence plus lisse et plus jeune.
+              </p>
+              <p>
+                <span className="text-info">Amélioration de la circulation sanguine :</span>{' '}
+                L'aculifting peut augmenter la circulation sanguine dans la région du visage, ce qui
+                permet de mieux nourrir les tissus cutanés, d'éliminer les toxines et de favoriser
+                une peau plus lumineuse et revitalisée.
+              </p>
+              <p>
+                <span className="text-info">
+                  Réduction des poches et des cernes sous les yeux :
+                </span>{' '}
+                L'aculifting peut aider à réduire l'apparence des poches et des cernes sous les yeux
+                en améliorant le drainage lymphatique et en favorisant l'élimination des fluides et
+                des toxines accumulés dans la région.
+              </p>
+              <p>
+                <span className="text-info">Relaxation et réduction du stress facial :</span> Les
+                séances d'aculifting peuvent être relaxantes et apaisantes pour le visage, aidant
+                ainsi à réduire les tensions musculaires, les crispations et le stress accumulés, ce
+                qui peut contribuer à une apparence plus détendue et équilibrée.
               </p>
 
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                La réduction du stress et de l'anxiété
-              </p>
-
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                L'amélioration du sommeil
-              </p>
-
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                Le renforcement du système immunitaire
-              </p>
-
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                La régulation des déséquilibres hormonaux
-              </p>
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                L'amélioration de la digestion
-              </p>
-
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                L'augmentation de l'énergie
-              </p>
-
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                Le soutien aux soins de la peau
-              </p>
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                La gestion des dépendances
-              </p>
-
-              <p className="fw-bolder">
-                <i className="bi bi-check-lg text-light me-1"></i>
-                La cancérologie
+              <p className="mb-0 pb-0">
+                Il est important de souligner que l'aculifting ne produit pas des résultats
+                spectaculaires ou immédiats comme une intervention chirurgicale, mais il peut offrir
+                des améliorations subtiles et naturelles au fil du temps. La durée et la fréquence
+                des séances peuvent varier en fonction des besoins individuels. Je fais une
+                évaluation personnalisée et des recommandations adaptées à votre situation
+                spécifique pour obtenir les meilleurs résultats.
               </p>
             </ReadMoreReadLess>
           </SemiTransparentTile>
@@ -97,9 +95,7 @@ export const Acupuncture: FC = () => {
             className="card text-start text-light font-monserrat mt-4"
           >
             <div className="card-body">
-              <h5 id="déroulement-et-tarifs" className="card-title mb-0 fw-bolder">
-                Déroulement et tarifs
-              </h5>
+              <h5 className="card-title mb-0 fw-bolder">Déroulement et tarifs</h5>
             </div>
             <ul className="list-group list-group-flush mt-0 pt-0">
               <TransparentListGroupItem className="pt-2 pb-1 text-light fw-bolder">
@@ -144,13 +140,12 @@ export const Acupuncture: FC = () => {
                   </div>
                 </div>
               </TransparentListGroupItem>
-              <TransparentListGroupItem className="pt-1 pb-0 text-light">
+              <TransparentListGroupItem className="pt-1 pb-0 text-light fw-bolder">
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
-                    <span className="fw-bolder">Adulte: 70€ </span>
-                    <span className="fw-bolder">Enfant mineur: 60€</span>
-                    <span className="">Remise de 10% à partir de la deuxième séance</span>
+                    <span className="">80€</span>
+                    <span className="">Forfait 4 séances: 280€</span>
                     <span className="text-nowrap fs-7 fw-normal">
                       Moyens de paiement: chèque ou espèces
                     </span>
@@ -165,7 +160,7 @@ export const Acupuncture: FC = () => {
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
                       link={websiteConfig.links.rdv.url}
                       title={websiteConfig.links.rdv.title}
-                      analyticsEvent="rdv-acupuncture"
+                      analyticsEvent="rdv-aculifting"
                     >
                       <div className="d-flex flex-column align-items-center">
                         <span className="">{websiteConfig.links.rdv.label}</span>
@@ -176,7 +171,7 @@ export const Acupuncture: FC = () => {
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
                       phoneNumber={websiteConfig.links.phone.url}
                       title="Appeler pour prendre un rdv, ou poser vos questions"
-                      analyticsEvent="tel-acupuncture"
+                      analyticsEvent="tel-aculifting"
                     >
                       <div className="d-flex flex-column align-items-center">
                         <span className="">
@@ -192,33 +187,15 @@ export const Acupuncture: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-info-circle fs-1 me-4"></i>
                   <div className="d-flex flex-column justify-content-between">
-                    <p className="">
-                      Une séance énergetique traditionnelle chinoise d'acupuncture dure environ une
-                      heure trente.
+                    <p className="">Une séance d'aculifting dure environ une heure trente.</p>
+                    <p>
+                      Le traitement débute par la pose de fines aiguilles à usage unique et
+                      stériles, laissées en place 20 minutes et se termine par un modelage liftant
+                      du visage.
                     </p>
                     <p>
-                      Elle débute par un échange avec la personne pour obtenir des informations sur
-                      ses symptômes physiques, son état émotionnel, ses habitudes de vie et tout
-                      autre élément pertinent pour sa santé. Cela permet d'avoir une vue d'ensemble
-                      sur son état énergétique.
-                    </p>
-                    <p>Un principe de traitement pourra alors être établi.</p>
-                    <p>
-                      La séance se termine ensuite par un massage TuiNa :{' '}
-                      <Link
-                        to="/massage-tuina"
-                        className="text-decoration-none text-light"
-                        title="En savoir plus sur le massage TuiNa"
-                        aria-label="En savoir plus sur le massage TuiNa"
-                      >
-                        <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
-                          En savoir plus
-                        </span>
-                      </Link>
-                    </p>
-                    <p>
-                      Renseignez vous auprès de votre mutuelle pour le remboursement de votre
-                      séance.
+                      Le traitement n'est pas douloureux. La sensation liée à la piqûre de
+                      l'aiguille peut être considérée comme négligeable.
                     </p>
                   </div>
                 </div>
@@ -231,4 +208,4 @@ export const Acupuncture: FC = () => {
   );
 };
 
-Acupuncture.displayName = 'Acupuncture';
+AculiftingDetails.displayName = 'AculiftingDetails';
