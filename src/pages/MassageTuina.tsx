@@ -19,7 +19,7 @@ export const MassageTuina: FC = () => {
             <PageTitle>Massage TuiNa</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
-          <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
+          <SemiTransparentTile className="card text-start text-light fs-4 font-monserrat px-4 py-4">
             <p className="">
               <span className="fw-bolder">Tui</span> signifie "Pousser" et{' '}
               <span className="fw-bolder">Na</span> "Saisir".
