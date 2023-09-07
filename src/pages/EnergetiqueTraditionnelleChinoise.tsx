@@ -20,7 +20,7 @@ export const EnergetiqueTraditionnelleChinoise: FC = () => {
             <PageTitle>Énergétique Traditionnelle Chinoise</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
-          <SemiTransparentTile className="card text-start text-light fs-4 font-monserrat px-4 py-4">
+          <SemiTransparentTile className="card text-start text-light fs-5 font-monserrat px-4 py-4">
             <p className="">
               L'Énergétique traditionnelle chinoise est une pratique millénaire. Elle repose sur la
               connaissance du réseau énergétique parcourant tout le corps, connu sous le nom de Qi

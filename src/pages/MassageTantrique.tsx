@@ -22,7 +22,7 @@ export const MassageTantrique: FC = () => {
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile
             background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
-            className="card text-start text-light fs-4 font-monserrat px-4 py-4"
+            className="card text-start text-light fs-5 font-monserrat px-4 py-4"
           >
             <p className="">Tout d'abord, qu'est ce que le TANTRA ?</p>
             <p>

@@ -20,7 +20,7 @@ export const SoinsUroGenitaleMedecineChinoise: FC = () => {
             <PageTitle>Traitement de la sphère urogénitale</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
-          <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
+          <SemiTransparentTile className="card text-start text-light fs-5 font-monserrat px-4 py-4">
             <p className="">
               L'énergétique traditionnelle chinoise peut être bénéfique pour soulager plusieurs
               symptômes liés aux règles douloureuses, aux troubles de la ménopause, aux bouffées de
