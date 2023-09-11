@@ -59,7 +59,7 @@ export const LandingPage: FC = () => {
                     backgroundImage: 'url(/images/backgrounds/landing-page-1.png)',
                     minHeight: '100vh',
                     maxHeight: '100vh',
-                    backgroundPositionX: '62%',
+                    backgroundPositionX: '25%',
                     backgroundPositionY: '29%',
                     backgroundSize: 'cover',
                     position: 'relative',
@@ -140,7 +140,7 @@ export const LandingPage: FC = () => {
         <section
           id="bienvenue"
           data-bs-target="#navbarSupportedContent"
-          className="w-100 bg-overlay-70"
+          className="w-100 bg-overlay-50"
           style={{
             backgroundImage: 'url(/images/backgrounds/section-bienvenue.png)',
             minHeight: '100vh',
@@ -311,7 +311,7 @@ export const LandingPage: FC = () => {
         <section
           id="services-2"
           data-bs-target="#navbarSupportedContent"
-          className="w-100 bg-overlay-70"
+          className="w-100 bg-overlay-50"
           style={{
             backgroundImage: 'url(/images/backgrounds/landing-page-2.jpg)',
             minHeight: '50vh',

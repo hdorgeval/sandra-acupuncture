@@ -15,7 +15,7 @@ export const Acupuncture: FC = () => {
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/backgrounds/landing-page-1.png"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.2))"
-        backgroundPositionX="65%"
+        backgroundPositionX="24%"
         backgroundPositionY="33%"
         htmlTitle={`Acupuncture | ${websiteConfig.websiteTitle}`}
       >
