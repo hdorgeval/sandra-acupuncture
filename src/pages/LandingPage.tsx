@@ -94,7 +94,7 @@ export const LandingPage: FC = () => {
               </div>
               <div className="carousel-item">
                 <div
-                  className="bg-overlay-50"
+                  className="bg-overlay-40"
                   style={{
                     backgroundImage: 'url(/images/backgrounds/landing-page-2.jpg)',
                     minHeight: '100vh',
@@ -311,7 +311,7 @@ export const LandingPage: FC = () => {
         <section
           id="services-2"
           data-bs-target="#navbarSupportedContent"
-          className="w-100 bg-overlay-50"
+          className="w-100 bg-overlay-40"
           style={{
             backgroundImage: 'url(/images/backgrounds/landing-page-2.jpg)',
             minHeight: '50vh',
