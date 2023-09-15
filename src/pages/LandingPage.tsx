@@ -204,7 +204,7 @@ export const LandingPage: FC = () => {
           }}
         >
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2  bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2  bg-transparent">
               <div className="card-body">
                 <Question
                   sentence="L'OMS reconnaît l'énergétique traditionnelle
@@ -227,7 +227,7 @@ export const LandingPage: FC = () => {
               </div>
             </div>
 
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body">
                 <Question
                   sentence="Vous avez des douleurs ou des migraines recurrentes ?"
@@ -247,7 +247,7 @@ export const LandingPage: FC = () => {
               </div>
             </div>
 
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body">
                 <Question
                   sentence="Règles douloureuses, troubles de la ménopause ?"
@@ -267,7 +267,7 @@ export const LandingPage: FC = () => {
               </div>
             </div>
 
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body">
                 <Question
                   sentence="Vous voulez soulager les effets secondaires de votre traitement contre le cancer tels que les nausées, les vomissements, la fatigue, les douleurs, les troubles du sommeil et les troubles de l'appétit ?"
@@ -287,7 +287,7 @@ export const LandingPage: FC = () => {
               </div>
             </div>
 
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body">
                 <Question
                   sentence="Vous voulez redonner de l'éclat à votre visage ?"
@@ -325,7 +325,7 @@ export const LandingPage: FC = () => {
           }}
         >
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body">
                 <Question
                   sentence="Vous voulez cheminer vers votre divin intérieur ?"
@@ -352,7 +352,7 @@ export const LandingPage: FC = () => {
           className="w-100"
           style={{
             backgroundImage: 'url(/images/backgrounds/section-testimonies.jpg)',
-            minHeight: '100vh',
+            minHeight: '75vh',
             backgroundPositionX: '39%',
             backgroundPositionY: '29%',
             backgroundSize: 'cover',
@@ -363,7 +363,7 @@ export const LandingPage: FC = () => {
           }}
         >
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body d-flex flex-column align-items-start">
                 <div className="d-flex px-0 flex-row align-items-center justify-content-between">
                   <div
@@ -393,7 +393,7 @@ export const LandingPage: FC = () => {
               </div>
             </div>
 
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body d-flex flex-column align-items-start">
                 <div className="d-flex px-0 flex-row align-items-center justify-content-between">
                   <div
@@ -422,7 +422,7 @@ export const LandingPage: FC = () => {
               </div>
             </div>
 
-            <div className="card border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body d-flex flex-column align-items-start">
                 <div className="d-flex px-0 flex-row align-items-center justify-content-between">
                   <div

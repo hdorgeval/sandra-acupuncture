@@ -23,7 +23,7 @@ export const Quote: FC<QuoteOwnProps> = ({ sentence, author }) => {
   }, [sentence]);
 
   return (
-    <figure className="pt-3 rounded">
+    <figure className="rounded mb-0">
       <blockquote className="blockquote pb-0">
         <p>
           <sup className="pe-1">

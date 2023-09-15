@@ -22,7 +22,7 @@ export const AculiftingDetails: FC = () => {
           <div className="mt-7">
             <PageTitle>Aculifting</PageTitle>
           </div>
-          <div className="" style={{ minHeight: '7vh' }}></div>
+          <div className="" style={{ minHeight: '5vh' }}></div>
           <SemiTransparentTile
             background="linear-gradient(rgb(42, 161, 198, 0.54), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light fs-5 font-monserrat px-4 py-4"

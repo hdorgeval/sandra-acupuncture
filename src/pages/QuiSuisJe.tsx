@@ -17,10 +17,10 @@ export const QuiSuisJe: FC = () => {
         htmlTitle={`Qui-suis je? | ${websiteConfig.websiteTitle}`}
       >
         <div className="d-flex flex-column justify-content-start align-items-center">
-          <div className="mt-4">
+          <div className="mt-7">
             <PageTitle>Qui suis-je ?</PageTitle>
           </div>
-          <div className="" style={{ minHeight: '45vh' }}></div>
+          <div className="" style={{ minHeight: '38vh' }}></div>
           <SemiTransparentTile
             background="linear-gradient(rgb(8, 49, 14, 0.6), rgba(79, 79, 93, 0.3))"
             className="card text-start text-light fs-1 font-dancing-script px-4 py-4"

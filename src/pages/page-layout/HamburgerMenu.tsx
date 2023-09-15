@@ -1,4 +1,4 @@
-import { FC, useMemo } from 'react';
+import { FC, useEffect, useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import {
   AccountFullNameBadge,
@@ -16,9 +16,62 @@ export const HambugerMenu: FC = () => {
   const backgroundImageUrl = '/images/landing-page-background.jpg';
   const computedBackgroundPositionX = 1;
   const computedBackgroundPositionY = -10;
+
+  const windowScrollHandler = (event: Event) => {
+    if (!event) {
+      return;
+    }
+    const scrollY = (event?.currentTarget as Window)?.scrollY ?? 0;
+    const burgerMenu = document.querySelector('nav#burger-menu');
+
+    if (scrollY > 5 && burgerMenu) {
+      burgerMenu.classList.add('navbar-scroll-theme');
+      return;
+    }
+    if (burgerMenu) {
+      burgerMenu.classList.remove('navbar-scroll-theme');
+    }
+  };
+
+  const containerScrollHandler = (event: Event) => {
+    if (!event) {
+      return;
+    }
+
+    const scrollY = (event?.currentTarget as HTMLDivElement)?.scrollTop ?? 0;
+    const burgerMenu = document.querySelector('nav#burger-menu');
+
+    if (scrollY > 5 && burgerMenu) {
+      burgerMenu.classList.add('navbar-scroll-theme');
+      return;
+    }
+    if (burgerMenu) {
+      burgerMenu.classList.remove('navbar-scroll-theme');
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', windowScrollHandler);
+
+    const scrollablePageContainer = document.querySelector('#scrollable-page-container');
+    if (scrollablePageContainer) {
+      scrollablePageContainer?.addEventListener('scroll', containerScrollHandler);
+    }
+    return () => {
+      window.removeEventListener('scroll', windowScrollHandler);
+      if (scrollablePageContainer) {
+        scrollablePageContainer.removeEventListener('scroll', containerScrollHandler);
+      }
+    };
+  }, []);
+
   return (
     <>
-      <nav className="navbar .navbar-nav-scroll navbar-dark position-fixed top-0 end-0 w-100 z-index-3">
+      <nav
+        id="burger-menu"
+        className="navbar navbar-dark position-fixed top-0 end-0 w-100 z-index-3"
+        data-bs-scroll="true"
+      >
         <div
           className={`container-fluid pe-0 me-1 d-flex flex-row ${
             websiteConfig.hamburgerMenuPosition === 'left' ? 'flex-row-reverse' : ''
@@ -31,6 +84,58 @@ export const HambugerMenu: FC = () => {
               <i className="bi bi-house-up text-white fs-navbar-toggler-3"></i>
             </Link>
           )}
+
+          <div className="navbar navbar-expand-md flex-fill fw-bolder" id="desktopNavBar">
+            <ul className="navbar-nav collapse navbar-collapse">
+              <li className="nav-item ms-4 me-4">
+                <Link to="/acupuncture" className="nav-link position-relative">
+                  <span className="text-light">Acupuncture</span>
+                </Link>
+              </li>
+              <li className="nav-item me-4">
+                <Link to="/aculifting" className="nav-link position-relative">
+                  <span className="text-light">Aculifting</span>
+                </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link position-relative dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Massage
+                </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link to="/massage-eveil-des-sens" className="dropdown-item">
+                      <span className="text-light">Massage Éveil des Sens</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/massage-eveil-divin" className="dropdown-item">
+                      <span className="text-light">Massage Éveil Divin</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li>
+                    <Link to="/massage-eveil-des-sens-quatre-mains" className="dropdown-item">
+                      <span className="text-light">Massage Éveil des Sens 4 mains</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/massage-couple" className="dropdown-item">
+                      <span className="text-light">Massage Couple</span>
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
           <button
             id="burger-menu-toggler"
             className="navbar-toggler pt-1-half border border-0"
@@ -111,7 +216,7 @@ export const HambugerMenu: FC = () => {
               </li>
               <li className="nav-item w-100 text-start mt-3">
                 <div className=" w-100 border-bottom border-secondary fs-5 font-weight-700 text-dark">
-                  Particuliers
+                  Mes offres
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/acupuncture">

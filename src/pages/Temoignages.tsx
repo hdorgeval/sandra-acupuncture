@@ -10,17 +10,17 @@ export const Temoignages: FC = () => {
     <>
       <PublicPageLayoutWithFixedBackgroundImage
         backgroundImageUrl="/images/temoignages-background.jpg"
-        backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(79, 79, 93, 0.1), rgba(79, 79, 93, 0.7) 90% 100%)"
+        backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(79, 79, 93, 0.1), rgba(79, 79, 93, 0.3) 90%, rgba(79, 79, 93, 0.7) 100%)"
         backgroundPosition="33%"
         htmlTitle={`Témoignages | ${websiteConfig.websiteTitle}`}
       >
         <div>
-          <div className="mt-6">
+          <div className="mt-7">
             <PageTitle>Témoignages</PageTitle>
           </div>
 
-          <div className="d-flex px-0 pt-4 flex-column justify-content-between">
-            <div className="card bg-color-dark-semi-transparent text-start text-light font-monserrat">
+          <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
+            <div className="card card-sm bg-color-dark-semi-transparent text-start text-light font-monserrat m-2">
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>I</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
@@ -39,7 +39,7 @@ export const Temoignages: FC = () => {
               </div>
             </div>
 
-            <div className="card bg-color-dark-semi-transparent text-start text-light font-monserrat mt-4">
+            <div className="card card-sm bg-color-dark-semi-transparent text-start text-light font-monserrat m-2">
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>S</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
@@ -57,7 +57,7 @@ export const Temoignages: FC = () => {
               </div>
             </div>
 
-            <div className="card bg-color-dark-semi-transparent text-start text-light font-monserrat mt-4">
+            <div className="card card-sm bg-color-dark-semi-transparent text-start text-light font-monserrat m-2">
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>L</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
