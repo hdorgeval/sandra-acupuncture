@@ -12,9 +12,9 @@ export const Aculifting: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/backgrounds/landing-page-1.png"
+        backgroundImageUrl="/images/backgrounds/aculifting.jpg"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.2))"
-        backgroundPositionX="65%"
+        backgroundPositionX="43%"
         backgroundPositionY="33%"
         htmlTitle={`Aculifting | ${websiteConfig.websiteTitle}`}
       >
@@ -25,7 +25,7 @@ export const Aculifting: FC = () => {
           <div className="" style={{ minHeight: '5vh' }}></div>
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
             <SemiTransparentTile
-              background="linear-gradient(rgb(48, 115, 78, 0.54), rgba(79, 79, 93, 0.3))"
+              background="linear-gradient(rgb(80, 48, 115, 0.54), rgba(79, 79, 93, 0.3))"
               className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
             >
               <ReadMoreReadLess
@@ -69,7 +69,7 @@ export const Aculifting: FC = () => {
               </ReadMoreReadLess>
             </SemiTransparentTile>
             <SemiTransparentTile
-              background="linear-gradient(rgb(48, 115, 78, 0.54), rgba(79, 79, 93, 0.3))"
+              background="linear-gradient(rgb(80, 48, 115, 0.54), rgba(79, 79, 93, 0.3))"
               className="card card-lg text-start text-light font-monserrat m-2"
             >
               <div className="card-header py-3">
