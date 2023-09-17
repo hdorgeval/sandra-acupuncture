@@ -13,8 +13,8 @@ export const MassageEveilDesSensQuatreMains: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/massage-background.jpg"
-        backgroundOverlay="linear-gradient(to bottom,rgba(79, 79, 93, 0.40),rgba(0, 0, 0, 0.1))"
+        backgroundImageUrl="/images/backgrounds/massage-quatre-mains.png"
+        backgroundOverlay="linear-gradient(to bottom,rgba(79, 79, 93, 0.20),rgba(0, 0, 0, 0.1))"
         backgroundPositionX="60%"
         backgroundPositionY="33%"
         htmlTitle={`Massage Éveil des Sens 4 mains | ${websiteConfig.websiteTitle}`}
@@ -27,7 +27,7 @@ export const MassageEveilDesSensQuatreMains: FC = () => {
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
             <div className="m-0 p-0">
               <SemiTransparentTile
-                background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
+                background="linear-gradient(rgb(97, 34, 17, 0.37), rgba(79, 79, 93, 0.2))"
                 className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
               >
                 <ReadMoreReadLess
@@ -48,7 +48,7 @@ export const MassageEveilDesSensQuatreMains: FC = () => {
                 </ReadMoreReadLess>
               </SemiTransparentTile>
               <SemiTransparentTile
-                background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
+                background="linear-gradient(rgb(97, 34, 17, 0.37), rgba(79, 79, 93, 0.2))"
                 className="card card-lg text-start text-light font-playfair m-2"
               >
                 <div className="card-body">
@@ -61,7 +61,7 @@ export const MassageEveilDesSensQuatreMains: FC = () => {
             </div>
 
             <SemiTransparentTile
-              background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
+              background="linear-gradient(rgb(97, 34, 17, 0.37), rgba(79, 79, 93, 0.2))"
               className="card card-lg text-start text-light font-monserrat m-2"
             >
               <div className="card-header py-3">
