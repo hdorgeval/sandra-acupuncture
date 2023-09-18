@@ -363,10 +363,19 @@
 
 .text-bg-dark-80 {
   color: #fff !important;
-  background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 0.8)) !important;
+  background-color: rgba(33, 37, 41, var(--bs-bg-opacity, 0.8)) !important;
 }
 
 .text-bg-dark-50 {
   color: #fff !important;
-  background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 0.5)) !important;
+  background-color: rgba(33, 37, 41, var(--bs-bg-opacity, 0.5)) !important;
+}
+
+.text-bg-burger-badge {
+  color: #fff !important;
+  background-color: rgba(51, 80, 94, 0.66) !important;
+}
+
+.text-burger-section {
+  color: #212f32 !important;
 }

@@ -13,7 +13,7 @@ export const HambugerMenu: FC = () => {
   const isOnHomePage = useMemo(() => {
     return location.pathname === '/';
   }, [location.pathname]);
-  const backgroundImageUrl = '/images/landing-page-background.jpg';
+  const backgroundImageUrl = '/images/backgrounds/offcanvas-burger.png';
   const computedBackgroundPositionX = 1;
   const computedBackgroundPositionY = -10;
 
@@ -171,7 +171,10 @@ export const HambugerMenu: FC = () => {
       >
         <div className="container h-100 overflow-y-scroll">
           <div className="offcanvas-header">
-            <h5 className="offcanvas-title font-weight-700" id="offcanvasDarkNavbarLabel">
+            <h5
+              className="offcanvas-title font-weight-700 text-burger-section"
+              id="offcanvasDarkNavbarLabel"
+            >
               {websiteConfig.websiteShortTitle}
             </h5>
             <button
@@ -193,7 +196,7 @@ export const HambugerMenu: FC = () => {
                     title="Accueil"
                     aria-label="Accueil"
                   >
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Accueil
                     </span>
                   </Link>
@@ -203,49 +206,49 @@ export const HambugerMenu: FC = () => {
                     title="Qui suis-je ?"
                     aria-label="Qui suis-je ?"
                   >
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Qui suis-je ?
                     </span>
                   </Link>
                   <Link to="/temoignages" className="text-decoration-none text-light">
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Témoignages
                     </span>
                   </Link>
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className=" w-100 border-bottom border-secondary fs-5 font-weight-700 text-dark">
+                <div className=" w-100 border-bottom border-secondary fs-5 font-weight-700 text-burger-section">
                   Mes offres
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/acupuncture">
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Acupuncture
                     </span>
                   </Link>
                   <Link to="/aculifting">
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Aculifting
                     </span>
                   </Link>
                   <Link to="/massage-eveil-des-sens">
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Massage Éveil des Sens
                     </span>
                   </Link>
                   <Link to="/massage-eveil-divin">
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Massage Éveil Divin
                     </span>
                   </Link>
                   <Link to="/massage-eveil-des-sens-quatre-mains">
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Massage Éveil des Sens 4 mains
                     </span>
                   </Link>
                   <Link to="/massage-couple">
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Massage Couple
                     </span>
                   </Link>
@@ -253,7 +256,7 @@ export const HambugerMenu: FC = () => {
               </li>
               {websiteConfig.displayAccountButtons && (
                 <li className="nav-item w-100 text-start mt-3">
-                  <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
+                  <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-burger-section d-flex p-1 flex-row flex-wrap align-items-center">
                     <span>Mon espace client</span>
                   </div>
                   <div className="d-flex p-1 flex-row flex-wrap align-items-center">
@@ -266,22 +269,22 @@ export const HambugerMenu: FC = () => {
               )}
 
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-burger-section d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Crédits</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
-                  <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                  <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                     web design: Henri d'Orgeval
                   </span>
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-dark d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 font-weight-700 text-burger-section d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Confiance numérique</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/mentions-legales">
-                    <span className="badge rounded-pill text-bg-dark-80 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-burger-badge fs-7 border border-secondary m-1">
                       Mentions légales
                     </span>
                   </Link>
