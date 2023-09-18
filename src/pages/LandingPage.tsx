@@ -80,7 +80,7 @@ export const LandingPage: FC = () => {
                       Besoin d'avoir plus d'énergie
                     </h1>
                     <h2 className="font-mali text-light fw-bolder fs-3 max-vw-80 mt-4">
-                      Avec l'Énergétique Traditionnelle Chinoise
+                      Avec l'Énergétique Traditionnelle Chinoise et le massage tantrique
                     </h2>
 
                     <a
@@ -120,7 +120,7 @@ export const LandingPage: FC = () => {
                       Besoin d'avoir plus d'énergie
                     </h1>
                     <h2 className="font-mali text-light fw-bolder fs-3 max-vw-80 mt-4">
-                      Avec le Massage Tantrique
+                      Avec l'Énergétique Traditionnelle Chinoise et le massage tantrique
                     </h2>
 
                     <a
@@ -164,13 +164,14 @@ export const LandingPage: FC = () => {
                     style={{ width: '8rem', minWidth: '8rem' }}
                   />
                 </div>
-                <div className="w-100 ms-4">Je m'appelle Sandra Giraudeau</div>
+                <div className="w-100 ms-4">Je suis Sandra Giraudeau</div>
               </div>
               <Description>
-                Je vous reçois dans mon cabinet situé au sud-ouest de Nantes du lundi au samedi de
-                9h à 19h. Praticienne en énergétique traditionnelle chinoise, je suis à votre écoute
-                pour vous apporter le soulagement et l'harmonie dont vous avez besoin par les
-                techniques d'acupuncture et par des massages TuiNa et tantrique.
+                Je vous reçois dans mon cabinet situé à la Montagne, au sud-ouest de Nantes, du
+                lundi au vendredi de 8h30 à 19h, et du samedi de 8h30 à 12h. Praticienne en
+                énergétique traditionnelle chinoise, je suis à votre écoute pour vous apporter le
+                soulagement et l'harmonie dont vous avez besoin par les techniques d'acupuncture et
+                par des massages TuiNa et tantriques.
               </Description>
               <Link
                 to="/qui-suis-je"
@@ -328,7 +329,7 @@ export const LandingPage: FC = () => {
             <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body">
                 <Question
-                  sentence="Vous voulez cheminer vers votre divin intérieur ?"
+                  sentence="Vous voulez cheminer vers vôtre être intérieur ?"
                   answer="Le massage tantrique est une voie d'exploration méditative"
                   answerClassname="text-white mb-6"
                 />
