@@ -375,7 +375,12 @@ export const LandingPage: FC = () => {
                     <span className="fs-1 fw-bolder p-0">I</span>
                   </div>
                   <div className="d-flex flex-column align-items-start ms-4">
-                    <div className="card-title fs-5">Isabelle Jossot</div>
+                    <div className="card-title fs-5 mb-0">Isabelle J.</div>
+                    <div className="card-title fs-7">
+                      <span>
+                        58 ans, <i className="bi bi-geo-alt fs-6 me-1"></i>Saint Herblain
+                      </span>
+                    </div>
                     <div>
                       <FiveStarRating />
                     </div>
@@ -405,7 +410,12 @@ export const LandingPage: FC = () => {
                     <span className="fs-1 fw-bolder p-0">S</span>
                   </div>
                   <div className="d-flex flex-column align-items-start ms-4">
-                    <div className="card-title fs-5">Sophie Violeau</div>
+                    <div className="card-title fs-5 mb-0">Sophie V.</div>
+                    <div className="card-title fs-7">
+                      <span>
+                        48 ans, <i className="bi bi-geo-alt fs-6 me-1"></i>Basse Indre
+                      </span>
+                    </div>
                     <div>
                       <FiveStarRating />
                     </div>
@@ -434,7 +444,12 @@ export const LandingPage: FC = () => {
                     <span className="fs-1 fw-bolder p-0">L</span>
                   </div>
                   <div className="d-flex flex-column align-items-start ms-4">
-                    <div className="card-title fs-5">Lolote Foucher</div>
+                    <div className="card-title fs-5 mb-0">Lolote F.</div>
+                    <div className="card-title fs-7">
+                      <span>
+                        45 ans, <i className="bi bi-geo-alt fs-6 me-1"></i>Bouaye
+                      </span>
+                    </div>
                     <div>
                       <FiveStarRating />
                     </div>
@@ -444,6 +459,43 @@ export const LandingPage: FC = () => {
                   <Description>
                     J'ai pu essayé le massage qui est extraordinaire au niveau des
                     sensations...plein d'émotions Un lâcher prise d'une heure et demi !!!
+                  </Description>
+                </div>
+              </div>
+            </div>
+
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+              <div className="card-body d-flex flex-column align-items-start">
+                <div className="d-flex px-0 flex-row align-items-center justify-content-between">
+                  <div
+                    className="rounded-circle d-flex flex-column align-items-center"
+                    style={{
+                      backgroundColor: '#4f46e5',
+                    }}
+                  >
+                    <span className="fs-1 fw-bolder p-0">R</span>
+                  </div>
+                  <div className="d-flex flex-column align-items-start ms-4">
+                    <div className="card-title fs-5 mb-0">Romain P.</div>
+                    <div className="card-title fs-7">
+                      <span>
+                        34 ans, <i className="bi bi-geo-alt fs-6 me-1"></i>Bouguenais
+                      </span>
+                    </div>
+                    <div>
+                      <FiveStarRating />
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-4 w-100">
+                  <Description>
+                    Merci à Sandra qui après une séance d'acupuncture et une séance de massage à
+                    permis au stress, aux tensions du corps de se relâcher. Meilleure gestion des
+                    tensions et du corps au quotidien, mon énergie à augmenté considérablement, les
+                    douleurs ont disparu. Les tensions s'accumulent parfois pendant des années et
+                    j'avais testé plusieurs méthodes sans résultats. Sandra est très professionnelle
+                    et précise dans sa pratique, je recommande, pour découvrir, pour soins du corps.
+                    Merci
                   </Description>
                 </div>
               </div>
