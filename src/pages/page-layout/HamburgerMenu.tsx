@@ -15,7 +15,7 @@ export const HambugerMenu: FC = () => {
   }, [location.pathname]);
   const backgroundImageUrl = '/images/backgrounds/offcanvas-burger.png';
   const computedBackgroundPositionX = 1;
-  const computedBackgroundPositionY = -10;
+  const computedBackgroundPositionY = 0;
 
   const windowScrollHandler = (event: Event) => {
     if (!event) {
