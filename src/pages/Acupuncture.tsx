@@ -86,6 +86,10 @@ export const Acupuncture: FC = () => {
                   <i className="bi bi-check-lg text-light me-1"></i>
                   La gestion des dépendances
                 </p>
+                <p className="fw-bolder">
+                  <i className="bi bi-check-lg text-light me-1"></i>
+                  Traitements adaptés à l'enfant
+                </p>
 
                 <p className="fw-bolder">
                   <i className="bi bi-check-lg text-light me-1"></i>
