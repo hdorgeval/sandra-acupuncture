@@ -13,7 +13,7 @@ export const HambugerMenu: FC = () => {
   const isOnHomePage = useMemo(() => {
     return location.pathname === '/';
   }, [location.pathname]);
-  const backgroundImageUrl = '/images/backgrounds/offcanvas-burger.png';
+  const backgroundImageUrl = '/images/backgrounds/offcanvas-burger-2.jpg';
   const computedBackgroundPositionX = 1;
   const computedBackgroundPositionY = 0;
 
