@@ -106,6 +106,10 @@
   font-family: 'Mali', cursive;
 }
 
+.font-oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
 .fs-big-1 {
   font-size: calc(2.7rem + 1.5vw) !important;
 }
