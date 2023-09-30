@@ -12,6 +12,11 @@ export interface WebSiteConfig {
   displaySocialLinksViaButton: boolean;
   displayGuidedTour: boolean;
   displayAccountButtons: boolean;
+  recaptchaV2: RecaptchaV2;
+}
+
+export interface RecaptchaV2 {
+  sitekey: string;
 }
 
 export interface LegalNotice {
@@ -114,5 +119,8 @@ export const websiteConfig: WebSiteConfig = {
       label: 'Itinéraire via Waze',
       show: true,
     },
+  },
+  recaptchaV2: {
+    sitekey: '6LcqzGUoAAAAAGhv_qQUmFirTLpa5yY9AI4KkIml',
   },
 };
