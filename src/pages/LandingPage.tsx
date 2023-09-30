@@ -311,14 +311,14 @@ export const LandingPage: FC = () => {
           </div>
         </section>
         <section
-          id="services-2"
+          id="massage"
           data-bs-target="#navbarSupportedContent"
           className="w-100 bg-overlay-40"
           style={{
-            backgroundImage: 'url(/images/backgrounds/landing-page-2.jpg)',
+            backgroundImage: 'url(/images/backgrounds/section-massage.png)',
             minHeight: '50vh',
-            backgroundPositionX: '39%',
-            backgroundPositionY: '29%',
+            backgroundPositionX: '41%',
+            backgroundPositionY: '38%',
             backgroundSize: 'cover',
             position: 'relative',
             overflow: 'hidden',
@@ -327,7 +327,7 @@ export const LandingPage: FC = () => {
           }}
         >
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
-            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-xl border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body">
                 <Question
                   sentence="Vous voulez cheminer vers vôtre être intérieur ?"
@@ -503,7 +503,7 @@ export const LandingPage: FC = () => {
               </div>
             </div>
 
-            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+            <div className="card card-xl border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body d-flex flex-column align-items-start">
                 <div className="d-flex px-0 flex-row align-items-center justify-content-between">
                   <div
