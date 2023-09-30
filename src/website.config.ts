@@ -17,6 +17,8 @@ export interface WebSiteConfig {
 
 export interface RecaptchaV2 {
   sitekey: string;
+  theme: 'dark' | 'light';
+  size: 'normal' | 'compact';
 }
 
 export interface LegalNotice {
@@ -122,5 +124,7 @@ export const websiteConfig: WebSiteConfig = {
   },
   recaptchaV2: {
     sitekey: '6LcqzGUoAAAAAGhv_qQUmFirTLpa5yY9AI4KkIml',
+    theme: 'dark',
+    size: 'normal',
   },
 };
