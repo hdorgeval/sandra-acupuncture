@@ -95,6 +95,18 @@ export const Acupuncture: FC = () => {
                   <i className="bi bi-check-lg text-light me-1"></i>
                   La cancérologie
                 </p>
+                <p className="fw-bolder mt-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise"
+                    className="text-decoration-none text-light "
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
+                  >
+                    <span className="btn btn-outline-light fw-bolder font-playfair">
+                      En savoir plus
+                    </span>
+                  </Link>
+                </p>
               </ReadMoreReadLess>
             </SemiTransparentTile>
             <SemiTransparentTile
