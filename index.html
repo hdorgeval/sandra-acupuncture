@@ -67,5 +67,18 @@
       gtag('js', new Date());
       gtag('config', 'G-SG12JFJY8Q');
     </script>
+
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+
+    <!-- A little help for the Netlify post-processing bots -->
+    <form name="Contact" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true" hidden>
+      <input name="bot-field" />
+      <input type="text" name="Nom" autocomplete="name" />
+      <input type="email" name="Email" />
+      <input type="tel" name="Portable" />
+      <select name="Sujet"></select>
+      <textarea name="Message"></textarea>
+      <input type="hidden" name="subject" value="Demande de contact" />
+    </form>
   </body>
 </html>

@@ -379,3 +379,11 @@
 .text-burger-section {
   color: #212f32 !important;
 }
+
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+
+.mt-n2 {
+  margin-top: -0.5rem !important;
+}

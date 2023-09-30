@@ -207,3 +207,10 @@ html {
 .introjs-skipbutton:hover {
   color: var(--bs-emphasis-color) !important;
 }
+
+.g-recaptcha {
+  transform: scale(0.9) !important;
+  -webkit-transform: scale(0.9) !important;
+  transform-origin: 0 0 !important;
+  -webkit-transform-origin: 0 0 !important;
+}

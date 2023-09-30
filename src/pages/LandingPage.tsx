@@ -1,5 +1,6 @@
 import { FC, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { ContactForm } from '../components/ContactForm';
 import { Description } from '../components/Description';
 import { FiveStarRating } from '../components/FiveStarRating';
 import { Question } from '../components/Question';
@@ -527,6 +528,31 @@ export const LandingPage: FC = () => {
                   sentence="Si tu écoutes ton corps quand il te chuchote, tu n'auras pas à l'entendre crier."
                   author="Sagesse Tibétaine"
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="contact"
+          data-bs-target="#navbarSupportedContent"
+          className="w-100"
+          style={{
+            backgroundImage: 'url(/images/backgrounds/section-contact.jpg)',
+            minHeight: '100vh',
+            backgroundPositionX: '29%',
+            backgroundPositionY: '29%',
+            backgroundSize: 'cover',
+            position: 'relative',
+            overflow: 'hidden',
+            backgroundRepeat: 'no-repeat',
+            zIndex: 1,
+          }}
+        >
+          <div className="container-fluid py-2 px-0 pb-0">
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+              <div className="card-body">
+                <ContactForm analyticsEvent="contact-form" />
               </div>
             </div>
           </div>

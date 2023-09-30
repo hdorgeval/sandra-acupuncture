@@ -13,6 +13,12 @@ export interface WebSiteConfig {
   displayGuidedTour: boolean;
   displayAccountButtons: boolean;
   recaptchaV2: RecaptchaV2;
+  selectOptions: Record<string, SelectOptions[]>;
+}
+
+export interface SelectOptions {
+  label: string;
+  value?: string;
 }
 
 export interface RecaptchaV2 {
@@ -126,5 +132,16 @@ export const websiteConfig: WebSiteConfig = {
     sitekey: '6LcqzGUoAAAAAGhv_qQUmFirTLpa5yY9AI4KkIml',
     theme: 'dark',
     size: 'normal',
+  },
+  selectOptions: {
+    'contact-form-subjects': [
+      { label: 'Acupuncture' },
+      { label: 'Aculifting' },
+      { label: 'Massage Éveil des Sens' },
+      { label: 'Massage Éveil Divin' },
+      { label: 'Massage Éveil des Sens 4 mains' },
+      { label: 'Massage Couple' },
+      { label: 'Autre' },
+    ],
   },
 };
