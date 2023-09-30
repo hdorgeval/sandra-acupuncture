@@ -128,6 +128,9 @@ export const ContactForm: FC<ContactFormOwnProps> = ({ analyticsEvent }) => {
       noValidate
       onSubmit={handleSubmit}
     >
+      <div className="col-12">
+        <span className="fs-3 fw-bolder">Contactez-moi</span>
+      </div>
       <div className="col-12 col-md-12 col-lg-3">
         <label className="visually-hidden" htmlFor="contact-field-name">
           Nom
@@ -194,8 +197,13 @@ export const ContactForm: FC<ContactFormOwnProps> = ({ analyticsEvent }) => {
           <option value="" disabled selected hidden>
             Sujet...
           </option>
-          {subjectOptions.map((option) => (
-            <option value={option.value ?? option.label}>{option.label}</option>
+          {subjectOptions.map((option, index) => (
+            <option
+              value={option.value ?? option.label}
+              key={`${option.value ?? option.label}${index}`}
+            >
+              {option.label}
+            </option>
           ))}
         </select>
         <div className="invalid-feedback">Vous devez sélectionner un sujet.</div>
@@ -209,10 +217,14 @@ export const ContactForm: FC<ContactFormOwnProps> = ({ analyticsEvent }) => {
           className="form-control"
           name="Message"
           id="contact-field-message"
-          rows={3}
+          rows={4}
           placeholder="Votre message (Veuillez également indiquer vos disponibilités)"
+          aria-describedby="contact-field-message-description"
           required
         ></textarea>
+        <div className="form-text text-light fw-bolder ms-2" id="contact-field-message-description">
+          Merci d'indiquer vos disponiblités dans le corps du message.
+        </div>
         <div className="invalid-feedback">
           Vous devez saisir un message en indiquant vos disponibilités.
         </div>
@@ -221,6 +233,7 @@ export const ContactForm: FC<ContactFormOwnProps> = ({ analyticsEvent }) => {
       <div className="col-12 ">
         <div className="g-recaptcha" data-netlify-recaptcha="true"></div>
         <input
+          id="contact-field-recaptcha-response"
           className="form-control d-none"
           value={recaptchaResponse}
           // eslint-disable-next-line @typescript-eslint/no-empty-function
