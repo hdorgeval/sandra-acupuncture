@@ -218,16 +218,25 @@ export const ContactForm: FC<ContactFormOwnProps> = ({ analyticsEvent }) => {
           name="Message"
           id="contact-field-message"
           rows={4}
-          placeholder="Votre message (Veuillez également indiquer vos disponibilités)"
-          aria-describedby="contact-field-message-description"
+          placeholder="Votre message"
           required
         ></textarea>
-        <div className="form-text text-light fw-bolder ms-2" id="contact-field-message-description">
-          Merci d'indiquer vos disponiblités dans le corps du message.
-        </div>
-        <div className="invalid-feedback">
-          Vous devez saisir un message en indiquant vos disponibilités.
-        </div>
+        <div className="invalid-feedback">Vous devez saisir un message.</div>
+      </div>
+
+      <div className="col-12">
+        <label className="visually-hidden" htmlFor="contact-field-when-i-am-available">
+          Vos disponibilités
+        </label>
+        <textarea
+          className="form-control"
+          name="Disponibilités"
+          id="contact-field-when-i-am-available"
+          rows={2}
+          placeholder="Vos disponibilités (jours / horaires)"
+          required
+        ></textarea>
+        <div className="invalid-feedback">Vous devez saisir vos disponibilités.</div>
       </div>
 
       <div className="col-12 ">
