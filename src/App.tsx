@@ -2,6 +2,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
 import { Aculifting } from './pages/Aculifting';
 import { Acupuncture } from './pages/Acupuncture';
+import { ContactFormError } from './pages/ContactFormError';
+import { ContactFormSuccessfullySent } from './pages/ContactFormSuccessfullySent';
 import { EnergetiqueTraditionnelleChinoise } from './pages/EnergetiqueTraditionnelleChinoise';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
     path: '/',
     element: <LandingPage />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: '/contact/success',
+    element: <ContactFormSuccessfullySent />,
+  },
+  {
+    path: '/contact/error',
+    element: <ContactFormError />,
   },
   {
     path: '/mentions-legales',
