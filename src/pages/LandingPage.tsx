@@ -502,6 +502,55 @@ export const LandingPage: FC = () => {
                 </div>
               </div>
             </div>
+
+            <div className="card card-sm border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
+              <div className="card-body d-flex flex-column align-items-start">
+                <div className="d-flex px-0 flex-row align-items-center justify-content-between">
+                  <div
+                    className="rounded-circle d-flex flex-column align-items-center"
+                    style={{
+                      backgroundColor: '#4f46e5',
+                    }}
+                  >
+                    <span className="fs-1 fw-bolder p-0">C</span>
+                  </div>
+                  <div className="d-flex flex-column align-items-start ms-4">
+                    <div className="card-title fs-5 mb-0">Carole Q.</div>
+                    <div className="card-title fs-7">
+                      <span>
+                        53 ans, <i className="bi bi-geo-alt fs-6 me-1"></i>Nantes
+                      </span>
+                    </div>
+                    <div>
+                      <FiveStarRating />
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-4 w-100">
+                  <Description>Massage et MASSAGE...</Description>
+                  <Description>
+                    Massage en institut de beauté : Expérience sympathique sans pour autant être
+                    transcendante , au point de revenir régulièrement....
+                  </Description>
+                  <Description>
+                    Et Vrai Massage dont celui tantrique, prodigué par Sandra : une véritable
+                    révélation sur votre rapport à votre corps ! Le Massage devient un message de
+                    vous à votre propre corps par son intermédiaire.{' '}
+                    <i className="bi bi-emoji-smile fs-3 fw-bolder text-light"></i>
+                  </Description>
+                  <Description>
+                    Pour moi, "abîmée" par des brûlures au 3ème degré, une réconciliation avec ma
+                    chair : bluffant ! Des zones "anesthésiées" se sont réactivées suite à son
+                    massage doux et à la fois puissant. La conscience et l'amour mis dans chacun de
+                    ses gestes, mouvements ont véritablement nourri et célébré/honoré mon corps. Je
+                    me sens belle dans toutes mes imperfections physiques. J'ai ressenti une forme
+                    d'électricité (agréable) me parcourir. Le massage tantrique a continué d'agir
+                    sur plusieurs jours, libérant de grosses tensions. Une révélation et prise de
+                    conscience sur tout mon corps ! Un voyage extraordinaire à renouveler !
+                  </Description>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

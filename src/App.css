@@ -59,8 +59,8 @@ html {
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .d-flex.flex-row.flex-wrap .card.card-sm {
-    max-width: 95vw !important;
-    min-width: 95vw !important;
+    max-width: 97vw !important;
+    min-width: 97vw !important;
   }
 
   .d-flex.flex-row.flex-wrap .card.card-lg {
