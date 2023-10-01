@@ -80,7 +80,7 @@ export const LandingPage: FC = () => {
                     <h1 className="font-oswald text-light fs-1 fw-bolder max-vw-80">
                       Besoin d'avoir plus d'énergie
                     </h1>
-                    <h2 className="font-oswald text-light fw-bolder fs-3 max-vw-80 mt-4">
+                    <h2 className="font-mali text-light fw-bolder fs-3 max-vw-80 mt-4">
                       Avec l'Énergétique Traditionnelle Chinoise et le massage tantrique
                     </h2>
 
@@ -120,7 +120,7 @@ export const LandingPage: FC = () => {
                     <h1 className="font-oswald text-light fs-1 fw-bolder max-vw-80">
                       Besoin d'avoir plus d'énergie
                     </h1>
-                    <h2 className="font-oswald text-light fw-bolder fs-3 max-vw-80 mt-4">
+                    <h2 className="font-mali text-light fw-bolder fs-3 max-vw-80 mt-4">
                       Avec l'Énergétique Traditionnelle Chinoise et le massage tantrique
                     </h2>
 
