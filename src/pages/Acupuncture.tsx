@@ -251,14 +251,12 @@ export const Acupuncture: FC = () => {
 
             <SemiTransparentTile
               background="linear-gradient(rgb(48, 115, 78, 0.54), rgba(79, 79, 93, 0.3))"
-              className="card card-sm text-start text-light font-monserrat m-2"
+              className="card card-sm text-start text-light font-monserrat m-2 z-index-3"
             >
-              <div className="card-header py-3">
-                <h5 id="prendre-rendez-vous" className="card-title mb-0 fw-bolder text-center">
-                  Prendre rendez vous
-                </h5>
+              <div id="prendre-rendez-vous" className="card-header py-3">
+                <h5 className="card-title mb-0 fw-bolder text-center">Prendre rendez vous</h5>
               </div>
-              <div className="card-body">
+              <div className="card-body mt-2">
                 <RendezVousForm
                   analyticsEvent="rdv-form-acupuncture"
                   subjectOptions={[
