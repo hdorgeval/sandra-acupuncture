@@ -9,9 +9,9 @@ export const MassageTantrique: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/massage-background.jpg"
-        backgroundOverlay="linear-gradient(to bottom,rgba(79, 79, 93, 0.40),rgba(0, 0, 0, 0.1))"
-        backgroundPositionX="60%"
+        backgroundImageUrl="/images/backgrounds/section-massage.png"
+        backgroundOverlay="linear-gradient(to bottom,rgba(79, 79, 93, 0.30),rgba(0, 0, 0, 0.1))"
+        backgroundPositionX="53%"
         backgroundPositionY="33%"
         htmlTitle={`Massage tantrique | ${websiteConfig.websiteTitle}`}
       >
@@ -21,7 +21,7 @@ export const MassageTantrique: FC = () => {
           </div>
           <div className="" style={{ minHeight: '5vh' }}></div>
           <SemiTransparentTile
-            background="linear-gradient(rgb(17, 51, 97, 0.6), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(17, 51, 97, 0.3), rgba(79, 79, 93, 0.2))"
             className="card text-start text-light fs-5 font-monserrat px-4 py-4"
           >
             <p className="">Tout d'abord, qu'est ce que le TANTRA ?</p>
