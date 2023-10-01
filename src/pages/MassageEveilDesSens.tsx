@@ -107,7 +107,7 @@ export const MassageEveilDesSens: FC = () => {
                   <div className="d-flex flex-row align-items-center card-subtitle">
                     <i className="bi bi-clock-history fs-3 me-4"></i>
                     <div className="d-flex flex-column card-subtitle pt-1">
-                      <span className="text-nowrap fs-7">2h30</span>
+                      <span className="text-nowrap fs-6">2h30</span>
                     </div>
                   </div>
                 </TransparentListGroupItem>

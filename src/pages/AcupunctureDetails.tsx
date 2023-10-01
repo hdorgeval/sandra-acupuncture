@@ -201,7 +201,7 @@ export const AcupunctureDetails: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
-                    <span className="text-nowrap fs-7">90 mn</span>
+                    <span className="text-nowrap fs-6">90 mn</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
