@@ -48,8 +48,8 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(convertedFormEntries).toString(),
       })
-        .then(() => navigate('/rdv/success'))
-        .catch(() => navigate('/rdv/error'))
+        .then(() => navigate('/contact/success'))
+        .catch(() => navigate('/contact/error'))
         // eslint-disable-next-line @typescript-eslint/no-empty-function
         .finally(() => {});
     },
