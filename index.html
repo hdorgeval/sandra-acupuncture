@@ -81,5 +81,22 @@
       <textarea name="Disponibilités"></textarea>
       <input type="hidden" name="subject" value="Demande de contact" />
     </form>
+
+    <form
+      name="Prendre rendez vous"
+      netlify
+      netlify-honeypot="bot-field"
+      data-netlify-recaptcha="true"
+      hidden
+    >
+      <input name="bot-field" />
+      <input type="text" name="Nom" autocomplete="name" />
+      <input type="email" name="Email" autocomplete="email" />
+      <input type="tel" name="Portable" autocomplete="tel-national" />
+      <select name="Sujet"></select>
+      <textarea name="Message"></textarea>
+      <textarea name="Disponibilités"></textarea>
+      <input type="hidden" name="subject" value="Prendre rendez-vous" />
+    </form>
   </body>
 </html>

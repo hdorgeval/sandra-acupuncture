@@ -5,9 +5,11 @@ import { websiteConfig } from '../website.config';
 export interface RecaptchaOwnProps {
   analyticsEvent?: MyAnalyticsEvent;
   className?: string;
+  invalidFeedbackClassName?: string;
+  theme?: 'dark' | 'light';
 }
 
-export const Recaptcha: FC<RecaptchaOwnProps> = () => {
+export const Recaptcha: FC<RecaptchaOwnProps> = ({ theme, invalidFeedbackClassName }) => {
   const [hasLoadedRecaptchaApi, setHasLoadedRecaptchaApi] = useState(false);
   const [recaptchaResponse, setRecaptchaResponse] = useState<string>('');
   const [captchaId, setCaptchaId] = useState<number | null>(null);
@@ -22,8 +24,10 @@ export const Recaptcha: FC<RecaptchaOwnProps> = () => {
   useEffect(() => {
     if (grecaptcha && typeof captchaId === 'number') {
       return () => {
-        grecaptcha.reset(captchaId);
-        setRecaptchaResponse('');
+        if (grecaptcha && captchaId) {
+          grecaptcha.reset(captchaId);
+          setRecaptchaResponse('');
+        }
       };
     }
   }, [captchaId]);
@@ -58,7 +62,7 @@ export const Recaptcha: FC<RecaptchaOwnProps> = () => {
           sitekey: websiteConfig.recaptchaV2.sitekey,
           callback: captchaCallback,
           'expired-callback': expiredCaptchaCallback,
-          theme: websiteConfig.recaptchaV2.theme,
+          theme: theme ?? websiteConfig.recaptchaV2.theme,
           size: websiteConfig.recaptchaV2.size,
         });
         setCaptchaId(captchaId);
@@ -79,7 +83,7 @@ export const Recaptcha: FC<RecaptchaOwnProps> = () => {
         /* empty */
       }
     }
-  }, [captchaCallback, expiredCaptchaCallback, hasLoadedRecaptchaApi]);
+  }, [captchaCallback, expiredCaptchaCallback, hasLoadedRecaptchaApi, theme]);
 
   return (
     <>
@@ -92,7 +96,11 @@ export const Recaptcha: FC<RecaptchaOwnProps> = () => {
         onChange={() => {}}
         required
       />
-      <div className="invalid-feedback mt-n2">
+      <div
+        className={`invalid-feedback mt-n2 ${
+          invalidFeedbackClassName ? invalidFeedbackClassName : ''
+        }`}
+      >
         Vous devez indiquer que vous n'êtes pas un robot.
       </div>
     </>

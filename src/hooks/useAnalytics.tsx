@@ -16,6 +16,7 @@ export type MyAnalyticsEvent =
   | 'open-waze'
   | 'rdv-aculifting'
   | 'rdv-acupuncture'
+  | 'rdv-form-acupuncture'
   | 'rdv-entretien-prealable'
   | 'rdv-masage-eveil-des-sens'
   | 'rdv-masage-eveil-divin'
