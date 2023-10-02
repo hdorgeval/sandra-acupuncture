@@ -23,12 +23,20 @@ export const Acupuncture: FC = () => {
         <div className="d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
             <PageTitle>Acupuncture</PageTitle>
+            <button
+              type="button"
+              className="btn btn-outline-light fw-bolder w-100 mt-1"
+              data-bs-toggle="modal"
+              data-bs-target="#prendre-rendez-vous"
+            >
+              Prendre rendez-vous
+            </button>
           </div>
           <div className="" style={{ minHeight: '5vh' }}></div>
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
             <SemiTransparentTile
               background="linear-gradient(rgb(48, 115, 78, 0.54), rgba(79, 79, 93, 0.3))"
-              className="card card-sm text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
+              className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
             >
               <ReadMoreReadLess
                 height={'21vh'}
@@ -103,16 +111,24 @@ export const Acupuncture: FC = () => {
                     title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
                     aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
                   >
-                    <span className="btn btn-outline-light fw-bolder font-playfair">
+                    <span className="btn btn-outline-light fw-bolder font-playfair mb-1 me-2">
                       En savoir plus
                     </span>
                   </Link>
+                  <button
+                    type="button"
+                    className="btn btn-outline-light fw-bolder mt-0 mb-1"
+                    data-bs-toggle="modal"
+                    data-bs-target="#prendre-rendez-vous"
+                  >
+                    Prendre rendez-vous
+                  </button>
                 </p>
               </ReadMoreReadLess>
             </SemiTransparentTile>
             <SemiTransparentTile
               background="linear-gradient(rgb(48, 115, 78, 0.54), rgba(79, 79, 93, 0.3))"
-              className="card card-sm text-start text-light font-monserrat m-2"
+              className="card card-lg text-start text-light font-monserrat m-2"
             >
               <div className="card-header py-3">
                 <h5 id="déroulement-et-tarifs" className="card-title mb-0 fw-bolder text-center">
@@ -187,12 +203,14 @@ export const Acupuncture: FC = () => {
                   <div className="d-flex flex-row align-items-center card-subtitle">
                     <i className="bi bi-calendar-event fs-2 me-4"></i>
                     <div className="d-flex flex-column card-subtitle">
-                      <a
+                      <button
+                        type="button"
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
-                        href="#prendre-rendez-vous"
+                        data-bs-toggle="modal"
+                        data-bs-target="#prendre-rendez-vous"
                       >
                         Prendre rendez-vous
-                      </a>
+                      </button>
 
                       <span className="mt-4">Ou bien appelez-moi directement :</span>
                       <CallablePhoneNumberButton
@@ -243,29 +261,57 @@ export const Acupuncture: FC = () => {
                         Renseignez vous auprès de votre mutuelle pour le remboursement de votre
                         séance.
                       </p>
+                      <p>
+                        <button
+                          type="button"
+                          className="btn btn-outline-light fw-bolder w-100 mt-1"
+                          data-bs-toggle="modal"
+                          data-bs-target="#prendre-rendez-vous"
+                        >
+                          Prendre rendez-vous
+                        </button>
+                      </p>
                     </div>
                   </div>
                 </TransparentListGroupItem>
               </ul>
             </SemiTransparentTile>
+          </div>
 
-            <SemiTransparentTile
-              background="linear-gradient(rgb(48, 115, 78, 0.54), rgba(79, 79, 93, 0.3))"
-              className="card card-sm text-start text-light font-monserrat m-2 z-index-3"
-            >
-              <div id="prendre-rendez-vous" className="card-header py-3">
-                <h5 className="card-title mb-0 fw-bolder text-center">Prendre rendez vous</h5>
+          <div
+            className="modal fade text-start text-light font-monserrat"
+            id="prendre-rendez-vous"
+            tabIndex={-1}
+            aria-labelledby="prendre-rendez-vous-label"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content" style={{ backgroundColor: '#1d2817' }}>
+                <div className="modal-header">
+                  <h5
+                    id="prendre-rendez-vous-label"
+                    className="modal-title mb-0 fw-bolder text-center w-100"
+                  >
+                    Prendre rendez vous
+                  </h5>
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Annuler"
+                  ></button>
+                </div>
+                <div className="modal-body ">
+                  <RendezVousForm
+                    analyticsEvent="rdv-form-acupuncture"
+                    subjectOptions={[
+                      { label: 'Prendre un rendez vous acupuncture' },
+                      { label: 'Autre' },
+                    ]}
+                  />
+                </div>
               </div>
-              <div className="card-body mt-2">
-                <RendezVousForm
-                  analyticsEvent="rdv-form-acupuncture"
-                  subjectOptions={[
-                    { label: 'Prendre un rendez vous acupuncture' },
-                    { label: 'Autre' },
-                  ]}
-                />
-              </div>
-            </SemiTransparentTile>
+            </div>
           </div>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
