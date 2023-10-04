@@ -8,11 +8,13 @@ export interface RendezVousModalOwnProps {
   modalId: string;
   analyticsEvent?: MyAnalyticsEvent;
   subjectOptions?: SelectOptions[];
+  backgroundColor?: string;
 }
 export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
   modalId,
   analyticsEvent,
   subjectOptions,
+  backgroundColor,
 }) => {
   return (
     <div
@@ -23,7 +25,10 @@ export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
       aria-hidden="true"
     >
       <div className="modal-dialog">
-        <div className="modal-content" style={{ backgroundColor: '#1d2817' }}>
+        <div
+          className="modal-content"
+          style={{ backgroundColor: backgroundColor ? `${backgroundColor}` : '#1d2817' }}
+        >
           <div className="modal-header">
             <h5
               id="prendre-rendez-vous-label"
