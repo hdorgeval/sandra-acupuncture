@@ -272,7 +272,7 @@ export const MassageEveilDesSens: FC = () => {
               { label: 'Prendre un rendez vous Massage Eveil des Sens' },
               { label: 'Autre' },
             ]}
-            backgroundColor="#1b2d10"
+            backgroundColor="#113361"
           ></RendezVousModal>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
