@@ -74,12 +74,14 @@ export const Aculifting: FC = () => {
                   <i className="bi bi-check-lg text-light me-1"></i>Relaxation et réduction du
                   stress facial
                 </p>
-                <OpenModalButton
-                  className="btn btn-outline-light fw-bolder mt-0 mb-1"
-                  modalId="prendre-rendez-vous"
-                >
-                  Prendre rendez-vous
-                </OpenModalButton>
+                <p className="fw-bolder mt-2">
+                  <OpenModalButton
+                    className="btn btn-outline-light fw-bolder mt-0 mb-1"
+                    modalId="prendre-rendez-vous"
+                  >
+                    Prendre rendez-vous
+                  </OpenModalButton>
+                </p>
               </ReadMoreReadLess>
             </SemiTransparentTile>
             <SemiTransparentTile
