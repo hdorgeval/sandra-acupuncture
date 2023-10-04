@@ -86,8 +86,16 @@ export const MassageEveilDivin: FC = () => {
                   <div className="d-flex flex-row align-items-center card-subtitle">
                     <i className="bi bi-geo-alt fs-3 me-4"></i>
                     <div className="d-flex flex-column card-subtitle">
-                      <span className="text-nowrap fs-7">6 allée du mortier</span>
+                      <p className="mt-1 fs-7">
+                        Implantée dans la région Sud Nantes, tout proche de Bouaye, Bouguenais,
+                        Rezé, Les Sorinières, Brains, Saint Jean de Boiseau, Le Pellerin, Sainte
+                        Pazanne,Port Saint Père, Saint Mars de Coutais, Pont Saint Martin, Saint
+                        Aignan de grand Lieu, Indre, Couëron, Saint Herblain,
+                      </p>
+                      <span className="text-nowrap fs-7">Je vous reçois au :</span>
+                      <span className="text-nowrap fs-7 mt-2">6 allée du mortier</span>
                       <span className="text-nowrap fs-7">44620 LA MONTAGNE</span>
+                      <span className="text-nowrap fs-7 mb-2">( Derrière le Hyper U )</span>
                       {websiteConfig.links.googleMaps.show && (
                         <OpenExternalLinkButton
                           className="btn btn-outline-light fw-bolder w-100 mt-0"
