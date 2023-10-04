@@ -275,7 +275,7 @@ export const Acupuncture: FC = () => {
             modalId="prendre-rendez-vous"
             analyticsEvent="rdv-form-acupuncture"
             subjectOptions={[{ label: 'Prendre un rendez vous acupuncture' }, { label: 'Autre' }]}
-            backgroundColor="#1b2d10"
+            backgroundColor="#1f3a28"
           ></RendezVousModal>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
