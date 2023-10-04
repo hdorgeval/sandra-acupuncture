@@ -2,9 +2,10 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
+import { OpenModalButton } from '../components/OpenModalButton';
 import { PhoneNumber } from '../components/PhoneNumber';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
-import { RendezVousForm } from '../components/RendezVousForm';
+import { RendezVousModal } from '../components/RendezVousModal';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
@@ -23,14 +24,12 @@ export const Acupuncture: FC = () => {
         <div className="d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
             <PageTitle>Acupuncture</PageTitle>
-            <button
-              type="button"
+            <OpenModalButton
               className="btn btn-outline-light fw-bolder w-100 mt-1"
-              data-bs-toggle="modal"
-              data-bs-target="#prendre-rendez-vous"
+              modalId="prendre-rendez-vous"
             >
               Prendre rendez-vous
-            </button>
+            </OpenModalButton>
           </div>
           <div className="" style={{ minHeight: '5vh' }}></div>
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
@@ -115,14 +114,12 @@ export const Acupuncture: FC = () => {
                       En savoir plus
                     </span>
                   </Link>
-                  <button
-                    type="button"
+                  <OpenModalButton
                     className="btn btn-outline-light fw-bolder mt-0 mb-1"
-                    data-bs-toggle="modal"
-                    data-bs-target="#prendre-rendez-vous"
+                    modalId="prendre-rendez-vous"
                   >
                     Prendre rendez-vous
-                  </button>
+                  </OpenModalButton>
                 </p>
               </ReadMoreReadLess>
             </SemiTransparentTile>
@@ -203,14 +200,12 @@ export const Acupuncture: FC = () => {
                   <div className="d-flex flex-row align-items-center card-subtitle">
                     <i className="bi bi-calendar-event fs-2 me-4"></i>
                     <div className="d-flex flex-column card-subtitle">
-                      <button
-                        type="button"
+                      <OpenModalButton
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
-                        data-bs-toggle="modal"
-                        data-bs-target="#prendre-rendez-vous"
+                        modalId="prendre-rendez-vous"
                       >
                         Prendre rendez-vous
-                      </button>
+                      </OpenModalButton>
 
                       <span className="mt-4">Ou bien appelez-moi directement :</span>
                       <CallablePhoneNumberButton
@@ -262,14 +257,12 @@ export const Acupuncture: FC = () => {
                         séance.
                       </p>
                       <p>
-                        <button
-                          type="button"
+                        <OpenModalButton
                           className="btn btn-outline-light fw-bolder w-100 mt-1"
-                          data-bs-toggle="modal"
-                          data-bs-target="#prendre-rendez-vous"
+                          modalId="prendre-rendez-vous"
                         >
                           Prendre rendez-vous
-                        </button>
+                        </OpenModalButton>
                       </p>
                     </div>
                   </div>
@@ -278,41 +271,11 @@ export const Acupuncture: FC = () => {
             </SemiTransparentTile>
           </div>
 
-          <div
-            className="modal fade text-start text-light font-monserrat"
-            id="prendre-rendez-vous"
-            tabIndex={-1}
-            aria-labelledby="prendre-rendez-vous-label"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog">
-              <div className="modal-content" style={{ backgroundColor: '#1d2817' }}>
-                <div className="modal-header">
-                  <h5
-                    id="prendre-rendez-vous-label"
-                    className="modal-title mb-0 fw-bolder text-center w-100"
-                  >
-                    Prendre rendez vous
-                  </h5>
-                  <button
-                    type="button"
-                    className="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Annuler"
-                  ></button>
-                </div>
-                <div className="modal-body ">
-                  <RendezVousForm
-                    analyticsEvent="rdv-form-acupuncture"
-                    subjectOptions={[
-                      { label: 'Prendre un rendez vous acupuncture' },
-                      { label: 'Autre' },
-                    ]}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+          <RendezVousModal
+            modalId="prendre-rendez-vous"
+            analyticsEvent="rdv-form-acupuncture"
+            subjectOptions={[{ label: 'Prendre un rendez vous acupuncture' }, { label: 'Autre' }]}
+          ></RendezVousModal>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
     </>
