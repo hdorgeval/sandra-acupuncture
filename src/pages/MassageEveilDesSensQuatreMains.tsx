@@ -137,7 +137,7 @@ export const MassageEveilDesSensQuatreMains: FC = () => {
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
                         link={websiteConfig.links.rdv.url}
                         title="Prendre rendez-vous pour l'entretien téléphonique"
-                        analyticsEvent="rdv-masage-eveil-des-sens"
+                        analyticsEvent="rdv-massage-eveil-des-sens"
                       >
                         <div className="d-flex flex-column align-items-center">
                           <span className="">
