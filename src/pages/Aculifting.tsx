@@ -1,8 +1,10 @@
 import { FC } from 'react';
 import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
+import { OpenModalButton } from '../components/OpenModalButton';
 import { PhoneNumber } from '../components/PhoneNumber';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
+import { RendezVousModal } from '../components/RendezVousModal';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
@@ -21,6 +23,12 @@ export const Aculifting: FC = () => {
         <div className="d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
             <PageTitle>Aculifting</PageTitle>
+            <OpenModalButton
+              className="btn btn-outline-light fw-bolder w-100 mt-1"
+              modalId="prendre-rendez-vous"
+            >
+              Prendre rendez-vous
+            </OpenModalButton>
           </div>
           <div className="" style={{ minHeight: '5vh' }}></div>
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
@@ -66,6 +74,12 @@ export const Aculifting: FC = () => {
                   <i className="bi bi-check-lg text-light me-1"></i>Relaxation et réduction du
                   stress facial
                 </p>
+                <OpenModalButton
+                  className="btn btn-outline-light fw-bolder mt-0 mb-1"
+                  modalId="prendre-rendez-vous"
+                >
+                  Prendre rendez-vous
+                </OpenModalButton>
               </ReadMoreReadLess>
             </SemiTransparentTile>
             <SemiTransparentTile
@@ -89,8 +103,16 @@ export const Aculifting: FC = () => {
                   <div className="d-flex flex-row align-items-center card-subtitle">
                     <i className="bi bi-geo-alt fs-3 me-4"></i>
                     <div className="d-flex flex-column card-subtitle">
-                      <span className="text-nowrap fs-7">6 allée du mortier</span>
+                      <p className="mt-1 fs-7">
+                        Implantée dans la région Sud Nantes, tout proche de Bouaye, Bouguenais,
+                        Rezé, Les Sorinières, Brains, Saint Jean de Boiseau, Le Pellerin, Sainte
+                        Pazanne,Port Saint Père, Saint Mars de Coutais, Pont Saint Martin, Saint
+                        Aignan de grand Lieu, Indre, Couëron, Saint Herblain,
+                      </p>
+                      <span className="text-nowrap fs-7">Je vous reçois au :</span>
+                      <span className="text-nowrap fs-7 mt-2">6 allée du mortier</span>
                       <span className="text-nowrap fs-7">44620 LA MONTAGNE</span>
+                      <span className="text-nowrap fs-7 mb-2">( Derrière le Hyper U )</span>
                       {websiteConfig.links.googleMaps.show && (
                         <OpenExternalLinkButton
                           className="btn btn-outline-light fw-bolder w-100 mt-0"
@@ -134,16 +156,13 @@ export const Aculifting: FC = () => {
                   <div className="d-flex flex-row align-items-center card-subtitle">
                     <i className="bi bi-calendar-event fs-2 me-4"></i>
                     <div className="d-flex flex-column card-subtitle">
-                      <OpenExternalLinkButton
+                      <OpenModalButton
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
-                        link={websiteConfig.links.rdv.url}
-                        title={websiteConfig.links.rdv.title}
-                        analyticsEvent="rdv-aculifting"
+                        modalId="prendre-rendez-vous"
                       >
-                        <div className="d-flex flex-column align-items-center">
-                          <span className="">{websiteConfig.links.rdv.label}</span>
-                        </div>
-                      </OpenExternalLinkButton>
+                        Prendre rendez-vous
+                      </OpenModalButton>
+
                       <span className="mt-4">Ou bien appelez-moi directement :</span>
                       <CallablePhoneNumberButton
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
@@ -175,12 +194,27 @@ export const Aculifting: FC = () => {
                         Le traitement n'est pas douloureux. La sensation liée à la piqûre de
                         l'aiguille peut être considérée comme négligeable.
                       </p>
+                      <p>
+                        <OpenModalButton
+                          className="btn btn-outline-light fw-bolder w-100 mt-1"
+                          modalId="prendre-rendez-vous"
+                        >
+                          Prendre rendez-vous
+                        </OpenModalButton>
+                      </p>
                     </div>
                   </div>
                 </TransparentListGroupItem>
               </ul>
             </SemiTransparentTile>
           </div>
+
+          <RendezVousModal
+            modalId="prendre-rendez-vous"
+            analyticsEvent="rdv-form-aculifting"
+            subjectOptions={[{ label: 'Prendre un rendez vous aculifting' }, { label: 'Autre' }]}
+            backgroundColor="#d79b76"
+          ></RendezVousModal>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
     </>

@@ -17,6 +17,7 @@ export type MyAnalyticsEvent =
   | 'rdv-aculifting'
   | 'rdv-acupuncture'
   | 'rdv-form-acupuncture'
+  | 'rdv-form-aculifting'
   | 'rdv-entretien-prealable'
   | 'rdv-masage-eveil-des-sens'
   | 'rdv-masage-eveil-divin'
