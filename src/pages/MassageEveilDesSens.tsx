@@ -1,9 +1,11 @@
 import { FC } from 'react';
 import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
+import { OpenModalButton } from '../components/OpenModalButton';
 import { PhoneNumber } from '../components/PhoneNumber';
 import { Quote } from '../components/Quote';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
+import { RendezVousModal } from '../components/RendezVousModal';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
@@ -22,6 +24,12 @@ export const MassageEveilDesSens: FC = () => {
         <div className="d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
             <PageTitle>Massage Éveil des Sens</PageTitle>
+            <OpenModalButton
+              className="btn btn-outline-light fw-bolder w-100 mt-1"
+              modalId="prendre-rendez-vous"
+            >
+              Prendre rendez-vous
+            </OpenModalButton>
           </div>
           <div className="" style={{ minHeight: '5vh' }}></div>
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
@@ -76,10 +84,18 @@ export const MassageEveilDesSens: FC = () => {
                     sexuel. Le massage n'a pas pour but d'exciter mais de guérir et de se
                     reconnecter à son corps.
                   </p>
-                  <p className="mb-0 pb-0">
+                  <p className="">
                     Je masse dans le respect de votre corps et votre consentement est très
                     important. Je m'adapte et respecte vos limites si vous avez besoin de garder vos
                     sous-vêtements.
+                  </p>
+                  <p className="fw-bolder mt-2">
+                    <OpenModalButton
+                      className="btn btn-outline-light fw-bolder mt-0 mb-1"
+                      modalId="prendre-rendez-vous"
+                    >
+                      Prendre rendez-vous
+                    </OpenModalButton>
                   </p>
                 </ReadMoreReadLess>
               </SemiTransparentTile>
@@ -169,18 +185,13 @@ export const MassageEveilDesSens: FC = () => {
                     <i className="bi bi-calendar-event fs-2 me-4"></i>
                     <div className="d-flex flex-column card-subtitle">
                       <span className="">Rdv validé uniquement après entretien téléphonique</span>
-                      <OpenExternalLinkButton
+                      <OpenModalButton
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
-                        link={websiteConfig.links.rdv.url}
-                        title="Prendre rendez-vous pour l'entretien téléphonique"
-                        analyticsEvent="rdv-masage-eveil-des-sens"
+                        modalId="prendre-rendez-vous"
                       >
-                        <div className="d-flex flex-column align-items-center">
-                          <span className="">
-                            Prendre rendez-vous pour l'entretien téléphonique
-                          </span>
-                        </div>
-                      </OpenExternalLinkButton>
+                        Prendre rendez-vous
+                      </OpenModalButton>
+
                       <span className="mt-4">Ou bien appelez-moi directement :</span>
                       <CallablePhoneNumberButton
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
@@ -239,12 +250,30 @@ export const MassageEveilDesSens: FC = () => {
                         Le massage sera suivi d'un temps d'intégration pour revenir à vous en
                         douceur.
                       </p>
+                      <p>
+                        <OpenModalButton
+                          className="btn btn-outline-light fw-bolder w-100 mt-1"
+                          modalId="prendre-rendez-vous"
+                        >
+                          Prendre rendez-vous
+                        </OpenModalButton>
+                      </p>
                     </div>
                   </div>
                 </TransparentListGroupItem>
               </ul>
             </SemiTransparentTile>
           </div>
+
+          <RendezVousModal
+            modalId="prendre-rendez-vous"
+            analyticsEvent="rdv-form-massage-eveil-des-sens"
+            subjectOptions={[
+              { label: 'Prendre un rendez vous Massage Eveil des Sens' },
+              { label: 'Autre' },
+            ]}
+            backgroundColor="#1b2d10"
+          ></RendezVousModal>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
     </>
