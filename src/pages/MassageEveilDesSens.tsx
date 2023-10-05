@@ -89,7 +89,7 @@ export const MassageEveilDesSens: FC = () => {
                     important. Je m'adapte et respecte vos limites si vous avez besoin de garder vos
                     sous-vêtements.
                   </p>
-                  <p className="fw-bolder mt-2">
+                  <p className="fw-bolder mt-2 mb-0 pb-0">
                     <OpenModalButton
                       className="btn btn-outline-light fw-bolder mt-0 mb-1"
                       modalId="prendre-rendez-vous"
