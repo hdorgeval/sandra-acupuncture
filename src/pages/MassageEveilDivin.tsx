@@ -161,6 +161,7 @@ export const MassageEveilDivin: FC = () => {
                       >
                         Prendre rendez-vous
                       </OpenModalButton>
+
                       <span className="mt-4">Ou bien appelez-moi directement :</span>
                       <CallablePhoneNumberButton
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
