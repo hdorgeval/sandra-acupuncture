@@ -1,9 +1,11 @@
 import { FC } from 'react';
 import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
+import { OpenModalButton } from '../components/OpenModalButton';
 import { PhoneNumber } from '../components/PhoneNumber';
 import { Quote } from '../components/Quote';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
+import { RendezVousModal } from '../components/RendezVousModal';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
@@ -22,6 +24,12 @@ export const MassageEveilDivin: FC = () => {
         <div className="d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
             <PageTitle>Massage Éveil Divin</PageTitle>
+            <OpenModalButton
+              className="btn btn-outline-light fw-bolder w-100 mt-1"
+              modalId="prendre-rendez-vous"
+            >
+              Prendre rendez-vous
+            </OpenModalButton>
           </div>
           <div className="" style={{ minHeight: '5vh' }}></div>
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
@@ -46,10 +54,18 @@ export const MassageEveilDivin: FC = () => {
                     Dans cet espace sacré, vous pourrez ainsi vous abandonnez à une relaxation
                     profonde qui sera la voie d'accès à la dimension divine de votre corps.
                   </p>
-                  <p className="mb-0 pb-0">
+                  <p className="">
                     Le massage du Lingam (pour les hommes) et de la Yoni (pour les femmes) est
                     abordé pour un temps dédié. Ce massage vous apportera une véritable
                     transformation dans tout votre être.
+                  </p>
+                  <p className="fw-bolder mt-2 mb-0 pb-0">
+                    <OpenModalButton
+                      className="btn btn-outline-light fw-bolder mt-0 mb-1"
+                      modalId="prendre-rendez-vous"
+                    >
+                      Prendre rendez-vous
+                    </OpenModalButton>
                   </p>
                 </ReadMoreReadLess>
               </SemiTransparentTile>
@@ -139,18 +155,12 @@ export const MassageEveilDivin: FC = () => {
                     <i className="bi bi-calendar-event fs-2 me-4"></i>
                     <div className="d-flex flex-column card-subtitle">
                       <span className="">Rdv validé uniquement après entretien téléphonique</span>
-                      <OpenExternalLinkButton
+                      <OpenModalButton
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
-                        link={websiteConfig.links.rdv.url}
-                        title="Prendre rendez-vous pour l'entretien téléphonique"
-                        analyticsEvent="rdv-masage-eveil-divin"
+                        modalId="prendre-rendez-vous"
                       >
-                        <div className="d-flex flex-column align-items-center">
-                          <span className="">
-                            Prendre rendez-vous pour l'entretien téléphonique
-                          </span>
-                        </div>
-                      </OpenExternalLinkButton>
+                        Prendre rendez-vous
+                      </OpenModalButton>
                       <span className="mt-4">Ou bien appelez-moi directement :</span>
                       <CallablePhoneNumberButton
                         className="btn btn-outline-light fw-bolder w-100 mt-1"
@@ -210,12 +220,30 @@ export const MassageEveilDivin: FC = () => {
                         Le massage sera suivi d'un temps d'intégration pour revenir à vous en
                         douceur.
                       </p>
+                      <p>
+                        <OpenModalButton
+                          className="btn btn-outline-light fw-bolder w-100 mt-1"
+                          modalId="prendre-rendez-vous"
+                        >
+                          Prendre rendez-vous
+                        </OpenModalButton>
+                      </p>
                     </div>
                   </div>
                 </TransparentListGroupItem>
               </ul>
             </SemiTransparentTile>
           </div>
+
+          <RendezVousModal
+            modalId="prendre-rendez-vous"
+            analyticsEvent="rdv-form-massage-eveil-divin"
+            subjectOptions={[
+              { label: 'Prendre un rendez vous Massage Eveil Divin' },
+              { label: 'Autre' },
+            ]}
+            backgroundColor="#b66631"
+          ></RendezVousModal>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
     </>

@@ -20,6 +20,7 @@ export type MyAnalyticsEvent =
   | 'rdv-form-aculifting'
   | 'rdv-form-massage-eveil-des-sens'
   | 'rdv-form-massage-eveil-des-sens-4-mains'
+  | 'rdv-form-massage-eveil-divin'
   | 'rdv-entretien-prealable'
   | 'rdv-massage-eveil-des-sens'
   | 'rdv-masage-eveil-divin'
