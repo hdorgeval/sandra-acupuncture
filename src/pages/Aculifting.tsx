@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { OpenModalButton } from '../components/OpenModalButton';
@@ -75,6 +76,16 @@ export const Aculifting: FC = () => {
                   stress facial
                 </p>
                 <p className="fw-bolder mt-2">
+                  <Link
+                    to="/aculifting-en-details"
+                    className="text-decoration-none text-light "
+                    title="En savoir plus sur l'Aculifting."
+                    aria-label="En savoir plus sur l'Aculifting."
+                  >
+                    <span className="btn btn-outline-light fw-bolder font-playfair mb-1 me-2">
+                      En savoir plus
+                    </span>
+                  </Link>
                   <OpenModalButton
                     className="btn btn-outline-light fw-bolder mt-0 mb-1"
                     modalId="prendre-rendez-vous"

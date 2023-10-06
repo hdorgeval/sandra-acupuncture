@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
 import { Aculifting } from './pages/Aculifting';
+import { AculiftingDetails } from './pages/AculiftingDetails';
 import { Acupuncture } from './pages/Acupuncture';
 import { ContactFormError } from './pages/ContactFormError';
 import { ContactFormSuccessfullySent } from './pages/ContactFormSuccessfullySent';
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: '/aculifting',
     element: <Aculifting />,
+  },
+  {
+    path: '/aculifting-en-details',
+    element: <AculiftingDetails />,
   },
   {
     path: '/acupuncture',
