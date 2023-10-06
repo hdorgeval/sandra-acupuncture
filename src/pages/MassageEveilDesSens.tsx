@@ -174,7 +174,6 @@ export const MassageEveilDesSens: FC = () => {
                     <i className="bi bi-currency-euro fs-3 me-4"></i>
                     <div className="d-flex flex-column justify-content-between ">
                       <span className="">150€</span>
-                      <span className="">180€ avec massage du Lingam</span>
                       <span className="fs-7 fw-normal">Moyens de paiement: chèque ou espèces</span>
                     </div>
                   </div>
