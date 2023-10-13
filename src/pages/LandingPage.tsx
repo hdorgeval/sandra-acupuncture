@@ -75,10 +75,10 @@ export const LandingPage: FC = () => {
                   >
                     <div className="flex-grow-half"></div>
                     <h1 className="font-oswald text-light fs-1 fw-bolder max-vw-80">
-                      Besoin de soulager votre corps
+                      Envie de soulager votre corps
                     </h1>
                     <h1 className="font-oswald text-light fs-1 fw-bolder max-vw-80">
-                      Besoin d'avoir plus d'énergie
+                      et d'avoir plus d'énergie
                     </h1>
                     <h2 className="font-mali text-light fw-bolder fs-3 max-vw-80 mt-4">
                       Avec l'Énergétique Traditionnelle Chinoise et le massage tantrique
@@ -115,19 +115,17 @@ export const LandingPage: FC = () => {
                   >
                     <div className="flex-grow-half"></div>
                     <h1 className="font-oswald text-light fs-1 fw-bolder max-vw-80">
-                      Besoin de soulager votre corps
+                      Envie de soulager votre corps
                     </h1>
                     <h1 className="font-oswald text-light fs-1 fw-bolder max-vw-80">
-                      Besoin d'avoir plus d'énergie
+                      et d'avoir plus d'énergie
                     </h1>
                     <h2 className="font-mali text-light fw-bolder fs-3 max-vw-80 mt-4">
                       Avec l'Énergétique Traditionnelle Chinoise et le massage tantrique
                     </h2>
 
                     <a
-                      className="btn btn-outline-light fw-bolder w-75 mt-4 font-dancing-script fs-big-1 wow fadeInUp"
-                      data-wow-duration="1.3s"
-                      data-wow-delay="0.8s"
+                      className="btn btn-outline-light fw-bolder w-75 mt-4 font-dancing-script fs-big-1"
                       href="#bienvenue"
                     >
                       Bienvenue !
@@ -330,7 +328,7 @@ export const LandingPage: FC = () => {
             <div className="card card-xl border border-light border-opacity-50 text-start text-light font-playfair m-2 bg-transparent">
               <div className="card-body">
                 <Question
-                  sentence="Vous voulez cheminer vers vôtre être intérieur ?"
+                  sentence="Vous voulez cheminer vers votre être intérieur ?"
                   answer="Le massage tantrique est une voie d'exploration méditative"
                   answerClassname="text-white mb-6"
                 />
