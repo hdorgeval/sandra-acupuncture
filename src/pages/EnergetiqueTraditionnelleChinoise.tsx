@@ -42,7 +42,7 @@ export const EnergetiqueTraditionnelleChinoise: FC = () => {
             <p className="">
               Les domaines d'application de l'énergétique traditionnelle chinoise incluent :
             </p>
-            <p className="">
+            <p className="" id="soulagement-de-la-douleur">
               <span className="fs-4 fw-bolder">Le soulagement de la douleur :</span> L'énergétique
               traditionnelle chinoise soulage la douleur en stimulant le système nerveux et en
               libérant des substances chimiques naturelles dans le corps qui ont des effets
@@ -53,7 +53,7 @@ export const EnergetiqueTraditionnelleChinoise: FC = () => {
               épicondylites, les bursites, les capsulites, les sciatiques, les cervicalgies, les
               maux de tête sont ainsi traités.
             </p>
-            <p>
+            <p id="reduction-stress-et-anxiete">
               <span className="fs-4 fw-bolder">La réduction du stress et de l'anxiété :</span> En
               favorisant la relaxation et en aidant à équilibrer les hormones du stress.
             </p>
@@ -75,7 +75,7 @@ export const EnergetiqueTraditionnelleChinoise: FC = () => {
               <i className="bi bi-dash"></i>
               En régulant les niveaux des hormones du stress comme le cortisol.
             </p>
-            <p>
+            <p id="amelioration-du-sommeil">
               <span className="fs-4 fw-bolder">L'amélioration du sommeil :</span> Les troubles du
               sommeil sont souvent considérés comme étant liée à un déséquilibre du Shen,
               c'est-à-dire de l'esprit, qui est directement associé au Coeur.
@@ -86,7 +86,7 @@ export const EnergetiqueTraditionnelleChinoise: FC = () => {
               méridien du Coeur pour réguler le flux du Qi (énergie) et du sang l'esprit devient
               plus calme et la qualité du sommeil s'améliore.
             </p>
-            <p>
+            <p id="renforcement-du-systeme-immunitaire">
               <span className="fs-4 fw-bolder">Le renforcement du système immunitaire :</span> En
               énergétique traditionnelle chinoise, le système immunitaire correspond au wei Qi, ou
               énergie défensive que chacun possède.
@@ -97,13 +97,13 @@ export const EnergetiqueTraditionnelleChinoise: FC = () => {
               des cellules du système immunitaire aidant ainsi à prévenir les maladies et à
               favoriser la santé globale en cas de sinusite, bronchite, asthme.
             </p>
-            <p>
+            <p id="regulation-des-desequilibres-hormonaux">
               <span className="fs-4 fw-bolder">La régulation des déséquilibres hormonaux :</span>{' '}
               L'énergétique traditionnelle chinoise est souvent utilisée pour traiter les
               déséquilibres hormonaux chez les femmes, tels que les troubles menstruels, les
               symptômes de la ménopause, l'endométriose et les troubles de la fertilité.
             </p>
-            <p>
+            <p id="amelioration-de-la-digestion">
               <span className="fs-4 fw-bolder">L'amélioration de la digestion :</span> En agissant
               sur la libération des hormones digestives qui sont impliquées dans la régulation du
               processus de digestion et de l'absorption des nutriments, l'énergétique traditionnelle
@@ -114,32 +114,32 @@ export const EnergetiqueTraditionnelleChinoise: FC = () => {
               ainsi soulagés tout comme la diarrhée, la constipation, la digestion difficile. Les
               problèmes de poids sont aussi abordés.
             </p>
-            <p>
+            <p id="augmentation-de-l-energie">
               <span className="fs-4 fw-bolder">L'augmentation de l'énergie :</span> En rééquilibrant
               les flux d'énergie du corps, l'énergétique traditionnelle chinoise stimule et
               revitalise le système énergétique, améliorant ainsi les niveaux d'énergie et réduisant
               la fatigue.
             </p>
-            <p>
+            <p id="soutien-aux-soins-de-la-peau">
               <span className="fs-4 fw-bolder">Le soutien aux soins de la peau :</span>{' '}
               L'énergétique traditionnelle chinoise est souvent utilisée en esthétique pour aider à
               améliorer la santé de la peau, en favorisant l'éclat naturel, en réduisant les rides
               et en agissant sur les problèmes cutanés tels que l'acné, l'eczéma, le psoriasis.
             </p>
-            <p>
+            <p id="gestion-des-dependances">
               <span className="fs-4 fw-bolder">La gestion des dépendances :</span> L'énergétique
               traditionnelle chinoise peut être utilisée dans la gestion des dépendances, en aidant
               à réduire les symptômes de sevrage et à soutenir le processus de désintoxication à
               l'alcool, le tabac, la drogue.
             </p>
-            <p>
+            <p id="traitement-adapte-a-l-enfant">
               <span className="fs-4 fw-bolder">Traitements adaptés à l'enfant :</span> Les
               traitements de l'énergétique traditionnelle chinoise pour les enfants sont
               généralement adaptés à leur âge et à leur constitution. L'ensemble du tableau de santé
               de l'enfant, y compris les symptômes, l'état émotionnel, les habitudes alimentaires et
               le mode de vie seront pris en compte pour répondre à ses besoins.
             </p>
-            <p>
+            <p id="cancerologie">
               <span className="fs-4 fw-bolder">La cancérologie :</span> L'énergétique traditionnelle
               chinoise est un traitement d'appoint dans tous les cancers, préparation avant les
               examens, avant la chimiothérapie, la chirurgie, la radiothérapie, aide à la

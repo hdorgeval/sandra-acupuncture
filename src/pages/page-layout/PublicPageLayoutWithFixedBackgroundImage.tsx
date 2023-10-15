@@ -1,6 +1,7 @@
 import { FC, useMemo } from 'react';
 import { usePublicPage } from '../../contexts/userContext';
 import { useGuidedTour } from '../../hooks/useGuidedTour';
+import { useHashToScrollIfNeeded } from '../../hooks/useHashToScrollIfNeeded';
 import { useMetaDescription } from '../../hooks/useMetaDescription';
 import { useOffCanvasBackdropRemover } from '../../hooks/useOffCanvasBackdropRemover';
 import { useTitle } from '../../hooks/useTitle';
@@ -29,6 +30,7 @@ export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLayoutOwnProps> = 
   children,
   htmlTitle,
 }) => {
+  useHashToScrollIfNeeded();
   useOffCanvasBackdropRemover();
   usePublicPage();
   useGuidedTour();

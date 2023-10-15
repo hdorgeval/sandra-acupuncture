@@ -53,60 +53,152 @@ export const Acupuncture: FC = () => {
                   Les domaines d'application de l'énergétique traditionnelle chinoise incluent :
                 </p>
 
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>Le soulagement de la douleur
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#soulagement-de-la-douleur"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut soulager la douleur."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut soulager la douleur."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    Le soulagement de la douleur
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
                 </p>
 
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  La réduction du stress et de l'anxiété
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#reduction-stress-et-anxiete"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut réduire le stress et l'anxiété."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut réduire le stress et l'anxiété."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    La réduction du stress et de l'anxiété
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
                 </p>
 
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  L'amélioration du sommeil
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#amelioration-du-sommeil"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut améliorer le sommeil."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut améliorer le sommeil."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    L'amélioration du sommeil
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
                 </p>
 
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  Le renforcement du système immunitaire
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#renforcement-du-systeme-immunitaire"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à renforcer le système immunitaire."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à renforcer le système immunitaire."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    Le renforcement du système immunitaire
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
                 </p>
 
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  La régulation des déséquilibres hormonaux
-                </p>
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  L'amélioration de la digestion
-                </p>
-
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  L'augmentation de l'énergie
-                </p>
-
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  Le soutien aux soins de la peau
-                </p>
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  La gestion des dépendances
-                </p>
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  Traitements adaptés à l'enfant
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#regulation-des-desequilibres-hormonaux"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à réguler les déséquilibres hormonaux."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à réguler les déséquilibres hormonaux."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    La régulation des déséquilibres hormonaux
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
                 </p>
 
-                <p className="fw-bolder">
-                  <i className="bi bi-check-lg text-light me-1"></i>
-                  La cancérologie
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#amelioration-de-la-digestion"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à améliorer la digestion."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à améliorer la digestion."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    L'amélioration de la digestion
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
+                </p>
+
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#augmentation-de-l-energie"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à augmenter l'énergie."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à augmenter l'énergie."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    L'augmentation de l'énergie
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
+                </p>
+
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#soutien-aux-soins-de-la-peau"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider au soutien des soins de la peau."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider au soutien des soins de la peau."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    Le soutien aux soins de la peau
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
+                </p>
+
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#gestion-des-dependances"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à la gestion des dépendances."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut aider à la gestion des dépendances."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    La gestion des dépendances
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
+                </p>
+
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#traitement-adapte-a-l-enfant"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise propose des traitements adaptés à l'enfant."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise propose des traitements adaptés à l'enfant."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    Traitements adaptés à l'enfant
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
+                </p>
+
+                <p className="fw-bolder mb-2">
+                  <Link
+                    to="/energetique-traditionnelle-chinoise#cancerologie"
+                    className="text-decoration-none icon-link icon-link-hover link-light"
+                    title="En savoir plus sur comment l'énergétique traditionnelle chinoise est un traitement d'appoint dans tous les cancers."
+                    aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise est un traitement d'appoint dans tous les cancers."
+                  >
+                    <i className="bi bi-check-lg"></i>
+                    La cancérologie
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
                 </p>
                 <p className="fw-bolder mt-2">
                   <Link
                     to="/energetique-traditionnelle-chinoise"
-                    className="text-decoration-none text-light "
+                    className="text-decoration-none text-light"
                     title="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
                     aria-label="En savoir plus sur comment l'énergétique traditionnelle chinoise peut être utilisée en complément d'autres traitements médicaux traditionnels."
                   >
