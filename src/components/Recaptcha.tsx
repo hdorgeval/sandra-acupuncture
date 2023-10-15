@@ -25,8 +25,12 @@ export const Recaptcha: FC<RecaptchaOwnProps> = ({ theme, invalidFeedbackClassNa
     if (grecaptcha && typeof captchaId === 'number') {
       return () => {
         if (grecaptcha && captchaId) {
-          grecaptcha.reset(captchaId);
-          setRecaptchaResponse('');
+          try {
+            grecaptcha.reset(captchaId);
+            setRecaptchaResponse('');
+          } catch (error) {
+            /* empty */
+          }
         }
       };
     }
@@ -36,7 +40,11 @@ export const Recaptcha: FC<RecaptchaOwnProps> = ({ theme, invalidFeedbackClassNa
     if (!hasLoadedRecaptchaApi) {
       setTimeout(() => {
         if (grecaptcha) {
-          setHasLoadedRecaptchaApi(true);
+          try {
+            setHasLoadedRecaptchaApi(true);
+          } catch (error) {
+            /* empty */
+          }
         }
       }, 3000);
     }
