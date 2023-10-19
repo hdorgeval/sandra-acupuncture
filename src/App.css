@@ -60,6 +60,10 @@ html {
     max-width: 95vw !important;
     min-width: 95vw !important;
   }
+  .d-flex.flex-row.flex-wrap .btn.btn-outline-light {
+    max-width: 83vw !important;
+    min-width: 83vw !important;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -91,8 +95,8 @@ html {
   }
 
   .d-flex.flex-row.flex-wrap .card.card-xl {
-    max-width: 98vw !important;
-    min-width: 98vw !important;
+    max-width: 94vw !important;
+    min-width: 94vw !important;
   }
 
   .read-more-sm {
