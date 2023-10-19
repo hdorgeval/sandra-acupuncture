@@ -15,81 +15,101 @@ export const Recaptcha: FC<RecaptchaOwnProps> = ({ theme, invalidFeedbackClassNa
   const [captchaId, setCaptchaId] = useState<number | null>(null);
 
   const captchaCallback = useCallback((response: string) => {
-    setRecaptchaResponse(response);
+    try {
+      setRecaptchaResponse(response);
+    } catch (error) {
+      /* empty */
+    }
   }, []);
 
   const expiredCaptchaCallback = useCallback(() => {
-    setRecaptchaResponse('');
+    try {
+      setRecaptchaResponse('');
+    } catch (error) {
+      /* empty */
+    }
   }, []);
   useEffect(() => {
-    if (grecaptcha && typeof captchaId === 'number') {
-      return () => {
-        if (grecaptcha && captchaId) {
+    try {
+      if (grecaptcha && typeof captchaId === 'number') {
+        return () => {
           try {
-            grecaptcha.reset(captchaId);
-            setRecaptchaResponse('');
+            if (grecaptcha && typeof captchaId === 'number') {
+              grecaptcha.reset(captchaId);
+              setRecaptchaResponse('');
+            }
           } catch (error) {
             /* empty */
           }
-        }
-      };
+        };
+      }
+    } catch (error) {
+      /* empty */
     }
   }, [captchaId]);
 
   useEffect(() => {
-    if (!hasLoadedRecaptchaApi) {
-      setTimeout(() => {
-        if (grecaptcha) {
+    try {
+      if (!hasLoadedRecaptchaApi) {
+        setTimeout(() => {
           try {
-            setHasLoadedRecaptchaApi(true);
+            if (grecaptcha) {
+              setHasLoadedRecaptchaApi(true);
+            }
           } catch (error) {
             /* empty */
           }
-        }
-      }, 3000);
+        }, 3000);
+      }
+    } catch (error) {
+      /* empty */
     }
   }, [hasLoadedRecaptchaApi]);
 
   useEffect(() => {
-    if (!hasLoadedRecaptchaApi) {
-      return;
-    }
-
-    const captchaContainer = document.querySelector(
-      'div[data-netlify-recaptcha="true"]',
-    ) as HTMLDivElement;
-
-    const hasRendered = captchaContainer?.hasChildNodes() ?? false;
-    if (hasRendered) {
-      return;
-    }
-
-    if (captchaContainer && grecaptcha) {
-      try {
-        const captchaId = grecaptcha.render(captchaContainer, {
-          sitekey: websiteConfig.recaptchaV2.sitekey,
-          callback: captchaCallback,
-          'expired-callback': expiredCaptchaCallback,
-          theme: theme ?? websiteConfig.recaptchaV2.theme,
-          size: websiteConfig.recaptchaV2.size,
-        });
-        setCaptchaId(captchaId);
-
-        setTimeout(() => {
-          const captchaIframe = captchaContainer.querySelector('iframe[title="reCAPTCHA"]');
-          if (captchaIframe) {
-            const iframeWitdh = captchaIframe.getAttribute('width');
-            const iframeHeight = captchaIframe.getAttribute('height');
-            if (iframeWitdh && iframeHeight) {
-              captchaIframe.setAttribute('width', `${Number(iframeWitdh) - 3}`);
-              captchaIframe.setAttribute('height', `${Number(iframeHeight) - 3}`);
-              captchaIframe.setAttribute('class', `rounded-3 border border-1`);
-            }
-          }
-        }, 0);
-      } catch (error) {
-        /* empty */
+    try {
+      if (!hasLoadedRecaptchaApi) {
+        return;
       }
+
+      const captchaContainer = document.querySelector(
+        'div[data-netlify-recaptcha="true"]',
+      ) as HTMLDivElement;
+
+      const hasRendered = captchaContainer?.hasChildNodes() ?? false;
+      if (hasRendered) {
+        return;
+      }
+
+      if (captchaContainer && grecaptcha) {
+        try {
+          const captchaId = grecaptcha.render(captchaContainer, {
+            sitekey: websiteConfig.recaptchaV2.sitekey,
+            callback: captchaCallback,
+            'expired-callback': expiredCaptchaCallback,
+            theme: theme ?? websiteConfig.recaptchaV2.theme,
+            size: websiteConfig.recaptchaV2.size,
+          });
+          setCaptchaId(captchaId);
+
+          setTimeout(() => {
+            const captchaIframe = captchaContainer.querySelector('iframe[title="reCAPTCHA"]');
+            if (captchaIframe) {
+              const iframeWitdh = captchaIframe.getAttribute('width');
+              const iframeHeight = captchaIframe.getAttribute('height');
+              if (iframeWitdh && iframeHeight) {
+                captchaIframe.setAttribute('width', `${Number(iframeWitdh) - 3}`);
+                captchaIframe.setAttribute('height', `${Number(iframeHeight) - 3}`);
+                captchaIframe.setAttribute('class', `rounded-3 border border-1`);
+              }
+            }
+          }, 0);
+        } catch (error) {
+          /* empty */
+        }
+      }
+    } catch (error) {
+      /* empty */
     }
   }, [captchaCallback, expiredCaptchaCallback, hasLoadedRecaptchaApi, theme]);
 
@@ -104,11 +124,7 @@ export const Recaptcha: FC<RecaptchaOwnProps> = ({ theme, invalidFeedbackClassNa
         onChange={() => {}}
         required
       />
-      <div
-        className={`invalid-feedback mt-n2 ${
-          invalidFeedbackClassName ? invalidFeedbackClassName : ''
-        }`}
-      >
+      <div className={`invalid-feedback mt-n2 ${invalidFeedbackClassName ?? ''}`}>
         Vous devez indiquer que vous n'êtes pas un robot.
       </div>
     </>
