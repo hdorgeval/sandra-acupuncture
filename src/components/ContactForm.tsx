@@ -41,7 +41,6 @@ export const ContactForm: FC<ContactFormOwnProps> = ({ analyticsEvent }) => {
       })
         .then(() => navigate('/contact/success'))
         .catch(() => navigate('/contact/error'))
-        // eslint-disable-next-line @typescript-eslint/no-empty-function
         .finally(() => {});
     },
     [analyticsEvent, navigate, trackSimpleEvent],

@@ -50,7 +50,6 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
       })
         .then(() => navigate('/contact/success'))
         .catch(() => navigate('/contact/error'))
-        // eslint-disable-next-line @typescript-eslint/no-empty-function
         .finally(() => {});
     },
     [analyticsEvent, navigate, trackSimpleEvent],
