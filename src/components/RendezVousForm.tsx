@@ -145,9 +145,10 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
             name="Sujet"
             className="form-select bg-form-field"
             id="contact-field-subject"
+            defaultValue=""
             required
           >
-            <option value="" disabled selected hidden>
+            <option value="" disabled hidden>
               Sujet...
             </option>
             {subjectOptions?.map((option, index) => (
