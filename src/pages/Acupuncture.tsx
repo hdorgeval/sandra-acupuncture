@@ -35,7 +35,7 @@ export const Acupuncture: FC = () => {
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
             <SemiTransparentTile
               background="linear-gradient(rgb(48, 115, 78, 0.54), rgba(79, 79, 93, 0.3))"
-              className="card card-lg text-start text-light fs-5 fs-6-md font-monserrat px-4 py-3 m-2"
+              className="card card-lg text-start text-light fs-5 fs-7-md font-monserrat px-4 py-3 m-2"
             >
               <ReadMoreReadLess
                 height={'21vh'}
@@ -319,7 +319,7 @@ export const Acupuncture: FC = () => {
                 <TransparentListGroupItem className="py-3 text-light fw-bolder">
                   <div className="d-flex flex-row card-subtitle align-items-center">
                     <i className="bi bi-info-circle fs-1 me-4"></i>
-                    <div className="d-flex flex-column justify-content-between">
+                    <div className="d-flex flex-column justify-content-between fs-7-md">
                       <p className="">
                         Une séance énergetique traditionnelle chinoise d'acupuncture dure environ
                         une heure trente.
