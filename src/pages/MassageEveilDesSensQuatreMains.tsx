@@ -25,7 +25,7 @@ export const MassageEveilDesSensQuatreMains: FC = () => {
           <div className="mt-7">
             <PageTitle>Massage Éveil des Sens 4 mains</PageTitle>
             <OpenModalButton
-              className="btn btn-outline-light fw-bolder w-100 mt-1"
+              className="btn btn-outline-light fw-bolder w-75 mt-1"
               modalId="prendre-rendez-vous"
             >
               Prendre rendez-vous
