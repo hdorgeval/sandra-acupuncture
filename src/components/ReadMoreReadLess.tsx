@@ -28,7 +28,7 @@ const ReadMore: React.FC<ReadMoreProps> = ({ children, height, handleToggle, rea
         aria-label={readMoreText}
         onClick={handleToggle}
         role="button"
-        className="badge rounded-pill fs-6 border border-secondary start-50 translate-middle bg-dark position-absolute bottom-0 mb-0 pb-2"
+        className="badge rounded-pill fs-6 border border-secondary start-50 translate-middle bg-dark position-absolute bottom-0 mb-0 pb-2 z-index-3"
         style={{
           background: 'linear-gradient(to bottom,rgba(0, 0, 0, 1), rgba(79, 79, 93, 0.3))',
         }}
@@ -48,7 +48,7 @@ const ReadLess: React.FC<ReadLessProps> = ({ children, readLessText, handleToggl
         <div
           onClick={handleToggle}
           role="button"
-          className="badge rounded-pill fs-7 border border-secondary bg-dark mb-0 py-2"
+          className="badge rounded-pill fs-7 border border-secondary bg-dark mb-0 py-2 z-index-3"
         >
           <i className="bi bi-arrow-bar-up fs-7 me-1"></i>
           {readLessText}
