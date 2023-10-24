@@ -35,7 +35,7 @@ export const Acupuncture: FC = () => {
           <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
             <SemiTransparentTile
               background="linear-gradient(rgb(48, 115, 78, 0.54), rgba(79, 79, 93, 0.3))"
-              className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
+              className="card card-lg text-start text-light fs-5 fs-6-md font-monserrat px-4 py-3 m-2"
             >
               <ReadMoreReadLess
                 height={'21vh'}
