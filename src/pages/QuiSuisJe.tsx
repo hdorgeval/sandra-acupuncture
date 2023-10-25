@@ -24,7 +24,7 @@ export const QuiSuisJe: FC = () => {
           <div className="" style={{ minHeight: '38vh' }}></div>
           <SemiTransparentTile
             background="linear-gradient(rgb(8, 49, 14, 0.6), rgba(79, 79, 93, 0.3))"
-            className="card text-start text-light fs-1 font-dancing-script px-4 py-4"
+            className="card text-start text-light fs-3 font-dancing-script px-4 py-4"
           >
             <p className="">Bonjour !</p>
             <p className="">Je suis Sandra Giraudeau.</p>
