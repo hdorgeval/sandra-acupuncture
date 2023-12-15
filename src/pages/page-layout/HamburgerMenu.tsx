@@ -105,7 +105,7 @@ export const HambugerMenu: FC = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Massage
+                  Massage Tantrique et Cachemirien
                 </a>
                 <ul className="dropdown-menu">
                   <li>
