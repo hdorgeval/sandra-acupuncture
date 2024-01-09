@@ -287,6 +287,11 @@ html {
   background-color: rgba(25, 25, 25, 0.8) !important;
 }
 
+.introjs-tooltip.introjs-bottom-left-aligned {
+  top: 75px !important;
+  left: 10px !important;
+}
+
 .introjs-tooltiptext,
 .introjs-tooltipbuttons,
 .introjs-donebutton,
@@ -296,7 +301,7 @@ html {
 
 .introjs-helperLayer {
   box-shadow: none !important;
-  z-index: 98 !important;
+  z-index: 2 !important;
   width: 0 !important;
   height: 0 !important;
   max-width: 0;
@@ -304,7 +309,7 @@ html {
 }
 
 .introjs-overlay {
-  z-index: 98 !important;
+  z-index: 2 !important;
 }
 
 .introjs-arrow.left,
@@ -314,6 +319,14 @@ html {
 
 .introjs-arrow {
   border-color: transparent transparent transparent rgba(200, 200, 200, 0.5) !important;
+}
+
+.introjs-arrow.top,
+.introjs-arrow.top-middle,
+.introjs-arrow.top-right {
+  border-color: transparent transparent rgba(000, 0, 0, 0.5) !important;
+  top: -20px;
+  left: 20px;
 }
 
 .introjs-skipbutton:hover {
