@@ -13,6 +13,7 @@ export type MyAnalyticsEvent =
   | 'open-my-linkedin'
   | 'open-my-whatsapp'
   | 'open-my-youtube'
+  | 'open-tantrametcorps'
   | 'open-waze'
   | 'rdv-aculifting'
   | 'rdv-acupuncture'

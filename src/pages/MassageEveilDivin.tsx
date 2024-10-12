@@ -200,6 +200,21 @@ export const MassageEveilDivin: FC = () => {
                           </span>
                         </div>
                       </OpenExternalLinkButton>
+                      <p className="mt-2">
+                        Je suis certifiée par Tantr'âme et Corps, école de massage tantrique et
+                        cachemirien:
+                      </p>
+                      <OpenExternalLinkButton
+                        className="btn btn-outline-light fw-bolder w-100 mt-0"
+                        link="https://tantrametcorps.com/"
+                        title="Tantr'âme et Corps | École de massage tantrique et cachemirien"
+                        analyticsEvent="open-tantrametcorps"
+                      >
+                        <img
+                          className="img-fluid bg-gradient bg-black bg-opacity-50 p-2"
+                          src="images/tantrametcorps.png"
+                        ></img>
+                      </OpenExternalLinkButton>
                     </div>
                   </div>
                 </TransparentListGroupItem>
