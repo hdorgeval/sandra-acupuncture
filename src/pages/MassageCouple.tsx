@@ -104,9 +104,8 @@ export const MassageCouple: FC = () => {
                       Aignan de grand Lieu, Indre, Couëron, Saint Herblain,
                     </p>
                     <span className="text-nowrap fs-7">Je vous reçois au :</span>
-                    <span className="text-nowrap fs-7 mt-2">6 allée du mortier</span>
-                    <span className="text-nowrap fs-7">44620 LA MONTAGNE</span>
-                    <span className="text-nowrap fs-7 mb-2">( Derrière le Hyper U )</span>
+                    <span className="text-nowrap fs-7 mt-2">1 rue de Beauséjour</span>
+                    <span className="text-nowrap fs-7 mb-2">44830 Bouaye</span>
                     {websiteConfig.links.googleMaps.show && (
                       <OpenExternalLinkButton
                         className="btn btn-outline-light fw-bolder w-100 mt-0"

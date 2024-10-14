@@ -116,13 +116,13 @@ export const websiteConfig: WebSiteConfig = {
       show: true,
     },
     googleMaps: {
-      url: 'https://goo.gl/maps/UBKeixobxevtXr9X9',
+      url: 'https://maps.app.goo.gl/pY8ED3ptbLR2W1cu9',
       title: 'Itinéraire via Google Maps',
       label: 'Itinéraire via G. Maps',
       show: true,
     },
     waze: {
-      url: 'https://ul.waze.com/ul?ll=47.17886960%2C-1.67614460&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location',
+      url: 'https://ul.waze.com/ul?place=ChIJAafBMwCVBUgRot6yrLYMQ5A&ll=47.16209080%2C-1.68027300&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location',
       title: 'Itinéraire via Waze',
       label: 'Itinéraire via Waze',
       show: true,
