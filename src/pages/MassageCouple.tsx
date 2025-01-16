@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import type { FC } from 'react';
 import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { OpenModalButton } from '../components/OpenModalButton';
@@ -30,7 +30,7 @@ export const MassageCouple: FC = () => {
             Prendre rendez-vous
           </OpenModalButton>
         </div>
-        <div className="" style={{ minHeight: '5vh' }}></div>
+        <div className="" style={{ minHeight: '5vh' }} />
         <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
           <div className="m-0 p-0">
             <SemiTransparentTile
@@ -86,7 +86,7 @@ export const MassageCouple: FC = () => {
             <ul className="list-group list-group-flush mt-0 pt-0">
               <TransparentListGroupItem className="pt-2 pb-1 text-light fw-bolder">
                 <div className="d-flex flex-row align-items-center card-subtitle">
-                  <i className="bi bi-clock-history fs-3 me-4"></i>
+                  <i className="bi bi-clock-history fs-3 me-4" />
                   <div className="d-flex flex-column card-subtitle pt-1">
                     <span className="text-nowrap fs-6">2h</span>
                   </div>
@@ -95,7 +95,7 @@ export const MassageCouple: FC = () => {
 
               <TransparentListGroupItem className="mt-0 pt-3 text-light fw-bolder">
                 <div className="d-flex flex-row align-items-center card-subtitle">
-                  <i className="bi bi-geo-alt fs-3 me-4"></i>
+                  <i className="bi bi-geo-alt fs-3 me-4" />
                   <div className="d-flex flex-column card-subtitle">
                     <p className="mt-1 fs-7">
                       Implantée dans la région Sud Nantes, tout proche de Bouaye, Bouguenais, Rezé,
@@ -135,7 +135,7 @@ export const MassageCouple: FC = () => {
               </TransparentListGroupItem>
               <TransparentListGroupItem className="pt-1 pb-0 text-light fw-bolder">
                 <div className="d-flex flex-row card-subtitle align-items-center">
-                  <i className="bi bi-currency-euro fs-3 me-4"></i>
+                  <i className="bi bi-currency-euro fs-3 me-4" />
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="">300€</span>
                     <span className="fs-7 fw-normal">Moyens de paiement: chèque ou espèces</span>
@@ -145,7 +145,7 @@ export const MassageCouple: FC = () => {
 
               <TransparentListGroupItem className="py-3 text-light fw-bolder">
                 <div className="d-flex flex-row align-items-center card-subtitle">
-                  <i className="bi bi-calendar-event fs-2 me-4"></i>
+                  <i className="bi bi-calendar-event fs-2 me-4" />
                   <div className="d-flex flex-column card-subtitle">
                     <span className="">Rdv validé uniquement après entretien téléphonique</span>
                     <OpenModalButton
@@ -175,7 +175,7 @@ export const MassageCouple: FC = () => {
 
               <TransparentListGroupItem className="py-3 text-light fw-bolder">
                 <div className="d-flex flex-row card-subtitle align-items-center">
-                  <i className="bi bi-shield-check fs-3 me-4"></i>
+                  <i className="bi bi-shield-check fs-3 me-4" />
                   <div className="d-flex flex-column justify-content-between ">
                     <p className="">
                       Je m'engage à ce que la séance de massage se déroule selon la charte
@@ -206,7 +206,8 @@ export const MassageCouple: FC = () => {
                       <img
                         className="img-fluid bg-gradient bg-black bg-opacity-50 p-2"
                         src="images/tantrametcorps.png"
-                      ></img>
+                        alt="Tantr'âme et Corps"
+                      />
                     </OpenExternalLinkButton>
                   </div>
                 </div>
@@ -214,7 +215,7 @@ export const MassageCouple: FC = () => {
 
               <TransparentListGroupItem className="py-3 text-light fw-bolder">
                 <div className="d-flex flex-row card-subtitle align-items-center">
-                  <i className="bi bi-info-circle fs-1 me-4"></i>
+                  <i className="bi bi-info-circle fs-1 me-4" />
                   <div className="d-flex flex-column justify-content-between">
                     <p className="">Une séance de massage Couple dure environ 2h.</p>
                     <p>Le massage en lui-même dure 1h30.</p>
@@ -247,7 +248,7 @@ export const MassageCouple: FC = () => {
           analyticsEvent="rdv-form-massage-couple"
           subjectOptions={[{ label: 'Prendre un rendez vous Massage Couple' }, { label: 'Autre' }]}
           backgroundColor="#2c1b91"
-        ></RendezVousModal>
+        />
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>
   );

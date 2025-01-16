@@ -30,7 +30,7 @@ export const MassageEveilDesSens: FC = () => {
             Prendre rendez-vous
           </OpenModalButton>
         </div>
-        <div className="" style={{ minHeight: '5vh' }}></div>
+        <div className="" style={{ minHeight: '5vh' }} />
         <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
           <div className="m-0 p-0">
             <SemiTransparentTile
@@ -212,8 +212,9 @@ export const MassageEveilDesSens: FC = () => {
                   <i className="bi bi-shield-check fs-3 me-4" />
                   <div className="d-flex flex-column justify-content-between ">
                     <p className="">
-                      Je m'engage à ce que la séance de massage se déroule selon la charte
-                      ci-dessous:
+                      Je m'engage à ce que la séance de massage se déroule dans l'éthique de la
+                      charte Professionnelle de l'association Massage Tantrique et de l'Ecole
+                      Tantr'Ame et Corps.
                     </p>
                     <OpenExternalLinkButton
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
