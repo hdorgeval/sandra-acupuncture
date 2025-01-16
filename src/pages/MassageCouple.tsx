@@ -189,9 +189,7 @@ export const MassageCouple: FC = () => {
                       analyticsEvent="open-charte-ethique"
                     >
                       <div className="d-flex flex-column align-items-center">
-                        <span className="">
-                          Charte éthique professionnelle de l'Association Massage Tantrique
-                        </span>
+                        <span className="">Je suis membre de l'Association Massage Tantrique</span>
                       </div>
                     </OpenExternalLinkButton>
                     <p className="mt-2">
