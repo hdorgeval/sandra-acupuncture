@@ -198,7 +198,7 @@ export const MassageCouple: FC = () => {
                     </p>
                     <OpenExternalLinkButton
                       className="btn btn-outline-light fw-bolder w-100 mt-0"
-                      link="https://tantrametcorps.com/"
+                      link="https://tantrametcorps.com/charte-ethique-professionnelle-des-praticiennes-en-massage-tantrique/"
                       title="Tantr'âme et Corps | École de massage tantrique et cachemirien"
                       analyticsEvent="open-tantrametcorps"
                     >
