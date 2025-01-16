@@ -177,8 +177,9 @@ export const MassageEveilDesSensQuatreMains: FC = () => {
                   <i className="bi bi-shield-check fs-3 me-4" />
                   <div className="d-flex flex-column justify-content-between ">
                     <p className="">
-                      Je m'engage à ce que la séance de massage se déroule selon la charte
-                      ci-dessous:
+                      Je m'engage à ce que la séance de massage se déroule dans l'éthique de la
+                      charte Professionnelle de l'association Massage Tantrique et de l'Ecole
+                      Tantr'Ame et Corps.
                     </p>
                     <OpenExternalLinkButton
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
