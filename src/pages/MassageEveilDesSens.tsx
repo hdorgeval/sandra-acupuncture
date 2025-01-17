@@ -226,16 +226,17 @@ export const MassageEveilDesSens: FC = () => {
                         <span className="">Je suis membre de l'Association Massage Tantrique</span>
                       </div>
                     </OpenExternalLinkButton>
-                    <p className="mt-2">
-                      Je suis certifiée par Tantr'âme et Corps, école de massage tantrique et
-                      cachemirien:
-                    </p>
+
                     <OpenExternalLinkButton
-                      className="btn btn-outline-light fw-bolder w-100 mt-0"
+                      className="btn btn-outline-light fw-bolder w-100 mt-2"
                       link="https://tantrametcorps.com/charte-ethique-professionnelle-des-praticiennes-en-massage-tantrique/"
                       title="Tantr'âme et Corps | École de massage tantrique et cachemirien"
                       analyticsEvent="open-tantrametcorps"
                     >
+                      <p className="mt-1">
+                        Je suis certifiée par Tantr'âme et Corps, école de massage tantrique et
+                        cachemirien
+                      </p>
                       <img
                         className="img-fluid bg-gradient bg-black bg-opacity-50 p-2"
                         src="images/tantrametcorps.png"
